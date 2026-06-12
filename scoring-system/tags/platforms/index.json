@@ -1,0 +1,425 @@
+{
+  "platforms": [
+    {
+      "id": "nes",
+      "name": "Nintendo Entertainment System",
+      "shortName": "NES",
+      "publisher": "Nintendo",
+      "releaseDate": "1983-07-15",
+      "releaseRegions": {
+        "JP": "1983-07-15",
+        "NA": "1985-10-18",
+        "EU": "1986-09-01"
+      },
+      "generation": 3,
+      "type": "home_console",
+      "discontinued": "1995-01-01"
+    },
+    {
+      "id": "snes",
+      "name": "Super Nintendo Entertainment System",
+      "shortName": "SNES",
+      "publisher": "Nintendo",
+      "releaseDate": "1990-11-21",
+      "releaseRegions": {
+        "JP": "1990-11-21",
+        "NA": "1991-08-23",
+        "EU": "1992-06-11"
+      },
+      "generation": 4,
+      "type": "home_console",
+      "discontinued": "2003-09-25"
+    },
+    {
+      "id": "n64",
+      "name": "Nintendo 64",
+      "shortName": "N64",
+      "publisher": "Nintendo",
+      "releaseDate": "1996-06-23",
+      "releaseRegions": {
+        "JP": "1996-06-23",
+        "NA": "1996-09-29",
+        "EU": "1997-03-01"
+      },
+      "generation": 5,
+      "type": "home_console",
+      "discontinued": "2002-04-30"
+    },
+    {
+      "id": "gamecube",
+      "name": "Nintendo GameCube",
+      "shortName": "GCN",
+      "publisher": "Nintendo",
+      "releaseDate": "2001-09-14",
+      "releaseRegions": {
+        "JP": "2001-09-14",
+        "NA": "2001-11-18",
+        "EU": "2002-05-03"
+      },
+      "generation": 6,
+      "type": "home_console",
+      "discontinued": "2007-02-22"
+    },
+    {
+      "id": "wii",
+      "name": "Nintendo Wii",
+      "shortName": "Wii",
+      "publisher": "Nintendo",
+      "releaseDate": "2006-11-19",
+      "releaseRegions": {
+        "NA": "2006-11-19",
+        "JP": "2006-12-02",
+        "EU": "2006-12-08"
+      },
+      "generation": 7,
+      "type": "home_console",
+      "discontinued": "2013-10-20"
+    },
+    {
+      "id": "wiiu",
+      "name": "Nintendo Wii U",
+      "shortName": "Wii U",
+      "publisher": "Nintendo",
+      "releaseDate": "2012-11-18",
+      "releaseRegions": {
+        "NA": "2012-11-18",
+        "EU": "2012-11-30",
+        "JP": "2012-12-08"
+      },
+      "generation": 8,
+      "type": "home_console",
+      "discontinued": "2017-01-31"
+    },
+    {
+      "id": "switch",
+      "name": "Nintendo Switch",
+      "shortName": "Switch",
+      "publisher": "Nintendo",
+      "releaseDate": "2017-03-03",
+      "releaseRegions": {
+        "WW": "2017-03-03"
+      },
+      "generation": 9,
+      "type": "hybrid_console",
+      "discontinued": null
+    },
+    {
+      "id": "gameboy",
+      "name": "Game Boy",
+      "shortName": "GB",
+      "publisher": "Nintendo",
+      "releaseDate": "1989-04-21",
+      "releaseRegions": {
+        "JP": "1989-04-21",
+        "NA": "1989-07-31",
+        "EU": "1990-09-28"
+      },
+      "generation": 3,
+      "type": "handheld",
+      "discontinued": "2003-03-23"
+    },
+    {
+      "id": "gba",
+      "name": "Game Boy Advance",
+      "shortName": "GBA",
+      "publisher": "Nintendo",
+      "releaseDate": "2001-03-21",
+      "releaseRegions": {
+        "JP": "2001-03-21",
+        "NA": "2001-06-11",
+        "EU": "2001-06-22"
+      },
+      "generation": 6,
+      "type": "handheld",
+      "discontinued": "2010-05-15"
+    },
+    {
+      "id": "ds",
+      "name": "Nintendo DS",
+      "shortName": "DS",
+      "publisher": "Nintendo",
+      "releaseDate": "2004-11-21",
+      "releaseRegions": {
+        "NA": "2004-11-21",
+        "JP": "2004-12-02",
+        "EU": "2005-03-11"
+      },
+      "generation": 7,
+      "type": "handheld",
+      "discontinued": "2014-01-31"
+    },
+    {
+      "id": "3ds",
+      "name": "Nintendo 3DS",
+      "shortName": "3DS",
+      "publisher": "Nintendo",
+      "releaseDate": "2011-02-26",
+      "releaseRegions": {
+        "JP": "2011-02-26",
+        "NA": "2011-03-27",
+        "EU": "2011-03-25"
+      },
+      "generation": 8,
+      "type": "handheld",
+      "discontinued": "2020-09-16"
+    },
+    {
+      "id": "ps1",
+      "name": "PlayStation",
+      "shortName": "PS1",
+      "publisher": "Sony Interactive Entertainment",
+      "releaseDate": "1994-12-03",
+      "releaseRegions": {
+        "JP": "1994-12-03",
+        "NA": "1995-09-09",
+        "EU": "1995-09-29"
+      },
+      "generation": 5,
+      "type": "home_console",
+      "discontinued": "2006-03-23"
+    },
+    {
+      "id": "ps2",
+      "name": "PlayStation 2",
+      "shortName": "PS2",
+      "publisher": "Sony Interactive Entertainment",
+      "releaseDate": "2000-03-04",
+      "releaseRegions": {
+        "JP": "2000-03-04",
+        "NA": "2000-10-26",
+        "EU": "2000-11-24"
+      },
+      "generation": 6,
+      "type": "home_console",
+      "discontinued": "2013-01-04"
+    },
+    {
+      "id": "ps3",
+      "name": "PlayStation 3",
+      "shortName": "PS3",
+      "publisher": "Sony Interactive Entertainment",
+      "releaseDate": "2006-11-11",
+      "releaseRegions": {
+        "JP": "2006-11-11",
+        "NA": "2006-11-17",
+        "EU": "2007-03-23"
+      },
+      "generation": 7,
+      "type": "home_console",
+      "discontinued": "2017-05-29"
+    },
+    {
+      "id": "ps4",
+      "name": "PlayStation 4",
+      "shortName": "PS4",
+      "publisher": "Sony Interactive Entertainment",
+      "releaseDate": "2013-11-15",
+      "releaseRegions": {
+        "NA": "2013-11-15",
+        "EU": "2013-11-29",
+        "JP": "2014-02-22"
+      },
+      "generation": 8,
+      "type": "home_console",
+      "discontinued": null
+    },
+    {
+      "id": "ps5",
+      "name": "PlayStation 5",
+      "shortName": "PS5",
+      "publisher": "Sony Interactive Entertainment",
+      "releaseDate": "2020-11-12",
+      "releaseRegions": {
+        "NA": "2020-11-12",
+        "JP": "2020-11-12",
+        "EU": "2020-11-19"
+      },
+      "generation": 9,
+      "type": "home_console",
+      "discontinued": null
+    },
+    {
+      "id": "psp",
+      "name": "PlayStation Portable",
+      "shortName": "PSP",
+      "publisher": "Sony Interactive Entertainment",
+      "releaseDate": "2004-12-12",
+      "releaseRegions": {
+        "JP": "2004-12-12",
+        "NA": "2005-03-24",
+        "EU": "2005-09-01"
+      },
+      "generation": 7,
+      "type": "handheld",
+      "discontinued": "2014-01-01"
+    },
+    {
+      "id": "psvita",
+      "name": "PlayStation Vita",
+      "shortName": "PS Vita",
+      "publisher": "Sony Interactive Entertainment",
+      "releaseDate": "2011-12-17",
+      "releaseRegions": {
+        "JP": "2011-12-17",
+        "NA": "2012-02-22",
+        "EU": "2012-02-22"
+      },
+      "generation": 8,
+      "type": "handheld",
+      "discontinued": "2019-03-01"
+    },
+    {
+      "id": "xbox",
+      "name": "Xbox",
+      "shortName": "Xbox",
+      "publisher": "Microsoft",
+      "releaseDate": "2001-11-15",
+      "releaseRegions": {
+        "NA": "2001-11-15",
+        "JP": "2002-02-22",
+        "EU": "2002-03-14"
+      },
+      "generation": 6,
+      "type": "home_console",
+      "discontinued": "2009-03-02"
+    },
+    {
+      "id": "xbox360",
+      "name": "Xbox 360",
+      "shortName": "X360",
+      "publisher": "Microsoft",
+      "releaseDate": "2005-11-22",
+      "releaseRegions": {
+        "NA": "2005-11-22",
+        "EU": "2005-12-02",
+        "JP": "2005-12-10"
+      },
+      "generation": 7,
+      "type": "home_console",
+      "discontinued": "2016-04-20"
+    },
+    {
+      "id": "xboxone",
+      "name": "Xbox One",
+      "shortName": "XB1",
+      "publisher": "Microsoft",
+      "releaseDate": "2013-11-22",
+      "releaseRegions": {
+        "NA": "2013-11-22",
+        "EU": "2013-11-22",
+        "JP": "2014-09-04"
+      },
+      "generation": 8,
+      "type": "home_console",
+      "discontinued": "2020-11-10"
+    },
+    {
+      "id": "xboxseriesx",
+      "name": "Xbox Series X|S",
+      "shortName": "XSX",
+      "publisher": "Microsoft",
+      "releaseDate": "2020-11-10",
+      "releaseRegions": {
+        "WW": "2020-11-10"
+      },
+      "generation": 9,
+      "type": "home_console",
+      "discontinued": null
+    },
+    {
+      "id": "pc",
+      "name": "PC",
+      "shortName": "PC",
+      "publisher": null,
+      "releaseDate": null,
+      "releaseRegions": {},
+      "generation": null,
+      "type": "pc",
+      "discontinued": null
+    },
+    {
+      "id": "steam-deck",
+      "name": "Steam Deck",
+      "shortName": "Deck",
+      "publisher": "Valve",
+      "releaseDate": "2022-02-25",
+      "releaseRegions": {
+        "WW": "2022-02-25"
+      },
+      "generation": null,
+      "type": "handheld",
+      "discontinued": null
+    },
+    {
+      "id": "genesis",
+      "name": "Sega Genesis",
+      "shortName": "Genesis",
+      "publisher": "Sega",
+      "releaseDate": "1988-10-29",
+      "releaseRegions": {
+        "JP": "1988-10-29",
+        "NA": "1989-08-14",
+        "EU": "1990-11-30"
+      },
+      "generation": 4,
+      "type": "home_console",
+      "discontinued": "1997-05-30"
+    },
+    {
+      "id": "dreamcast",
+      "name": "Sega Dreamcast",
+      "shortName": "DC",
+      "publisher": "Sega",
+      "releaseDate": "1998-11-27",
+      "releaseRegions": {
+        "JP": "1998-11-27",
+        "NA": "1999-09-09",
+        "EU": "1999-10-14"
+      },
+      "generation": 6,
+      "type": "home_console",
+      "discontinued": "2001-03-31"
+    },
+    {
+      "id": "gamegear",
+      "name": "Sega Game Gear",
+      "shortName": "GG",
+      "publisher": "Sega",
+      "releaseDate": "1990-10-06",
+      "releaseRegions": {
+        "JP": "1990-10-06",
+        "NA": "1991-04-26",
+        "EU": "1991-04-26"
+      },
+      "generation": 4,
+      "type": "handheld",
+      "discontinued": "1997-04-30"
+    },
+    {
+      "id": "ios",
+      "name": "iOS",
+      "shortName": "iOS",
+      "publisher": "Apple",
+      "releaseDate": "2008-07-10",
+      "releaseRegions": {
+        "WW": "2008-07-10"
+      },
+      "generation": null,
+      "type": "mobile",
+      "discontinued": null
+    },
+    {
+      "id": "android",
+      "name": "Android",
+      "shortName": "Android",
+      "publisher": "Google",
+      "releaseDate": "2008-10-22",
+      "releaseRegions": {
+        "WW": "2008-10-22"
+      },
+      "generation": null,
+      "type": "mobile",
+      "discontinued": null
+    }
+  ]
+}

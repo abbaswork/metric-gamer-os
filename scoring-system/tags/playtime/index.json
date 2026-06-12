@@ -1,0 +1,30 @@
+{
+  "basis": "Main story / solo campaign only. Does not include side content, completionist runs, or multiplayer.",
+  "source": "Nintendo Life poll (6,796 voters) — 23% defined short as 10 hours or under, the single most-voted threshold. Community discussions on Nintendo Life and Quora placed medium between 10–30 hours and long at 30+.",
+  "playtime": [
+    {
+      "id": "short",
+      "label": "Short",
+      "range": "Under 10 hours",
+      "minHours": null,
+      "maxHours": 10,
+      "examples": ["Journey (~2h)", "Firewatch (~4h)", "Hellblade: Senua's Sacrifice (~8h)", "Spider-Man: Miles Morales (~7h)"]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "range": "10–30 hours",
+      "minHours": 10,
+      "maxHours": 30,
+      "examples": ["The Last of Us (~15h)", "God of War 2018 (~20h)", "Uncharted 4 (~15h)", "Cyberpunk 2077 main story (~25h)"]
+    },
+    {
+      "id": "long",
+      "label": "Long",
+      "range": "30+ hours",
+      "minHours": 30,
+      "maxHours": null,
+      "examples": ["The Witcher 3 (~50h)", "Elden Ring (~60h)", "Baldur's Gate 3 (~100h)", "Persona 5 (~100h)"]
+    }
+  ]
+}

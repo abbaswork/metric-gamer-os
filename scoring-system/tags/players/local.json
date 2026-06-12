@@ -1,0 +1,29 @@
+{
+  "local": [
+    {
+      "id": "up-to-2-local",
+      "label": "Up to 2 players local",
+      "maxPlayers": 2
+    },
+    {
+      "id": "up-to-3-local",
+      "label": "Up to 3 players local",
+      "maxPlayers": 3
+    },
+    {
+      "id": "up-to-4-local",
+      "label": "Up to 4 players local",
+      "maxPlayers": 4
+    },
+    {
+      "id": "up-to-6-local",
+      "label": "Up to 6 players local",
+      "maxPlayers": 6
+    },
+    {
+      "id": "up-to-8-local",
+      "label": "Up to 8 players local",
+      "maxPlayers": 8
+    }
+  ]
+}

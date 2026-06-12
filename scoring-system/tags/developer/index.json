@@ -1,0 +1,463 @@
+{
+  "developers": [
+    {
+      "id": "343-industries",
+      "name": "343 Industries",
+      "country": "US",
+      "founded": "2007",
+      "parent": "Microsoft",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "activision",
+      "name": "Activision",
+      "country": "US",
+      "founded": "1979",
+      "parent": "Microsoft",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "atlus",
+      "name": "Atlus",
+      "country": "JP",
+      "founded": "1986",
+      "parent": "Sega",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "avalanche-studios",
+      "name": "Avalanche Studios",
+      "country": "SE",
+      "founded": "2003",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "bandai-namco-studios",
+      "name": "Bandai Namco Studios",
+      "country": "JP",
+      "founded": "2012",
+      "parent": "Bandai Namco Entertainment",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "bethesda-game-studios",
+      "name": "Bethesda Game Studios",
+      "country": "US",
+      "founded": "1986",
+      "parent": "Microsoft",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "blizzard-entertainment",
+      "name": "Blizzard Entertainment",
+      "country": "US",
+      "founded": "1991",
+      "parent": "Microsoft",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "bohemia-interactive",
+      "name": "Bohemia Interactive",
+      "country": "CZ",
+      "founded": "1999",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "bungie",
+      "name": "Bungie",
+      "country": "US",
+      "founded": "1991",
+      "parent": "Sony Interactive Entertainment",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "capcom",
+      "name": "Capcom",
+      "country": "JP",
+      "founded": "1979",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "cd-projekt-red",
+      "name": "CD Projekt RED",
+      "country": "PL",
+      "founded": "1994",
+      "parent": "CD Projekt",
+      "active": true,
+      "type": "indie"
+    },
+    {
+      "id": "codemasters",
+      "name": "Codemasters",
+      "country": "GB",
+      "founded": "1986",
+      "parent": "Electronic Arts",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "criterion-games",
+      "name": "Criterion Games",
+      "country": "GB",
+      "founded": "1996",
+      "parent": "Electronic Arts",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "dice",
+      "name": "DICE",
+      "country": "SE",
+      "founded": "1992",
+      "parent": "Electronic Arts",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "double-fine-productions",
+      "name": "Double Fine Productions",
+      "country": "US",
+      "founded": "2000",
+      "parent": "Microsoft",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "electronic-arts",
+      "name": "Electronic Arts",
+      "country": "US",
+      "founded": "1982",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "fromsoft",
+      "name": "FromSoftware",
+      "country": "JP",
+      "founded": "1986",
+      "parent": "Kadokawa Corporation",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "guerrilla-games",
+      "name": "Guerrilla Games",
+      "country": "NL",
+      "founded": "2000",
+      "parent": "Sony Interactive Entertainment",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "hazelight-studios",
+      "name": "Hazelight Studios",
+      "country": "SE",
+      "founded": "2014",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
+      "id": "id-software",
+      "name": "id Software",
+      "country": "US",
+      "founded": "1991",
+      "parent": "Microsoft",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "infinity-ward",
+      "name": "Infinity Ward",
+      "country": "US",
+      "founded": "2002",
+      "parent": "Activision",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "insomniac-games",
+      "name": "Insomniac Games",
+      "country": "US",
+      "founded": "1994",
+      "parent": "Sony Interactive Entertainment",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "io-interactive",
+      "name": "IO Interactive",
+      "country": "DK",
+      "founded": "1998",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
+      "id": "ivory-tower",
+      "name": "Ivory Tower",
+      "country": "FR",
+      "founded": "2007",
+      "parent": "Ubisoft",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "klei-entertainment",
+      "name": "Klei Entertainment",
+      "country": "CA",
+      "founded": "2005",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
+      "id": "koei-tecmo",
+      "name": "Koei Tecmo",
+      "country": "JP",
+      "founded": "2009",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "konami",
+      "name": "Konami",
+      "country": "JP",
+      "founded": "1969",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "kunos-simulazioni",
+      "name": "Kunos Simulazioni",
+      "country": "IT",
+      "founded": "2005",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
+      "id": "kylotonn",
+      "name": "Kylotonn",
+      "country": "FR",
+      "founded": "2004",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
+      "id": "larian-studios",
+      "name": "Larian Studios",
+      "country": "BE",
+      "founded": "1996",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
+      "id": "milestone-srl",
+      "name": "Milestone S.r.l.",
+      "country": "IT",
+      "founded": "1996",
+      "parent": "Plaion",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "naughty-dog",
+      "name": "Naughty Dog",
+      "country": "US",
+      "founded": "1984",
+      "parent": "Sony Interactive Entertainment",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "nintendo-epd",
+      "name": "Nintendo EPD",
+      "country": "JP",
+      "founded": "2015",
+      "parent": "Nintendo",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "obsidian-entertainment",
+      "name": "Obsidian Entertainment",
+      "country": "US",
+      "founded": "2003",
+      "parent": "Microsoft",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "omega-force",
+      "name": "Omega Force",
+      "country": "JP",
+      "founded": "1996",
+      "parent": "Koei Tecmo",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "paradox-interactive",
+      "name": "Paradox Interactive",
+      "country": "SE",
+      "founded": "1999",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "playground-games",
+      "name": "Playground Games",
+      "country": "GB",
+      "founded": "2010",
+      "parent": "Microsoft",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "polyphony-digital",
+      "name": "Polyphony Digital",
+      "country": "JP",
+      "founded": "1998",
+      "parent": "Sony Interactive Entertainment",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "remedy-entertainment",
+      "name": "Remedy Entertainment",
+      "country": "FI",
+      "founded": "1995",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
+      "id": "rockstar-games",
+      "name": "Rockstar Games",
+      "country": "US",
+      "founded": "1998",
+      "parent": "Take-Two Interactive",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "santa-monica-studio",
+      "name": "Santa Monica Studio",
+      "country": "US",
+      "founded": "1999",
+      "parent": "Sony Interactive Entertainment",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "sega",
+      "name": "Sega",
+      "country": "JP",
+      "founded": "1960",
+      "parent": "Sega Sammy Holdings",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "slightly-mad-studios",
+      "name": "Slightly Mad Studios",
+      "country": "GB",
+      "founded": "2009",
+      "parent": "Electronic Arts",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "square-enix",
+      "name": "Square Enix",
+      "country": "JP",
+      "founded": "2003",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "supergiant-games",
+      "name": "Supergiant Games",
+      "country": "US",
+      "founded": "2009",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
+      "id": "team17",
+      "name": "Team17",
+      "country": "GB",
+      "founded": "1990",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "thq-nordic",
+      "name": "THQ Nordic",
+      "country": "SE",
+      "founded": "2011",
+      "parent": "Embracer Group",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "treyarch",
+      "name": "Treyarch",
+      "country": "US",
+      "founded": "1996",
+      "parent": "Activision",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "turn-10-studios",
+      "name": "Turn 10 Studios",
+      "country": "US",
+      "founded": "2001",
+      "parent": "Microsoft",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "ubisoft",
+      "name": "Ubisoft",
+      "country": "FR",
+      "founded": "1986",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "warhorse-studios",
+      "name": "Warhorse Studios",
+      "country": "CZ",
+      "founded": "2011",
+      "parent": "Plaion",
+      "active": true,
+      "type": "indie"
+    }
+  ]
+}

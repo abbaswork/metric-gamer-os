@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "users": [
+    {
+      "id": "abbaskhanwork@gmail.com",
+      "name": "Abbas Khan",
+      "role": "owner"
+    },
+    {
+      "id": "editor@example.com",
+      "name": "Example Editor",
+      "role": "editor",
+      "granted_by": "abbaskhanwork@gmail.com",
+      "grants": [
+        {
+          "folder": "skills",
+          "subfolders": "all"
+        },
+        {
+          "folder": "knoweldge",
+          "subfolders": ["company", "persona"]
+        },
+        {
+          "folder": "content",
+          "subfolders": ["2026"]
+        }
+      ]
+    }
+  ]
+}

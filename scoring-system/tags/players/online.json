@@ -1,0 +1,81 @@
+{
+  "online": [
+    {
+      "id": "session-up-to-2",
+      "label": "Up to 2 players online",
+      "mode": "session",
+      "maxPlayers": 2,
+      "description": "Online play in small sessions — up to 2 players per session. Each session is a self-contained instance."
+    },
+    {
+      "id": "session-up-to-3",
+      "label": "Up to 3 players online",
+      "mode": "session",
+      "maxPlayers": 3,
+      "description": "Online play in small sessions — up to 3 players per session. Each session is a self-contained instance. Example: Elden Ring Nightreign."
+    },
+    {
+      "id": "session-up-to-4",
+      "label": "Up to 4 players online",
+      "mode": "session",
+      "maxPlayers": 4,
+      "description": "Online play in small sessions — up to 4 players per session. Each session is a self-contained instance."
+    },
+    {
+      "id": "session-up-to-6",
+      "label": "Up to 6 players online",
+      "mode": "session",
+      "maxPlayers": 6,
+      "description": "Online play in small sessions — up to 6 players per session. Each session is a self-contained instance."
+    },
+    {
+      "id": "session-up-to-8",
+      "label": "Up to 8 players online",
+      "mode": "session",
+      "maxPlayers": 8,
+      "description": "Online play in small sessions — up to 8 players per session. Each session is a self-contained instance."
+    },
+    {
+      "id": "session-up-to-12",
+      "label": "Up to 12 players online",
+      "mode": "session",
+      "maxPlayers": 12,
+      "description": "Online play in medium sessions — up to 12 players per session. Each session is a self-contained instance."
+    },
+    {
+      "id": "session-up-to-16",
+      "label": "Up to 16 players online",
+      "mode": "session",
+      "maxPlayers": 16,
+      "description": "Online play in medium sessions — up to 16 players per session. Each session is a self-contained instance."
+    },
+    {
+      "id": "session-up-to-32",
+      "label": "Up to 32 players online",
+      "mode": "session",
+      "maxPlayers": 32,
+      "description": "Online play in large sessions — up to 32 players per session. Each session is a self-contained instance."
+    },
+    {
+      "id": "session-up-to-64",
+      "label": "Up to 64 players online",
+      "mode": "session",
+      "maxPlayers": 64,
+      "description": "Online play in large sessions — up to 64 players per session. Each session is a self-contained instance. Example: Battlefield-scale matches."
+    },
+    {
+      "id": "session-up-to-100",
+      "label": "Up to 100 players online",
+      "mode": "session",
+      "maxPlayers": 100,
+      "description": "Online play in large sessions — up to 100 players per session. Common in battle royale formats."
+    },
+    {
+      "id": "shared-server",
+      "label": "Shared server",
+      "mode": "shared_server",
+      "maxPlayers": null,
+      "description": "All players exist on the same persistent server or shared world. You encounter other players organically rather than joining a fixed session. Examples: MMOs, GTA Online, Sea of Thieves."
+    }
+  ]
+}
