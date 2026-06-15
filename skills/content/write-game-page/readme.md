@@ -158,7 +158,7 @@ One paragraph per metric. Select metrics from the correct genre rubric file. If 
 Each paragraph follows the structure from Writing-style.md:
 1. Opening judgment
 2. Specific evidence (game-named)
-3. Honest negative with "Unfortunately" or "Unfortunately, however" — only if the score warrants it
+3. Honest negative with "Unfortunately", "Unfortunately, however", or some similar phrase — only if the score warrants it
 4. Practical close
 
 Never explain the score.
@@ -216,7 +216,7 @@ These apply at the **start** (to guide execution) and at the **end** (to validat
 - [ ] Each metric description is a single merged paragraph — no split between description and player experience
 - [ ] Each paragraph opens with a direct judgment, not a definition of the metric
 - [ ] Every named game element (level, weapon, mechanic, enemy, update) cited is verified correct
-- [ ] "Unfortunately" or "Unfortunately, however" is used where a score warrants it, and not used where it does not
+- [ ] "Unfortunately", "Unfortunately, however", or a similar phrase is used where a score warrants it, and not used where it does not
 - [ ] No metric description explains the score
 
 ### Writing Style
