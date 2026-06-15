@@ -14,10 +14,19 @@ The benchmark tool for checking copy is [aihumanize.io](https://aihumanize.io/) 
 
 Two paragraphs. No more.
 
-- **Paragraph 1** — factual context. What the game is: developer, publisher, release year, platform, genre, and how it relates to previous entries in a series if applicable. Clinical but readable.
-- **Paragraph 2** — experiential. What the game is actually about in terms of how it feels to play. This is where the author's voice comes in. Set up the core tension or loop the rest of the page will expand on.
+- **Paragraph 1** — The game's reputation and what it's known for. Lead with how the community or genre positions the game, then add the key numbers that back that up: series position, release era, car count, track count, approximate playtime scale, platform. Developer and publisher belong in the Game Details Card, not here — repeating them in the intro uses space for information the reader can already see at a glance. The paragraph should be keyword-rich but read like something a knowledgeable player would say, not a press release.
+
+- **Paragraph 2** — Reader framing, not a verdict. Tell the reader what the page covers and why working through it is useful to them. Do not summarise the game's strengths and weaknesses or deliver conclusions about whether it is worth playing. That is the Verdict's job. A paragraph 2 that pre-answers the page makes the metric breakdown feel like supporting evidence for a conclusion the reader already has, and makes the Verdict redundant. The close should point forward into the metrics.
 
 Do not reference the scoring methodology or link to the about page here.
+
+**Why this structure works:** The Game Details Card handles the factual record. The Verdict handles the conclusion. The introduction's job is to give the reader enough context to care about what the metrics reveal — not to do the Verdict's job early.
+
+**Reference example (Gran Turismo 4):**
+
+> Gran Turismo 4 is the PS2 entry that most people in the sim racing community still bring up when the topic of single-player depth comes up. Released in late 2004 and early 2005, it arrived with 721 cars, more than 50 tracks, and a career structure that takes most players well past the 100-hour mark. It's the fourth main entry in the Gran Turismo series and the one that defined what a Polyphony Digital game could be at its ceiling.
+>
+> Whether that depth still holds up in practice is a different question. GT4 has a reputation that precedes it, and reputations sometimes have a way of hiding where the cracks are. If you're coming to the game fresh, or coming back after a long gap, there's a lot to work through before you know whether GT4 is still worth your time. The metric breakdown below covers what still holds up today, what shows its age, and what kind of player is going to get the most out of the time investment.
 
 ---
 

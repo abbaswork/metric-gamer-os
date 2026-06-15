@@ -370,6 +370,15 @@
       "type": "first_party"
     },
     {
+      "id": "sony-interactive-entertainment",
+      "name": "Sony Interactive Entertainment",
+      "country": "JP",
+      "founded": "1993",
+      "parent": "Sony Group Corporation",
+      "active": true,
+      "type": "first_party"
+    },
+    {
       "id": "sega",
       "name": "Sega",
       "country": "JP",

@@ -84,6 +84,7 @@
 - [ ] Run all existing game page URLs through Google Rich Results Test — list which pass and which fail
 - [ ] Decide on implementation method: Yoast custom schema, RankMath review schema, or manual JSON-LD
 - [ ] Write the VideoGame + Review JSON-LD template with all required fields (name, author, datePublished, reviewRating, description, gamePlatform, genre)
+- [ ] Add AggregateRating to the VideoGame schema template — this is what generates star ratings in Google SERPs and makes the Metric Gamer score extractable by AI engines: set ratingValue to the overall score, bestRating to 5, worstRating to 1, ratingCount to 1 (the reviewer), and author to "Metric Gamer"
 - [ ] Implement the schema on all pages currently missing it
 - [ ] Test each via Google Rich Results Test and fix any validation errors
 - [ ] Add schema verification to the publish checklist

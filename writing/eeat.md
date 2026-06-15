@@ -23,6 +23,7 @@ A 31-step publishing lifecycle covering every stage from keyword discovery to lo
 - Analyse featured snippets
 - Check schema usage
 - Identify UX improvements
+- Capture the People Also Ask box questions that appear for the primary keyword — these are high-priority FAQ seeds that Google already knows users are asking; targeting them directly improves FAQ section quality and PAA box placement potential
 
 ### Topic Qualification
 - Publish within gaming topical authority
@@ -94,6 +95,7 @@ A 31-step publishing lifecycle covering every stage from keyword discovery to lo
 - Use bullet formatting
 - Prioritise readability
 - Add original insights
+- Try to include keywords naturally every 150 words
 
 ### E-E-A-T Optimisation
 - Include author names
@@ -180,6 +182,16 @@ A 31-step publishing lifecycle covering every stage from keyword discovery to lo
 - Avoid schema spam
 - Maintain structured data consistency
 
+### VideoGame Schema (game pages only)
+- Use `VideoGame` schema type — not generic `Article` — on every game review page
+- Nest a `Review` object inside `VideoGame` with `reviewRating > ratingValue` set to the Metric Gamer overall score
+- Set `bestRating: 5` and `worstRating: 1` on the rating object so Google can interpret the scale
+- Include `ratingCount` — even if it is 1 (the reviewer)
+- Set `gamePlatform` to the verified platform list from the Game Details Card
+- Set `genre` to the primary genre used in the scoring rubric
+- Include `author` pointing to the reviewer name and URL if the author has a public profile
+- `AggregateRating` generates star ratings in Google SERPs — this is the highest-impact schema addition for game review pages
+
 ---
 
 ## Phase 5: On-Page SEO
@@ -228,10 +240,11 @@ A 31-step publishing lifecycle covering every stage from keyword discovery to lo
 - Spellcheck content
 - Verify factual accuracy
 - Test all internal links
-- Validate schema
+- Validate schema (use Google Rich Results Test for VideoGame schema)
 - Review formatting consistency
 - Check mobile UX
-- Test page speed basics
+- Core Web Vitals targets: LCP under 2.5s, INP under 200ms, CLS under 0.1 — test via PageSpeed Insights before publishing
+- Compress and lazy-load all images; use WebP format to keep LCP low
 
 ### Publishing Timing
 - Publish consistently
@@ -299,3 +312,9 @@ A 31-step publishing lifecycle covering every stage from keyword discovery to lo
 - Strengthen brand reputation
 - Maintain quality standards
 - Build audience trust
+
+### Brand Entity Monitoring
+- Track where Metric Gamer is mentioned across external sources (Reddit, Discord, gaming forums, other sites) — these mentions are signals AI engines use when deciding which sources to cite
+- Monitor whether the scoring methodology or individual scores are referenced by other writers or communities; treat this as a signal that the brand is becoming a citable source in the niche
+- When a mention is found, note the platform and context — over time this shows which content types and platforms generate the most external reference
+- Do not pursue manufactured mentions; this step is monitoring-only — organic mentions from quality content and community presence are the target

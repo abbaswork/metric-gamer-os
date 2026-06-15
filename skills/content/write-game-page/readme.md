@@ -43,14 +43,18 @@ The author persona file is a required dynamic connector. Load it alongside the c
 ```
 Phase 1 — interface.py    Collect game_name, genre, sub_genre, author
      ↓
-Phase 2 — Claude          Fact-check research: Wikipedia, HowLongToBeat, platform pages
+Phase 2 — Claude          Keyword & SERP research: primary keyword, secondary keywords, search intent, competitor gaps, FAQ seeds
      ↓
-Phase 3 — Claude          Draft full game page following EEAT lifecycle and Writing-style.md
+Phase 3 — Claude          Fact-check research: Wikipedia, HowLongToBeat, platform pages
      ↓
-Phase 4 — Claude          Validate against acceptance criteria; update tags indexes if needed
+Phase 4 — Claude          Draft full game page with keywords integrated naturally
+     ↓
+Phase 5 — Claude          Validate against acceptance criteria; update tags indexes if needed
+     ↓
+Phase 6 — Claude          If game is on Steam: write Steam curator review (conditional)
 ```
 
-Do not begin drafting until Phase 2 is complete. Factual errors in the draft are harder to fix than missing copy.
+Do not begin drafting until Phases 2 and 3 are complete. Keywords must be identified before writing begins — they cannot be integrated naturally if they are retrofitted after the draft is done.
 
 ---
 
@@ -62,9 +66,11 @@ Do not begin drafting until Phase 2 is complete. Factual errors in the draft are
 
 ## Web Search Strategy
 
-All research runs via Claude web search. Two distinct search jobs run at different points.
+All research runs via Claude web search. Three distinct search jobs run at different points.
 
-### Blocked domains (apply to every search)
+### Blocked domains — review opinions only
+
+The following sites are blocked as sources for review opinions, scores, verdicts, player voice, and analysis. They may be used for factual information only (release dates, developer/publisher, platform lists, feature confirmation, patch notes) when no better source is available.
 
 ```
 ign.com, gamespot.com, gamesradar.com, metacritic.com, eurogamer.net,
@@ -72,19 +78,49 @@ polygon.com, kotaku.com, pcgamer.com, gameinformer.com, pushsquare.com,
 trustedreviews.com, thegamer.com, screenrant.com, cbr.com
 ```
 
+Prefer Wikipedia, official developer/publisher sites, and community sources (Reddit, Steam, GTPlanet, etc.) even for factual lookups. Fall back to the above sites only when they are the clearest available source for a specific fact.
+
 ---
 
-### Phase 2 — Fact-check searches (run before drafting)
+### Phase 2 — Keyword & SERP research (run before fact-checking)
+
+The goal here is to identify the primary keyword, secondary keywords, search intent, and what existing pages are missing. Keywords must be known before writing begins.
+
+**Batch 1 — SERP landscape (2 searches)**
+
+- `{game_name}` — see what ranks in the top 5, what angle they take, what sections they include
+- `{game_name} review` — identify search intent type and competitor structure
+
+**Batch 2 — Long-tail and intent signals (2 searches)**
+
+- `is {game_name} worth playing` — captures the transactional intent query players actually search
+- `{game_name} {genre}` — secondary keyword signal and niche long-tail opportunities
+
+**Extract and record before continuing:**
+
+```
+Primary keyword: [usually the game name, sometimes "{game_name} review"]
+Secondary keywords: [phrases appearing across top results — platform names, notable features, comparisons]
+Search intent: [informational / transactional / hybrid — one sentence on what the player is looking for]
+Competitor gaps: [what top-ranking pages don't cover that our metric breakdown uniquely addresses]
+FAQ seeds: [People Also Ask questions and community questions to pull into the FAQ section]
+```
+
+This output stays in context only. It is not a published section of the page. Use it to guide where secondary keywords are placed naturally in the intro, metric descriptions, and FAQs.
+
+---
+
+### Phase 3 — Fact-check searches (run before drafting)
 
 The goal here is accuracy, not player voice. Use encyclopaedic and official sources.
 
-**Batch 1 — Core game facts (3 searches)**
+**Batch 3 — Core game facts (3 searches)**
 
 - `{game_name} site:en.wikipedia.org` — release dates per platform, developer, publisher, genre, series
 - `{game_name} howlongtobeat` — playtime ranges (main story, completionist)
 - `{game_name} all platforms PC PS4 PS5 Xbox Switch release dates` — confirm full platform list and per-platform dates
 
-**Batch 2 — Content details for metric descriptions (2 searches)**
+**Batch 4 — Content details for metric descriptions (2 searches)**
 
 Only run these if the metric descriptions will reference named content (levels, weapons, enemies, updates). Verify names before using them.
 
@@ -93,11 +129,11 @@ Only run these if the metric descriptions will reference named content (levels, 
 
 ---
 
-### Phase 3 — Player voice for metric descriptions (run during drafting)
+### Phase 4 — Player voice for metric descriptions (run during drafting)
 
 The goal here is raw player reaction to specific metrics — what they praised and what they complained about. Use community sources.
 
-**Batch 3 — Community reaction (3 searches)**
+**Batch 5 — Community reaction (3 searches)**
 
 - `reddit "{game_name}" {metric_name} what do you think`
 - `reddit "{game_name}" best part worst part`
@@ -146,10 +182,13 @@ Draw the expertise line from the author persona file.
 
 Two paragraphs only.
 
-- **Para 1** — Factual. Developer, publisher, year, platforms, genre, series context if applicable.
-- **Para 2** — Experiential. How the game feels to play. Author's voice. Sets up the core tension or loop the metrics will expand on.
+- **Para 1** — The game's reputation and what it's known for. Lead with how the community or genre positions the game, then back it up with key numbers: series position, release era, car/track/content count, approximate playtime scale, platform. Do not include developer and publisher here — they are in the Game Details Card. The paragraph should be keyword-rich but read naturally, not like a press release.
+
+- **Para 2** — Reader framing, not a verdict. Tell the reader what the page covers and why it's useful to them. Do not summarise the game's strengths and weaknesses or pre-answer whether it's worth playing — that is the Verdict's job. A paragraph that delivers conclusions before the metrics makes the rest of the page redundant. Close by pointing the reader forward into the metric breakdown.
 
 Do not mention the scoring system or link to the about page.
+
+See `writing/Writing-style.md` for the reference example (Gran Turismo 4).
 
 ### 5. Metric Descriptions
 
@@ -171,17 +210,55 @@ Display the genre overall score (average of metric scores, rounded to one decima
 
 Bullet lists. Must surface things not already covered by the metric descriptions. One sentence per bullet.
 
-### 8. Verdict
+### 8. Who Is This Game For?
+
+Two parts. Who should play it and who should skip it. 2–3 specific reasons each, tied directly to the game's scored metrics and verified features. Do not repeat content already covered in the Pros/Cons or Verdict. Second person throughout.
+
+Format:
+**Play this if** you [specific reason tied to a strength]
+**Skip this if** you [specific reason tied to a weakness or gap]
+
+### 9. Verdict
 
 Two to three sentences. Overall experience summary and a clear recommendation. "One of the" is acceptable. No stronger superlatives.
 
-### 9. FAQs
+### 10. FAQs
 
 Use the relevant FAQ templates from `knoweldge/site/faq-templates.md`. Select universal questions plus any conditional categories that apply to this game. Second person, max 3 sentences per answer, lead with "no" in the first sentence where the answer is negative.
 
-### 10. Tags
+### 11. Tags
 
 Include all applicable tags: developer, publisher, platforms, players (local/online), playtime range. After writing the page, check each tag index file and add any new entries that do not already appear.
+
+### 12. Steam Curator Review (conditional — only if the game is available on Steam)
+
+Confirmed during Phase 3 when the platform list is verified. If Steam is not in the platform list, skip this section entirely.
+
+Use the following template. Pull scores directly from the scored metrics above. The Good and The Bad must be tied to specific high and low scoring metrics respectively — not generic praise or criticism.
+
+```
+[Metric 1] [Score] | [Metric 2] [Score] | [Metric 3] [Score] | [Metric 4] [Score] | [Metric 5] [Score]
+
+[Overall Score] / 5 — [One sentence verdict]
+
+The Good: [Specific positive tied to a high-scoring metric or standout feature]
+The Bad: [Specific negative tied to a low-scoring metric]
+
+[CTA — rotate from approved list, do not use the same one twice in a row]
+```
+
+**Approved CTAs (rotate between these — do not repeat the same one on consecutive reviews):**
+- `Full breakdown at metricgamer.com`
+- `See the full scored breakdown at metricgamer.com`
+- `Find out if it's worth your time at metricgamer.com`
+- `More scored breakdowns on our curator page`
+
+**Rules:**
+- Total review text must fit within 500 characters
+- No em dashes anywhere in the review
+- The verdict line must be one sentence only
+- The Good and The Bad must each be one sentence, specific to this game — not genre generalisations
+- Do not explain what Metric Gamer is inside the review text — the CTA handles that
 
 ---
 
@@ -207,8 +284,8 @@ These apply at the **start** (to guide execution) and at the **end** (to validat
 
 ### Introduction
 - [ ] Introduction is exactly two paragraphs
-- [ ] Para 1 is factual (developer, publisher, year, platforms, genre, series context)
-- [ ] Para 2 is experiential and sets up the author's voice
+- [ ] Para 1 leads with the game's reputation or community positioning, backed by key numbers (series position, release era, content count, playtime scale, platform) — no developer or publisher in the intro body
+- [ ] Para 2 frames what the page covers and why it's useful — does not pre-answer whether the game is worth playing
 - [ ] No reference to the scoring system or methodology inside the introduction
 
 ### Metric Descriptions
@@ -232,6 +309,8 @@ These apply at the **start** (to guide execution) and at the **end** (to validat
 
 ### Structure
 - [ ] Pros and cons are bullet points and do not repeat content from the metric descriptions
+- [ ] "Who Is This Game For?" section is present with both Play this if and Skip this if parts
+- [ ] "Who Is This Game For?" reasons are game-specific and do not repeat content from Pros/Cons or Verdict
 - [ ] Verdict is 2-3 sentences and ends with a clear recommendation
 - [ ] Verdict does not use stronger superlatives than "one of the"
 - [ ] FAQs are present, written in second person, max 3 sentences per answer
@@ -240,3 +319,13 @@ These apply at the **start** (to guide execution) and at the **end** (to validat
 ### Tags
 - [ ] All applicable tags are included in the game details card
 - [ ] Any new developer, publisher, platform, or player mode not previously in the tag index files has been added to the relevant index
+
+### Steam Curator Review (conditional)
+- [ ] Confirmed whether game is available on Steam during Phase 3 platform verification
+- [ ] If on Steam: review written and included in the draft under section 12
+- [ ] Review fits within 500 characters
+- [ ] The Good ties to a high-scoring metric with game-specific detail
+- [ ] The Bad ties to a low-scoring metric with game-specific detail
+- [ ] CTA selected from the approved list
+- [ ] No em dashes in the review text
+- [ ] If not on Steam: section 12 marked as not applicable

@@ -20,7 +20,7 @@ When a sub-genre is active, one or more default metrics are replaced. The total 
 
 | Sub-genre | Replaces | With | Reason |
 |---|---|---|---|
-| Split Screen | AI Quality | [Split Screen Performance](../../sub-genres/split-screen/performance/rubric.md) | Split screen games are played against human opponents — AI quality becomes irrelevant to the core experience |
+| Split Screen | Progression | [Split Screen Performance](../../sub-genres/split-screen/racing-multiplayer/rubric.md) | Split screen games are primarily evaluated on their couch co-op experience — Progression is a single-player metric and is the correct swap out |
 | Free | AI Quality | [Monetisation Model](../../sub-genres/free/monetisation/rubric.md) | Free racing games are typically online or live-service focused — AI quality is secondary to whether the business model is fair |
 
 ---
