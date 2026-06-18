@@ -34,6 +34,24 @@ Grow total clicks across all channels (Search Console, social, direct) from ~15 
 
 ---
 
+## GSC Findings — June 2026
+
+**What the data shows:** The MG Search Console export (June 2025–June 2026) reveals a sharply concentrated traffic profile. One page — `/blog/best-free-two-player-ps4-racing-games` — accounts for the overwhelming majority of impressions site-wide. MG has established topical authority in exactly one niche.
+
+**Topical authority map:**
+- **Established:** Free 2-player PS4 games — significant impression volume, ranking around position 16 on average
+- **Unestablished:** Mobile football games — pages are indexed but receiving zero clicks; no query volume attributable to this cluster
+
+**Biggest single opportunity:** The PS4 racing ranked list sits at average position 16.1 across 37,730 impressions. Moving from page 2 to page 1 is the highest-ROI content improvement available on the site — a 10–15× click increase is realistic.
+
+**Keyword formula at DA 2:** The only consistently winnable queries share three properties: platform-specific + free-to-play + multiplayer modifier. Queries missing any of these filters face established gaming publications that cannot be outranked at this authority level.
+
+**November 2025 traffic drop:** Site metrics fell sharply in November 2025 — from 10–12 clicks/day to near-zero over a 2–3 week window. This coincides with known Google algorithm update periods. Cause not yet identified.
+
+**Strategic implication for Goal 3:** The free 2-player PS4 niche is the one confirmed area where ranking uplift is achievable immediately. Mobile football ranked lists should not be published until topical authority in that niche is established — indexed pages with zero clicks are a signal that Google does not yet associate MG with that topic.
+
+---
+
 ## Current State by Goal
 
 **Goal 1 — Team Accountability**
@@ -99,7 +117,7 @@ Build the visual score component into the page template: metric score bars or ra
 **Three parallel tracks:**
 
 **Track 1 — SEO (primary growth driver)**
-Win two genre niches completely before expanding. Pick two pillar verticals (decision to be made and locked in the first team sync). For each vertical: complete the genre rubric, publish a pillar page, publish 4 supporting game reviews. Every page targets KD 0–20 only — confirmed in Semrush before writing begins. Internal linking: every supporting review links to its pillar; pillar links back to all supporting reviews. No orphan pages.
+Win two genre niches completely before expanding. **Vertical 1 is confirmed by GSC data: free 2-player PS4 games.** MG already ranks in this niche — the priority is moving the existing ranked list from position 16 to page 1, then building the supporting game page cluster around it. Vertical 2 to be decided at the first team sync. For each vertical: complete the genre rubric, publish a pillar page, publish 4 supporting game reviews. Every page targets KD 0–20 only — confirmed in Semrush before writing begins. The keyword formula to follow at DA 2: platform-specific + free-to-play + multiplayer modifier. Queries missing any of these filters are not winnable. Internal linking: every supporting review links to its pillar; pillar links back to all supporting reviews. No orphan pages.
 
 Buyer-intent pieces alongside the genre clusters: one curated list, one "is [game] worth it in 2026" verdict, one comparison. These carry Humble Bundle affiliate links and convert at 2–5× the rate of straight reviews.
 

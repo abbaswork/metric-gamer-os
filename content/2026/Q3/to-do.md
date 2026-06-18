@@ -133,8 +133,15 @@
 ### Priority 3 — New Content
 *Begin only after the audit is complete and the Dev template is live.*
 
+**Keyword formula — mandatory before any new page is commissioned**
+Every new piece must satisfy all three before writing begins:
+1. Platform-specific (e.g. PS4, iOS, PC) — not a genre-only search
+2. Free-to-play or multiplayer modifier present — filters out high-DA competition
+3. KD confirmed under 20 in Semrush (or no tool equivalent: qualitative SERP check shows no IGN, Metacritic, or Fandom in top 5)
+
 **Genre clusters**
-- [ ] Decide and lock the 2 pillar genre verticals in the first team sync — this gates everything below
+- [ ] Vertical 1 is confirmed as free 2-player PS4 games — no decision needed at team sync for this one
+- [ ] Decide and lock Vertical 2 at the first team sync — it must fit the keyword formula above
 - [ ] Check scoring-system/metrics/genres/ and complete the rubric for vertical 1 if not done
 - [ ] Complete the rubric for vertical 2 if not done
 - [ ] Research the pillar page keyword for vertical 1 and confirm KD under 20 in Semrush
@@ -163,6 +170,12 @@
 - [ ] Write the comparison piece — include Humble Bundle links for both games
 - [ ] Publish all 3 with correct meta title, description, schema, and internal link to the relevant pillar page
 
+**Mobile football — topical authority constraint**
+*GSC data shows mobile football game pages are indexed but getting zero clicks. Publishing a mobile football ranked list in this state will not rank — Google has not associated MG with this topic yet.*
+- [ ] At team sync: agree on what "topical authority established" looks like for mobile — a minimum impression threshold across mobile football queries over a sustained period (e.g. 1,000+ impressions/month across 3+ mobile football queries for 2+ consecutive months)
+- [ ] Do not commission the mobile football ranked list until that threshold is met
+- [ ] Track mobile football query impressions monthly in GSC — add as a standing agenda item at team syncs
+
 ---
 
 ## SEO
@@ -187,6 +200,30 @@
 - [ ] Set up 301 redirects for all redirect pages in WordPress
 - [ ] For each restored page: go to GSC → URL Inspection → Request Indexing
 - [ ] Set a 2-week calendar reminder to check indexing status for each submitted URL
+
+---
+
+### Priority 1b — GSC Findings: Investigate and Act
+*These tasks are derived from the June 2026 GSC data export. Do these alongside Priority 1 — they are informing, not blocking.*
+
+**November 2025 traffic drop**
+- [ ] Open GSC Performance → filter date to November 1–December 15 2025 — identify which specific pages lost impressions and by how much
+- [ ] Cross-reference the drop date against known Google algorithm update dates for November 2025 (core update, spam update, Helpful Content) — note which update the timing aligns with
+- [ ] For each page that lost rankings: run a content quality check against the EEAT criteria — identify which signals are weakest (first-person evidence, data specificity, author relevance, unique insight)
+- [ ] Decide per page: update to EEAT standard and resubmit, or remove with 301 redirect
+- [ ] Document the outcome — note the update type and what MG pages were most affected so future updates can be anticipated
+
+**Best free 2-player PS4 racing games — position improvement**
+*This page sits at position 16.1 with 37,730 impressions. It is the highest-ROI improvement on the site. Moving to page 1 is realistically a 10–15× click increase.*
+- [ ] Open `/blog/best-free-two-player-ps4-racing-games` in GSC URL Inspection — confirm it is indexed, note last crawl date
+- [ ] Pull all queries this page ranks for — identify the primary query and any long-tail variants with meaningful impression volume
+- [ ] Run the page through the EEAT framework — score it on first-person evidence, data specificity, author relevance, unique player insight
+- [ ] Find the top 3 ranking pages for the primary query — record word count, heading structure, FAQ presence, schema type, internal links in
+- [ ] List what those pages have that MG's page is missing
+- [ ] Rewrite or extend the page to address the gaps: EEAT standard, FAQ section, internal links to supporting game pages, updated schema
+- [ ] Update meta title and description — confirm title under 60 chars, description under 155 chars with keyword and CTA
+- [ ] Submit for re-indexing via GSC URL Inspection after updating
+- [ ] Set a 4-week reminder to check position and impression data for the updated page
 
 ---
 
