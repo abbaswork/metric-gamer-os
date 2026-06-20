@@ -93,3 +93,20 @@
 Redirect `/ranking/best-split-screen-player-racing-games-on-ps5/` to `/ranking/best-2-player-racing-games-on-ps4-and-ps5/`. Merged list to include both unique games: Sonic Racing Crossworlds (from split-screen list) and Crash Team Racing Nitro Fueled (from 2-player list) — 6 games total.
 
 **Critical:** All existing ranked lists currently pull exact copy from game pages. All lists require rewrite via write-ranked-list skill before any new publishing. This is the duplicate content issue suppressing the free PS4 racing list at position 16.
+
+### Spoke Keywords
+Research Conclusions:
+- review is 10x rating
+- abbreviations are a no go
+- numbered searches using 5 instead of five
+
+Common Questions BF:
+- when did battlefield 1 come out
+- battlefield 5 player count
+- battlefield 5 campaign review
+- battlefield 5 crossplay
+- is battlefield 5 cross platform
+- battlefield 5 maps
+
+Metric Ideas for BF:
+- campaign, maps, classes, weapons, gameplay and multiplayer

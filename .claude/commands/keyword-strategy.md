@@ -113,7 +113,20 @@ State this explicitly: "I need SERP check results for the above keywords before 
 
 ---
 
-## Step 7 — Evaluate SERP Results and Select Campaign Anchor
+## Step 7 — Discovery Q&A
+
+Before selecting the campaign anchor, surface every close call as a direct question rather than deciding silently. Typical close calls at this point:
+
+- Two or more SERP-PASS keywords are close enough in volume/YoY that either could anchor the campaign — ask which to prioritise.
+- A cluster would share more than one game with another cluster — ask whether to accept the cannibalisation risk or drop one of the competing keywords.
+- A keyword sits in the KD 30–50 range with a SERP-PASS result — ask whether the SERP result alone is enough to include it.
+- `semrush_available` was false — flag that KD data is missing for the shortlist and ask whether to proceed on SERP/GSC signal alone.
+
+State the assumption you would otherwise make alongside each question. Do not proceed to Step 8 until the user answers or explicitly says to use your judgement.
+
+---
+
+## Step 8 — Evaluate SERP Results and Select Campaign Anchor
 
 Apply the SERP pass criteria from `knoweldge/site/keyword-strategy.md` to each returned result.
 
@@ -130,7 +143,7 @@ State the campaign anchor and all confirmation criteria explicitly before buildi
 
 ---
 
-## Step 8 — Map Clusters
+## Step 9 — Map Clusters
 
 From remaining SERP-passing keywords (excluding the anchor), build the cluster map.
 
@@ -144,7 +157,7 @@ For each cluster:
 
 ---
 
-## Step 9 — Assign Game Page Keywords
+## Step 10 — Assign Game Page Keywords
 
 For each game appearing in each cluster, assign:
 
@@ -162,7 +175,7 @@ For each game note: existing MG page (yes / no / URL).
 
 ---
 
-## Step 10 — Gap List
+## Step 11 — Gap List
 
 List every game needed by the cluster map that does not have an existing MG page. For each:
 - Game title
@@ -172,7 +185,7 @@ List every game needed by the cluster map that does not have an existing MG page
 
 ---
 
-## Step 11 — Validate and Deliver
+## Step 12 — Validate and Deliver
 
 Check every item in the acceptance criteria in `skills/content/keyword-strategy/readme.md` before delivering the keyword map.
 

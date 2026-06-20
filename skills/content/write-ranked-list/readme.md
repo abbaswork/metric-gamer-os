@@ -26,6 +26,15 @@ The author persona file is a required dynamic connector. Load it alongside the c
 
 ---
 
+## Requirements
+
+- **[Hard]** Every score in the At A Glance table and each entry matches its source game page draft exactly — scores are copied, never re-derived.
+- **[Hard]** No entry content reuses sentences or matching bullet-opening words from its source game page — duplicate-content rules apply to every entry, not a sample.
+- **[Hard]** Minimum 2 `draft_paths` provided and all are read before drafting begins.
+- **[Soft]** Niche-irrelevant Pros/Cons are trimmed from entries — relaxable only if Discovery Q&A confirms a point is niche-relevant despite first appearance.
+
+---
+
 ## Inputs
 
 | Input | Type | Required | Description |
@@ -50,14 +59,19 @@ Phase 3 — Claude          Load writing-style.md, eeat.md, persona.md, faq-temp
                           author persona, and all source game page drafts. Extract game
                           data: scores, Pros, Cons, Who Is This Game For, Verdict.
      ↓
-Phase 4 — Claude          Draft the ranked list: SEO meta, reviewer attribution, list
+Phase 4 — Claude          Discovery Q&A — surface close calls (score ties, borderline
+                          niche fit for a source game, refined niche_focus from SERP
+                          data) as direct questions. Halt until answered or explicitly
+                          waived.
+     ↓
+Phase 5 — Claude          Draft the ranked list: SEO meta, reviewer attribution, list
                           introduction, At A Glance table, ranked entries, FAQs.
                           Apply rewrite rules and niche tailoring to all entries.
      ↓
-Phase 5 — Claude          Validate against acceptance criteria before submitting.
+Phase 6 — Claude          Validate against acceptance criteria before submitting.
 ```
 
-Keyword and SERP research runs first — it defines the primary keyword, niche angle, and competitor gaps before any source material is read. Do not begin drafting until Phases 2 and 3 are complete.
+Keyword and SERP research runs first — it defines the primary keyword, niche angle, and competitor gaps before any source material is read. Do not begin drafting until Phases 2 through 4 are complete.
 
 ---
 
@@ -149,6 +163,7 @@ List-level questions about the category or how to choose — not game-specific q
 - [ ] Every individual metric score matches the source game page exactly
 - [ ] Ranking order is correct (highest overall score first)
 - [ ] Any tie-break is documented beneath the At A Glance table
+- [ ] Discovery Q&A phase run — score ties, borderline niche fit, and refined niche_focus surfaced as questions and resolved before drafting begins
 
 ### Duplicate Content
 - [ ] List introduction contains no sentences or phrases from any source game page

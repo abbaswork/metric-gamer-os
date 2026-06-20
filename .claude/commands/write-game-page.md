@@ -89,13 +89,24 @@ Run web searches before drafting any copy. Do not skip this phase.
 1. `{game_name} wiki levels tracks cars list` — confirm specific names before using them
 2. `{game_name} patch notes update list` — if recent updates are relevant to a metric
 
-Do not begin drafting until Steps 2 and 3 are complete.
+Do not begin drafting until Steps 2 through 4 are complete.
 
 ---
 
-## Step 4 — Draft the Full Game Page (Phase 4)
+## Step 4 — Discovery Q&A (Phase 4)
 
-During drafting, run Phase 4 searches for player voice:
+Before drafting, surface any close call from Steps 2–3 as a direct question rather than assuming silently:
+- Sources disagree on a release date, developer/publisher, or platform list — state the conflict and ask which to use, or which source takes precedence.
+- The sub-genre's relevance to this specific game is unclear — ask whether to apply sub-genre metrics or the genre baseline.
+- A named element needed for a metric description (a level, weapon, or update) couldn't be verified — ask whether to omit it or use a more general description instead.
+
+State the assumption you would otherwise make alongside each question. Do not begin drafting until the user answers or explicitly says to use your judgement.
+
+---
+
+## Step 5 — Draft the Full Game Page (Phase 5)
+
+During drafting, run Phase 5 searches for player voice:
 
 **Batch 3 — Community reaction:**
 1. `reddit "{game_name}" {metric_name} what do you think`
@@ -190,7 +201,7 @@ Rules: 500 character limit total. No em dashes. The Good and The Bad must be gam
 
 ---
 
-## Step 5 — Validate (Phase 5)
+## Step 6 — Validate (Phase 6)
 
 Before submitting, verify every item below is met.
 

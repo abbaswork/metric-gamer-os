@@ -15,6 +15,15 @@ Given a campaign brief, keyword planner CSV, and GSC export, produce a validated
 
 ---
 
+## Requirements
+
+- **[Hard]** No campaign structure is proposed before SERP check results are returned for every shortlisted keyword.
+- **[Hard]** The full keyword planner CSV is read row by row — never a partial sample.
+- **[Hard]** The DA 2 filter is applied before shortlisting — bare game names, genre-only, and platform-only queries are excluded.
+- **[Soft]** Semrush KD is requested for the shortlist only if `semrush_available` is true — if false, proceed without it but flag the gap during Discovery Q&A rather than treating SERP results alone as sufficient.
+
+---
+
 ## Inputs
 
 | Input | Type | Required | Description |
@@ -44,10 +53,16 @@ Phase 3 — Claude          Build shortlist. Present to user.
 Phase 4 — User            Executes SERP checks. Reports back page 1 profile
                           and intent signal for each shortlisted keyword.
      ↓
-Phase 5 — Claude          Incorporate SERP results. Select campaign anchor.
-                          Map clusters. Assign game page keywords. Identify gaps.
+Phase 5 — Claude          Discovery Q&A — surface close calls (competing anchor
+                          candidates, cannibalisation tradeoffs, borderline KD
+                          keywords, missing Semrush data) as direct questions.
+                          Halt until answered or explicitly waived.
      ↓
-Phase 6 — Claude          Validate against acceptance criteria. Deliver keyword map.
+Phase 6 — Claude          Incorporate SERP results and Discovery answers. Select
+                          campaign anchor. Map clusters. Assign game page
+                          keywords. Identify gaps.
+     ↓
+Phase 7 — Claude          Validate against acceptance criteria. Deliver keyword map.
 ```
 
 ---
@@ -109,6 +124,7 @@ SERP pass at DA 2: no IGN, Metacritic, Fandom, or Wikipedia in positions 1–3; 
 - [ ] Campaign anchor keyword stated explicitly
 - [ ] Confirmation criteria met: 3+ modifiers, flat/positive YoY, 100+ volume or strong GSC signal, SERP pass, clean intent
 - [ ] No campaign structure proposed before all confirmation criteria are met
+- [ ] Discovery Q&A phase run — anchor competition, cannibalisation tradeoffs, and borderline KD keywords surfaced as questions and resolved before the anchor is named
 
 ### Cluster Map
 - [ ] Each cluster has one distinct Tier 1 keyword with a clear modifier differentiating it from other clusters

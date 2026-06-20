@@ -27,6 +27,15 @@ The author persona file is a required dynamic connector. Load it alongside the c
 
 ---
 
+## Requirements
+
+- **[Hard]** Fact-checking (Phase 3) completes before any drafting begins — release dates, developer/publisher, platforms, and playtime are verified, never assumed.
+- **[Hard]** Keyword & SERP research (Phase 2) completes before drafting — keywords are identified first, never retrofitted into a finished draft.
+- **[Hard]** Every named game element used in a metric description (level, weapon, enemy, update) is verified against a live source before being cited.
+- **[Soft]** The assigned author's persona voice governs phrasing choices — relaxable only where the author persona file itself defines an exception.
+
+---
+
 ## Inputs
 
 | Input | Type | Required | Description |
@@ -47,14 +56,19 @@ Phase 2 — Claude          Keyword & SERP research: primary keyword, secondary 
      ↓
 Phase 3 — Claude          Fact-check research: Wikipedia, HowLongToBeat, platform pages
      ↓
-Phase 4 — Claude          Draft full game page with keywords integrated naturally
+Phase 4 — Claude          Discovery Q&A — surface conflicting or thin facts (release
+                          dates, platform list, sub-genre fit, named content used in
+                          metric descriptions) as direct questions. Halt until
+                          answered or explicitly waived.
      ↓
-Phase 5 — Claude          Validate against acceptance criteria; update tags indexes if needed
+Phase 5 — Claude          Draft full game page with keywords integrated naturally
      ↓
-Phase 6 — Claude          If game is on Steam: write Steam curator review (conditional)
+Phase 6 — Claude          Validate against acceptance criteria; update tags indexes if needed
+     ↓
+Phase 7 — Claude          If game is on Steam: write Steam curator review (conditional)
 ```
 
-Do not begin drafting until Phases 2 and 3 are complete. Keywords must be identified before writing begins — they cannot be integrated naturally if they are retrofitted after the draft is done.
+Do not begin drafting until Phases 2 through 4 are complete. Keywords must be identified before writing begins — they cannot be integrated naturally if they are retrofitted after the draft is done.
 
 ---
 
@@ -272,6 +286,7 @@ These apply at the **start** (to guide execution) and at the **end** (to validat
 - [ ] Full platform list verified
 - [ ] All named levels, weapons, enemies, or updates cited in metric descriptions verified by name against a live source
 - [ ] Playtime range sourced from HowLongToBeat or equivalent
+- [ ] Discovery Q&A phase run — conflicting or thin facts and sub-genre fit surfaced as questions and resolved before drafting begins
 
 ### SEO Meta
 - [ ] Meta title ends with ` | Metric Gamer`

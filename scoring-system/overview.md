@@ -22,16 +22,17 @@ A sub-genre does not add extra metrics on top of the genre — it **swaps** one 
 
 **Example:** Racing defaults to AI Quality as its 5th metric. When the sub-genre is Split Screen, AI Quality is swapped for Split Screen Performance — because split screen games are played against human opponents, making AI quality irrelevant to that experience.
 
-Each genre's `metrics.md` documents the default 5 and the swap table for all its sub-genres.
+Each genre's `metrics.md` documents the default 5 and the swap table for all its sub-genres — or, for a genre using the metric pool model (see Metrics below), the full pool and its suggested 5-metric profiles instead of a single default and swap table.
 
 ### Metrics
 
 A metric is a single, named dimension of quality for a specific genre or sub-genre context — e.g., **Car Roster** (the breadth of cars in a racing game).
 
 - Every campaign is scored on exactly **5 metrics**
-- Each genre defines its default 5 metrics
-- Sub-genres swap one or more defaults for context-specific metrics
-- The same metric is never counted twice (no overlaps)
+- By default, each genre defines one fixed set of 5 — this is the simple model most genres use
+- A genre may instead define a **metric pool of up to 10**, when one fixed 5 can't honestly cover contexts as different as a campaign and a large-scale multiplayer mode. When a genre uses a pool, individual pages select 5 from it — the ones most relevant to what that specific page is evaluating — instead of every game in the genre using one shared default. The same game can be scored on a different 5-metric selection across different pages (e.g. a campaign-focused list and a multiplayer-focused list pulling different profiles from the same genre's pool)
+- Sub-genres swap one or more metrics for context-specific ones. In the pool model, a sub-genre's "swap" can also just mean picking a different 5 directly from the pool rather than a forced 1-for-1 substitution
+- The same metric is never counted twice within a single page's 5 (no overlaps)
 
 ### Rubrics
 
@@ -67,7 +68,7 @@ Tags are defined separately under `/tags/` and are attached to games and lists a
 
 1. A **campaign** is created around a specific gaming context (e.g., *Best Split Screen Racing Games on PS2*)
 2. The campaign maps to a **genre** (Racing) and optionally a **sub-genre** (Split Screen Racing)
-3. The relevant **metrics** for that genre + sub-genre are identified
+3. The relevant **metrics** for that genre + sub-genre are identified — for a pool-model genre, this means selecting the 5 most relevant from the pool rather than reading off one fixed default
 4. Each metric has a pre-defined **rubric** — the scoring thresholds do not change per campaign
 5. Each game in the campaign is researched against player sources (Steam, Reddit, forums) and scored per metric using the rubric
 6. The per-metric scores combine into an overall score for that game within that campaign
@@ -89,7 +90,17 @@ scoring-system/
 │   │   │   ├── handling-model/rubric.md
 │   │   │   ├── progression/rubric.md
 │   │   │   └── ai-quality/rubric.md     ← default 5th; swapped out for split screen
-│   │   └── fighting/
+│   │   ├── fighting/
+│   │   └── shooters/
+│   │       ├── metrics.md               ← pool model: up to 10 metrics + suggested profiles
+│   │       ├── gunplay/rubric.md
+│   │       ├── weapon-variety/rubric.md
+│   │       ├── level-design/rubric.md
+│   │       ├── campaign-structure/rubric.md
+│   │       ├── enemy-variety/rubric.md
+│   │       ├── squad-play/rubric.md
+│   │       ├── maps/rubric.md
+│   │       └── movement/rubric.md
 │   └── sub-genres/
 │       └── split-screen/
 │           └── performance/rubric.md    ← replaces ai-quality for split screen campaigns
@@ -101,4 +112,4 @@ scoring-system/
     └── developer/
 ```
 
-Each metric lives inside its genre (or sub-genre) folder. The `rubric.md` inside each metric folder is the single source of truth for how that metric is scored.
+Each metric lives inside its genre (or sub-genre) folder. The `rubric.md` inside each metric folder is the single source of truth for how that metric is scored. A pool-model genre keeps every pool metric directly under its own `genres/{genre}/` folder rather than splitting context-specific ones into a separate `sub-genres/` folder — the pool already covers what swapping used to handle.
