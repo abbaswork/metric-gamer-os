@@ -73,7 +73,15 @@ Present the shortlist to the user before moving forward.
 ### Step 4 — SERP check (user executes)
 Instruct the user to search every shortlisted keyword incognito and report back the format above. Wait for results before proceeding.
 
-### Step 5 — Campaign anchor selection
+### Step 5 — Discovery Q&A
+Before selecting the anchor, surface any close call as a direct question and wait for the user's answer rather than deciding silently:
+- Two or more keywords are both SERP-PASS and close in volume/YoY — which should anchor the campaign?
+- A cluster would share more than one game with another cluster — proceed with the cannibalisation risk, or drop one keyword?
+- A keyword sits in the "Unknown" volume or borderline competition range — include on GSC signal alone, or exclude?
+
+Do not proceed to Step 6 until these are resolved or the user explicitly says to use your judgement.
+
+### Step 6 — Campaign anchor selection
 From SERP-validated keywords, select the campaign anchor:
 - Highest volume that passes the SERP check
 - Flat or growing YoY
@@ -81,10 +89,10 @@ From SERP-validated keywords, select the campaign anchor:
 
 State the anchor keyword and the reasoning explicitly.
 
-### Step 6 — Cluster map
+### Step 7 — Cluster map
 Map remaining validated keywords to clusters (ranked lists). Flag any cannibalisation risks (more than one shared game between clusters). Confirm each cluster has at least 3 supporting game pages in MG's content library.
 
-### Step 7 — Game page keyword assignments
+### Step 8 — Game page keyword assignments
 For each game in each cluster, assign:
 - One primary Tier 2 keyword (game name + modifier — not bare game name)
 - Two to three Tier 3 FAQ-level keywords

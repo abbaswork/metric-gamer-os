@@ -78,7 +78,18 @@ Do not begin drafting until all files are read and game data is extracted.
 
 ---
 
-## Step 3 — Draft the Ranked List
+## Step 3 — Discovery Q&A
+
+Before drafting, surface any close call from Steps 1–2 as a direct question rather than deciding silently:
+- Two or more games are tied on overall score — ask which metric should break the tie, or confirm the niche-relevant metric to use.
+- A source game's Pros/Cons or Who Is This Game For points are ambiguous in their relevance to `niche_focus` — ask whether to keep or omit them.
+- SERP research suggested a different angle or phrasing for `niche_focus` than what was provided — ask whether to adopt the refined framing.
+
+State the assumption you would otherwise make alongside each question. Do not begin drafting until the user answers or explicitly says to use your judgement.
+
+---
+
+## Step 4 — Draft the Ranked List
 
 Produce all sections in this order. Every section is required. Save the output to `writing/drafts/ranked/{list-slug}.md`.
 
@@ -199,7 +210,7 @@ These rules apply to every ranked entry. They exist to ensure the ranked list co
 
 ---
 
-## Step 4 — Validate
+## Step 5 — Validate
 
 Before submitting, verify every item below.
 
