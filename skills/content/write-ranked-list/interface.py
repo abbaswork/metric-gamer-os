@@ -106,6 +106,12 @@ def main():
 
     draft_paths = prompt_draft_paths()
 
+    cluster_context = prompt_input(
+        label="Cluster Context",
+        required=False,
+        hint="Cannibalisation flags or shared game constraints from the keyword strategy.\n  e.g. 'max 1 game shared with best-arcade-racing-ps5 cluster'\n  Leave blank if not part of a campaign."
+    )
+
     print("\n" + "-" * 50)
     print("SKILL: write-ranked-list")
     print("INPUTS:")
@@ -116,6 +122,8 @@ def main():
     print(f"  draft_paths:")
     for path in draft_paths:
         print(f"    - {path}")
+    if cluster_context:
+        print(f"  cluster_context: {cluster_context}")
     print("-" * 50 + "\n")
 
 

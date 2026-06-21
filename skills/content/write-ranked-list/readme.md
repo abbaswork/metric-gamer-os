@@ -31,10 +31,11 @@ The author persona file is a required dynamic connector. Load it alongside the c
 | Input | Type | Required | Description |
 |---|---|---|---|
 | `list_title` | string | Yes | Full title of the ranking (e.g., "Best Free Mobile Football Games 2026") |
-| `target_query` | string | Yes | The primary search query this list targets (e.g., "best free mobile football games 2026") |
+| `target_query` | string | Yes | The primary search query this list targets (e.g., "best free mobile football games 2026"). When this list is part of a campaign, use the confirmed cluster keyword from the keyword strategy output — do not invent a new query. |
 | `niche_focus` | string | Yes | One sentence on what makes this list specific — platform, price point, sub-genre, or audience |
 | `author` | enum | Yes | ABossProductions, Metric Gamer, Lobotomy_gaming, or 8-Bit Bandit |
 | `draft_paths` | string | Yes | Comma-separated paths to completed game page draft files. Minimum 2. |
+| `cluster_context` | string | No | Cannibalisation flags or shared game constraints from the keyword strategy cluster map (e.g., "max 1 game shared with best-arcade-racing-ps5 cluster"). Leave blank if not part of a campaign. |
 
 ---
 
@@ -43,8 +44,11 @@ The author persona file is a required dynamic connector. Load it alongside the c
 ```
 Phase 1 — interface.py    Collect list_title, target_query, niche_focus, author, draft_paths
      ↓
-Phase 2 — Claude          Keyword & SERP research: primary keyword, secondary keywords,
-                          search intent, competitor gaps, FAQ seeds
+Phase 2 — Claude          Keyword & SERP research: if target_query comes from a keyword
+                          strategy cluster keyword, validate it via SERP — confirm intent
+                          and competitor profile. Do not re-derive. If no strategy is in
+                          place, run full discovery: primary keyword, secondary keywords,
+                          search intent, competitor gaps, FAQ seeds.
      ↓
 Phase 3 — Claude          Load writing-style.md, eeat.md, persona.md, faq-templates.md,
                           author persona, and all source game page drafts. Extract game
@@ -126,7 +130,7 @@ Two paragraphs. Original copy — no sentences from any source game page.
 
 Following `writing/Writing-style.md`: reads like advice from a knowledgeable player surveying the options, not a directory listing or AI summary.
 
-- **Para 1** — The category, why it matters to players, what the landscape looks like. Primary keyword appears naturally here. No developer or publisher names.
+- **Para 1** — The category, why it matters to players, what the landscape looks like. The cluster keyword (target_query) must appear naturally here. No developer or publisher names.
 - **Para 2** — Reader framing. How the ranking works, what they'll find in the entries, what decision this helps them make. Does not pre-answer which game is best.
 
 ### 4. At A Glance Table
@@ -136,6 +140,8 @@ All games with overall scores and individual metric scores, copied directly from
 One section per game in rank order. Each entry: metric scores table, The Good (2–4 bullets), The Bad (2–4 bullets), Who Is This Game For (2 Play this if, 2 Skip this if), Final Verdict (1–2 sentences).
 
 All entry content reworded from source game pages following the rewrite rules in the command file: no bullet opens with the same word as its source counterpart, no Verdict opens with the same phrase as the source game page Verdict, all points niche-tailored to the list's focus.
+
+Where it fits naturally, integrate the cluster keyword or related keyword variants into entry prose. Aim for a keyword to appear roughly every 150 words across the page as a soft target — do not force placement if it does not arise naturally.
 
 ### 6. FAQs
 List-level questions about the category or how to choose — not game-specific questions. Second person, max 3 sentences per answer, lead with "no" where the answer is negative.
@@ -162,6 +168,10 @@ List-level questions about the category or how to choose — not game-specific q
 - [ ] The Good bullets lead with the most niche-relevant points
 - [ ] Final Verdicts open from a comparative or ranking context angle
 - [ ] Who Is This Game For trimmed to 2 most niche-relevant per side
+
+### Campaign Alignment
+- [ ] If part of a campaign: target_query matches the confirmed cluster keyword from the keyword strategy output
+- [ ] If cluster_context provided: no more than the stated number of games shared with other clusters
 
 ### SEO Meta
 - [ ] Meta title ends with ` | Metric Gamer`, under 60 characters, uses a list signal

@@ -7,6 +7,11 @@ A 31-step publishing lifecycle covering every stage from keyword discovery to lo
 ## Phase 1: Discovery and Planning
 
 ### Keyword Discovery
+
+**When writing campaign content:** If the page or list is part of a campaign with a keyword strategy output, the validated Tier 2 and Tier 3 keyword assignments from that output fully override this discovery process. Do not re-derive keywords that have already been validated. Use the SERP research steps below to confirm intent only.
+
+**When writing standalone content:** Run full keyword discovery using the steps below.
+
 - Prioritise low-to-medium difficulty gaming keywords first
 - Focus on search intent, not just search volume
 - Target long-tail phrases
@@ -48,6 +53,9 @@ A 31-step publishing lifecycle covering every stage from keyword discovery to lo
 - Make content actionable
 
 ### Content Brief Creation
+
+For campaign content: primary keyword = Tier 2 keyword from the keyword strategy assignment. Secondary keywords = Tier 3 keywords from the same assignment. These are not derived here — they are taken directly from the keyword strategy output.
+
 - Define primary keyword
 - Define secondary keywords
 - Define search intent

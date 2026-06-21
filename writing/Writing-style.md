@@ -14,7 +14,7 @@ The benchmark tool for checking copy is [aihumanize.io](https://aihumanize.io/) 
 
 Two paragraphs. No more.
 
-- **Paragraph 1** — The game's reputation and what it's known for. Lead with how the community or genre positions the game, then add the key numbers that back that up: series position, release era, car count, track count, approximate playtime scale, platform. Developer and publisher belong in the Game Details Card, not here — repeating them in the intro uses space for information the reader can already see at a glance. The paragraph should be keyword-rich but read like something a knowledgeable player would say, not a press release.
+- **Paragraph 1** — The game's reputation and what it's known for. Lead with how the community or genre positions the game, then add the key numbers that back that up: series position, release era, car count, track count, approximate playtime scale, platform. Developer and publisher belong in the Game Details Card, not here — repeating them in the intro uses space for information the reader can already see at a glance. When a keyword assignment is in place, the Tier 2 primary keyword must appear naturally in this paragraph. The paragraph should read like something a knowledgeable player would say, not a press release.
 
 - **Paragraph 2** — Reader framing, not a verdict. Tell the reader what the page covers and why working through it is useful to them. Do not summarise the game's strengths and weaknesses or deliver conclusions about whether it is worth playing. That is the Verdict's job. A paragraph 2 that pre-answers the page makes the metric breakdown feel like supporting evidence for a conclusion the reader already has, and makes the Verdict redundant. The close should point forward into the metrics.
 
@@ -74,6 +74,19 @@ Two to three sentences maximum. Summarise the overall experience and give a clea
 **Gran Turismo 7 / Handling Model / Score: 4** *(Lobotomy_gaming, user-written)*
 
 > GT7 has done a great job of getting all the important stuff right. For example, you can feel the different characteristics of road vehicles vs. race vehicles across classes, as well as the impact that tire compound choice has on cornering with a vehicle. The effort you put into setting up your vehicles is really reflected in the time you achieve in your lap times. Unfortunately, however, the Spec II update has introduced some inconsistency in the high speed behaviour of a small number of vehicles, which is worth knowing if you're planning to build a garage around specific cars.
+
+---
+
+## Keyword Integration
+
+When a keyword assignment is in place (from the keyword strategy output), the following placement rules apply:
+
+- **Tier 2 primary keyword** — must appear naturally in intro para 1, meta title or meta description, H1, and URL slug
+- **Tier 3 FAQ keywords** — used as FAQ question text or H2 headings; this is their primary placement, not prose
+- **Natural keyword density** — aim for a keyword to appear roughly every 150 words across the page as a soft target; integrate the Tier 2 or Tier 3 keywords into metric descriptions and prose where they arise naturally, but do not force placement if it breaks the flow
+- **Steam curator reviews** — keyword integration is not required; the curator review is scored-metric and character-count constrained, and forcing keywords compromises both
+
+These rules do not apply to standalone pages with no keyword assignment. In that case, keyword integration follows from the primary keyword identified in Phase 2 research.
 
 ---
 
