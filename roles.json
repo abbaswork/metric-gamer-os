@@ -13,16 +13,16 @@
       "granted_by": "abbaskhanwork@gmail.com",
       "grants": [
         {
-          "folder": "skills",
+          "folder": ".claude/skills",
           "subfolders": "all"
         },
         {
-          "folder": "knoweldge",
+          "folder": "knowledge",
           "subfolders": ["company", "persona"]
         },
         {
-          "folder": "content",
-          "subfolders": ["2026"]
+          "folder": "operations",
+          "subfolders": ["2026-Q3"]
         }
       ]
     }

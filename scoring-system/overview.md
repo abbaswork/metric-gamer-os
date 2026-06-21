@@ -14,15 +14,21 @@ A genre is the top-level category a game belongs to — e.g., **Racing**, **Figh
 
 Each genre has its own set of **metrics** that reflect what players in that genre actually care about. A racing game is not scored on the same things as a fighting game.
 
-### Sub-genres
+### Sub-genres and Niches
 
-A sub-genre is a more specific context within a genre — e.g., **Split Screen Racing** within Racing.
+Every genre has three layers of specificity:
 
-A sub-genre does not add extra metrics on top of the genre — it **swaps** one or more genre metrics for sub-genre-specific ones. The total is always 5.
+1. **Genre** — the top-level category (Racing, Fighting, RPG, Sports, Shooters). Genre-level metrics apply to all games in that genre by default. A game can sit at this level with no sub-genre assigned.
+2. **Sub-genre** — a named variant within a genre (e.g., JRPG, Cozy, Monster Hunter within RPG). Not every game needs a sub-genre. Sub-genres have their own metrics that reflect what makes that variant distinct.
+3. **Niche** — context modifiers that apply at either genre or sub-genre level: **Multiplayer** and **Free**. A niche can exist without a sub-genre.
 
-**Example:** Racing defaults to AI Quality as its 5th metric. When the sub-genre is Split Screen, AI Quality is swapped for Split Screen Performance — because split screen games are played against human opponents, making AI quality irrelevant to that experience.
+A niche does not add extra metrics on top — it **swaps** one or more metrics for niche-specific ones. The total is always 5.
 
-Each genre's `metrics.md` documents the default 5 and the swap table for all its sub-genres — or, for a genre using the metric pool model (see Metrics below), the full pool and its suggested 5-metric profiles instead of a single default and swap table.
+Niche rubrics live inside the genre or sub-genre folder under `niches/multiplayer/` or `niches/free/`. They are not shared across genres — each genre's niche rubrics are written specifically for that genre's context. Multiplayer for shooters scores squad play and netcode. Multiplayer for racing scores split-screen performance and online race integrity. The theme is the same; the criteria are different.
+
+**Example:** Racing defaults to AI Quality as its 5th metric. When the niche is Multiplayer (online), AI Quality is swapped for Online Race Integrity — because online races are evaluated on penalty systems and fair play, not AI behaviour.
+
+Each genre's `metrics.md` documents the default metrics and the swap tables for both niches — or, for a genre using the metric pool model (see Metrics below), the full pool and its suggested 5-metric profiles.
 
 ### Metrics
 
@@ -31,7 +37,7 @@ A metric is a single, named dimension of quality for a specific genre or sub-gen
 - Every campaign is scored on exactly **5 metrics**
 - By default, each genre defines one fixed set of 5 — this is the simple model most genres use
 - A genre may instead define a **metric pool of up to 10**, when one fixed 5 can't honestly cover contexts as different as a campaign and a large-scale multiplayer mode. When a genre uses a pool, individual pages select 5 from it — the ones most relevant to what that specific page is evaluating — instead of every game in the genre using one shared default. The same game can be scored on a different 5-metric selection across different pages (e.g. a campaign-focused list and a multiplayer-focused list pulling different profiles from the same genre's pool)
-- Sub-genres swap one or more metrics for context-specific ones. In the pool model, a sub-genre's "swap" can also just mean picking a different 5 directly from the pool rather than a forced 1-for-1 substitution
+- Niches swap one or more metrics for context-specific ones. In the pool model, a niche's "swap" can also just mean picking a different 5 directly from the pool rather than a forced 1-for-1 substitution
 - The same metric is never counted twice within a single page's 5 (no overlaps)
 
 ### Rubrics
@@ -67,8 +73,8 @@ Tags are defined separately under `/tags/` and are attached to games and lists a
 ## How It Comes Together
 
 1. A **campaign** is created around a specific gaming context (e.g., *Best Split Screen Racing Games on PS2*)
-2. The campaign maps to a **genre** (Racing) and optionally a **sub-genre** (Split Screen Racing)
-3. The relevant **metrics** for that genre + sub-genre are identified — for a pool-model genre, this means selecting the 5 most relevant from the pool rather than reading off one fixed default
+2. The campaign maps to a **genre** (Racing), optionally a **sub-genre** (e.g., JRPG for RPG), and optionally a **niche** (Multiplayer or Free)
+3. The relevant **metrics** for that genre + sub-genre + niche combination are identified — for a pool-model genre, this means selecting the 5 most relevant from the pool rather than reading off one fixed default
 4. Each metric has a pre-defined **rubric** — the scoring thresholds do not change per campaign
 5. Each game in the campaign is researched against player sources (Steam, Reddit, forums) and scored per metric using the rubric
 6. The per-metric scores combine into an overall score for that game within that campaign
@@ -80,36 +86,73 @@ Tags are defined separately under `/tags/` and are attached to games and lists a
 
 ```
 scoring-system/
-├── overview.md                           ← this file
-├── metrics/
-│   ├── genres/
-│   │   ├── racing/
-│   │   │   ├── metrics.md               ← default 5 metrics + sub-genre swap table
-│   │   │   ├── carlist/rubric.md
-│   │   │   ├── track-variety/rubric.md
-│   │   │   ├── handling-model/rubric.md
-│   │   │   ├── progression/rubric.md
-│   │   │   └── ai-quality/rubric.md     ← default 5th; swapped out for split screen
-│   │   ├── fighting/
-│   │   └── shooters/
-│   │       ├── metrics.md               ← pool model: up to 10 metrics + suggested profiles
-│   │       ├── gunplay/rubric.md
-│   │       ├── weapon-variety/rubric.md
-│   │       ├── level-design/rubric.md
-│   │       ├── campaign-structure/rubric.md
-│   │       ├── enemy-variety/rubric.md
-│   │       ├── squad-play/rubric.md
-│   │       ├── maps/rubric.md
-│   │       └── movement/rubric.md
-│   └── sub-genres/
-│       └── split-screen/
-│           └── performance/rubric.md    ← replaces ai-quality for split screen campaigns
+├── overview.md                               ← this file
+├── genres/
+│   ├── racing/
+│   │   ├── metrics.md                        ← default metrics + niche swap tables
+│   │   ├── research.md                       ← genre research (Reddit, Google Trends)
+│   │   ├── carlist/rubric.md
+│   │   ├── track-variety/rubric.md
+│   │   ├── handling-model/rubric.md
+│   │   ├── progression/rubric.md
+│   │   ├── ai-quality/rubric.md
+│   │   └── niches/
+│   │       ├── multiplayer/
+│   │       │   ├── split-screen/rubric.md
+│   │       │   ├── online-race-integrity/rubric.md
+│   │       │   └── matchmaking/rubric.md
+│   │       └── free/
+│   │           ├── monetisation/rubric.md
+│   │           └── car-access/rubric.md
+│   ├── fighting/
+│   │   ├── metrics.md
+│   │   ├── [genre rubrics]/
+│   │   └── niches/
+│   │       ├── multiplayer/
+│   │       │   ├── competitive-balance/rubric.md
+│   │       │   ├── netcode/rubric.md
+│   │       │   └── ranked-mode/rubric.md
+│   │       └── free/
+│   │           ├── monetisation/rubric.md
+│   │           └── roster-monetisation/rubric.md
+│   ├── shooters/
+│   │   ├── metrics.md                        ← pool model: up to 10 metrics + profiles
+│   │   ├── research.md
+│   │   ├── [genre rubrics]/
+│   │   └── niches/
+│   │       ├── multiplayer/
+│   │       │   ├── map-design/rubric.md
+│   │       │   ├── netcode/rubric.md
+│   │       │   └── squad-play/rubric.md
+│   │       └── free/
+│   │           ├── monetisation/rubric.md
+│   │           └── weapon-access/rubric.md
+│   ├── sports/
+│   │   ├── metrics.md
+│   │   ├── [genre rubrics]/
+│   │   └── niches/
+│   │       ├── multiplayer/
+│   │       │   └── multiplayer-quality/rubric.md
+│   │       └── free/
+│   │           └── monetisation/rubric.md
+│   └── rpg/
+│       ├── metrics.md                        ← genre-level defaults
+│       ├── niches/                           ← genre-level niches (no sub-genre required)
+│       │   ├── multiplayer/
+│       │   └── free/
+│       └── sub-genres/                       ← RPG has named sub-genres
+│           ├── cozy/
+│           ├── monster-hunter/
+│           ├── horror/
+│           └── action/
+│               └── niches/                   ← sub-genre-level niches
+│                   ├── multiplayer/
+│                   └── free/
 └── tags/
     ├── platforms/
     ├── players/
     ├── playtime/
-    ├── release-dates/
     └── developer/
 ```
 
-Each metric lives inside its genre (or sub-genre) folder. The `rubric.md` inside each metric folder is the single source of truth for how that metric is scored. A pool-model genre keeps every pool metric directly under its own `genres/{genre}/` folder rather than splitting context-specific ones into a separate `sub-genres/` folder — the pool already covers what swapping used to handle.
+Genre rubrics live inside their genre folder. Niche rubrics live inside `{genre}/niches/{multiplayer|free}/` or inside `{genre}/sub-genres/{sub-genre}/niches/{multiplayer|free}/`. Nothing is shared across genres. The `rubric.md` inside each metric folder is the single source of truth for how that metric is scored.

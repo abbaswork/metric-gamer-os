@@ -1,4 +1,4 @@
-# Skill: Write Ranked List
+﻿# Skill: Write Ranked List
 
 Write a complete, publish-ready ranked list page for Metric Gamer from completed game page drafts. The ranked list is a distinct content type from the individual game pages it draws from: it targets a different search query, serves a different reader intent, and must use different wording throughout to avoid duplicate content penalties. All prose must follow `writing/Writing-style.md` — consult it before drafting any section.
 
@@ -50,8 +50,8 @@ Read all of the following before drafting:
 
 - `writing/Writing-style.md` — **primary output standard for all prose in this ranking.** Every section must conform to it: no em dashes, no lists of three, contractions throughout, varied sentence length, no corporate qualifiers, no score justification language. Read this first and keep it open throughout drafting.
 - `writing/eeat.md` — publishing lifecycle; this skill follows Phases 1–7
-- `knoweldge/persona/persona.md` — site user personas; keep the reader's decision context in mind throughout
-- `knoweldge/site/faq-templates.md` — FAQ question pool and format rules
+- `company/persona/persona.md` — site user personas; keep the reader's decision context in mind throughout
+- `company/site/faq-templates.md` — FAQ question pool and format rules
 
 Then read the author persona file:
 
@@ -169,7 +169,7 @@ One section per game in rank order. Every entry contains exactly these elements 
 
 ### 6. FAQs
 
-Use templates from `knoweldge/site/faq-templates.md`. Select questions appropriate to the list's niche — these should be list-level questions about the category or how to choose, not game-specific questions (those belong on the individual game pages). Second person, max 3 sentences per answer, lead with "no" where the answer is negative.
+Use templates from `company/site/faq-templates.md`. Select questions appropriate to the list's niche — these should be list-level questions about the category or how to choose, not game-specific questions (those belong on the individual game pages). Second person, max 3 sentences per answer, lead with "no" where the answer is negative.
 
 ---
 

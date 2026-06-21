@@ -1,0 +1,29 @@
+﻿{
+  "skill": "keyword-strategy",
+  "connectors": [
+    {
+      "id": "keyword-strategy-framework",
+      "file": "company/site/keyword-strategy.md",
+      "importance": 5,
+      "purpose": "Primary framework for all decisions in this skill — DA 2 filter, modifier formula, keyword tiers, traffic model, SERP pass criteria, campaign and cluster formulation rules. Every output decision references this document."
+    },
+    {
+      "id": "eeat-framework",
+      "file": "writing/eeat.md",
+      "importance": 3,
+      "purpose": "Informs which content types and quality signals are required for a page to rank — ensures keyword assignments map to pages that can actually compete, not just pages that exist."
+    },
+    {
+      "id": "site-structure",
+      "file": "company/site/site-structure.md",
+      "importance": 3,
+      "purpose": "Defines the two page types that receive keyword assignments (game pages and ranked list pages) and their URL structures — ensures cluster and game page keyword assignments are formatted correctly and internally linked."
+    },
+    {
+      "id": "user-personas",
+      "file": "company/persona/persona.md",
+      "importance": 2,
+      "purpose": "Informs intent analysis — understanding who the searcher is helps identify whether a query is list intent, game-specific intent, or question intent, which determines which page type should target it."
+    }
+  ]
+}

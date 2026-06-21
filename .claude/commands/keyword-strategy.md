@@ -1,16 +1,16 @@
-# Command: Keyword Strategy
+﻿# Command: Keyword Strategy
 
-Read `skills/content/keyword-strategy/readme.md`, `skills/content/keyword-strategy/connector.json`, and `knoweldge/site/keyword-strategy.md` before doing anything else. Every decision in this command is governed by those files.
+Read `.claude/skills/keyword-strategy/readme.md`, `.claude/skills/keyword-strategy/connector.json`, and `company/site/keyword-strategy.md` before doing anything else. Every decision in this command is governed by those files.
 
 ---
 
 ## Step 1 — Load Knowledge Connectors
 
 Read in order:
-1. `knoweldge/site/keyword-strategy.md` — primary framework (importance 5)
+1. `company/site/keyword-strategy.md` — primary framework (importance 5)
 2. `writing/eeat.md` — content quality context (importance 3)
-3. `knoweldge/site/site-structure.md` — page types and URL structure (importance 3)
-4. `knoweldge/persona/persona.md` — searcher intent context (importance 2)
+3. `company/site/site-structure.md` — page types and URL structure (importance 3)
+4. `company/persona/persona.md` — searcher intent context (importance 2)
 
 Confirm inputs received: campaign_topic, existing_content, keyword_csv_path, gsc_csv_path, semrush_available, content_constraints (if provided).
 
@@ -128,7 +128,7 @@ State the assumption you would otherwise make alongside each question. Do not pr
 
 ## Step 8 — Evaluate SERP Results and Select Campaign Anchor
 
-Apply the SERP pass criteria from `knoweldge/site/keyword-strategy.md` to each returned result.
+Apply the SERP pass criteria from `company/site/keyword-strategy.md` to each returned result.
 
 Mark each keyword explicitly:
 - **SERP PASS** — no IGN/Metacritic/Fandom/Wikipedia in positions 1–3; at least 2 smaller/medium sites or forum threads in top 5; intent is clean
@@ -187,7 +187,7 @@ List every game needed by the cluster map that does not have an existing MG page
 
 ## Step 12 — Validate and Deliver
 
-Check every item in the acceptance criteria in `skills/content/keyword-strategy/readme.md` before delivering the keyword map.
+Check every item in the acceptance criteria in `.claude/skills/keyword-strategy/readme.md` before delivering the keyword map.
 
 **Output format:**
 

@@ -1,4 +1,4 @@
-# Skill: Write Game Page
+﻿# Skill: Write Game Page
 
 Write a complete, publish-ready game page for Metric Gamer following the EEAT lifecycle and Writing Style Guide.
 
@@ -21,8 +21,8 @@ Before doing anything else, read all of the following files:
 
 - `writing/Writing-style.md` — primary output standard; every paragraph must conform before submission
 - `writing/eeat.md` — publishing lifecycle; defines phases 1–7
-- `knoweldge/persona/persona.md` — site user personas; keep the reader audience-aware throughout
-- `knoweldge/site/faq-templates.md` — FAQ question pool and format rules
+- `company/persona/persona.md` — site user personas; keep the reader audience-aware throughout
+- `company/site/faq-templates.md` — FAQ question pool and format rules
 - `scoring-system/overview.md` — scoring background; informs metric set selection and rubric interpretation
 
 Then read the author persona file based on the `author` input:
@@ -38,11 +38,11 @@ Then read the genre metric set and all rubric files for the given genre:
 
 | Genre | Metrics file | Rubric folder |
 |---|---|---|
-| Racing | `scoring-system/metrics/genres/racing/metrics.md` | `scoring-system/metrics/genres/racing/` |
-| Fighting | `scoring-system/metrics/genres/fighting/metrics.md` | `scoring-system/metrics/genres/fighting/` |
-| Shooter | `scoring-system/metrics/genres/shooters/metrics.md` | `scoring-system/metrics/genres/shooters/` |
+| Racing | `scoring-system/genres/racing/metrics.md` | `scoring-system/genres/racing/` |
+| Fighting | `scoring-system/genres/fighting/metrics.md` | `scoring-system/genres/fighting/` |
+| Shooter | `scoring-system/genres/shooters/metrics.md` | `scoring-system/genres/shooters/` |
 
-If a `sub_genre` was provided, also read the relevant sub-genre rubric files under `scoring-system/metrics/sub-genres/`.
+If a `sub_genre` was provided, also read the relevant niche rubric files under `scoring-system/genres/{genre}/niches/{sub_genre}/`.
 
 Do not proceed to Step 2 until all files above are read.
 
@@ -172,7 +172,7 @@ Format:
 2–3 sentences. Overall experience summary and a clear recommendation. "One of the" is acceptable. No stronger superlatives.
 
 ### 10. FAQs
-Use templates from `knoweldge/site/faq-templates.md`. Universal questions plus any conditional categories that apply. Second person, max 3 sentences per answer, lead with "no" where the answer is negative.
+Use templates from `company/site/faq-templates.md`. Universal questions plus any conditional categories that apply. Second person, max 3 sentences per answer, lead with "no" where the answer is negative.
 
 ### 11. Tags
 All applicable tags: developer, publisher, platforms, players, playtime range. After writing the page, check each tag index file and add any new entries not already present.

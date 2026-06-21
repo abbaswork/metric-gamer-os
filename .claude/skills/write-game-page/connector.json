@@ -1,0 +1,44 @@
+﻿{
+  "skill": "write-game-page",
+  "connectors": [
+    {
+      "id": "writing-style-guide",
+      "file": "writing/Writing-style.md",
+      "importance": 5,
+      "purpose": "Primary output standard — defines the structure, tone, and rules for every section of the game page. Every paragraph must conform to this before submission."
+    },
+    {
+      "id": "eeat-framework",
+      "file": "writing/eeat.md",
+      "importance": 4,
+      "purpose": "Defines the publishing lifecycle this skill follows. Phases 1–7 map to the execution flow: keyword and SERP research, content planning, writing, technical, on-page SEO, publishing, and post-publish. Compliance with EEAT is a hard requirement."
+    },
+    {
+      "id": "user-personas",
+      "file": "company/persona/persona.md",
+      "importance": 3,
+      "purpose": "Keeps the page audience-aware. Every section should be written for the Metric Gamer reader — the player who wants peer-validated context before buying, not a critic's verdict."
+    },
+    {
+      "id": "faq-templates",
+      "file": "company/site/faq-templates.md",
+      "importance": 3,
+      "purpose": "Provides the question pool for the FAQ section. Universal questions apply to every game; conditional categories apply where the game qualifies. Templates define format rules (second person, 3 sentences max, lead negative with 'no')."
+    },
+    {
+      "id": "scoring-system-overview",
+      "file": "scoring-system/overview.md",
+      "importance": 2,
+      "purpose": "Background reference for how metrics, rubrics, and scores relate. Informs which genre metric set to select and how to interpret rubric levels when assigning scores."
+    }
+  ],
+  "dynamic_connectors": {
+    "note": "Load the author persona file that matches the 'author' input before writing. This is required — the author persona defines voice, vocabulary, what the author notices, and how they close each section.",
+    "map": {
+      "ABossProductions": "writing/author-personas/abossgaming.md",
+      "Metric Gamer": "writing/author-personas/metric-gamer.md",
+      "Lobotomy_gaming": "writing/author-personas/lobotomy-gaming.md",
+      "8-Bit Bandit": "writing/author-personas/8-bit-bandit.md"
+    }
+  }
+}

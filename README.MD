@@ -1,491 +1,151 @@
-# 📊 Metric Gamer OS — Project Proposal
+# Metric Gamer OS
 
-## 1. Overview
-
-Metric Gamer OS is an AI-assisted content + SEO operating system designed to unify:
-
-* Game review generation
-* SEO keyword research
-* Content planning and scheduling
-* Community-driven ranking systems
-* Editorial workflows
-* Data-backed content production
-
-The system treats **GitHub as the source of truth**, where structured knowledge, workflows (“skills”), and templates are stored, while execution is handled through Claude + MCP integrations and optional tooling layers.
-
-The core principle:
-
-> Workflows matter more than tools. Tools are interchangeable execution layers.
+The operating system for [metricgamer.com](https://www.metricgamer.com) — a structured, AI-assisted system for producing game pages, ranked lists, and SEO campaigns grounded in real player research.
 
 ---
 
-## 2. Core Design Principles
+## What This Is
 
-### 2.1 GitHub = Source of Truth
+Metric Gamer scores games using a rubric system built from community research (Reddit, Google Trends, player forums). Every score on the site traces back to a genre-specific metric, and every metric traces back to what players actually say makes a game good or bad in that context.
 
-All stable system knowledge lives in:
-
-* `/skills` → AI execution workflows
-* `/knoweldge` → context around metric gamer
-* `/templates` → content structures
-* `/seo` → keyword rules and models
-* `/content` → editorial systems
-* `/metrics` → scoring logic
-* `/community` → aggregation logic
-
-Format constraints:
-
-* `.md` → logic + human readable workflows
-* `.json` → structured schemas
-* `.csv` → dataset snapshots
+This repo holds the full operating system: the company context, the scoring system, the writing rules, the skills that run each workflow, and the campaign records that track what's been produced.
 
 ---
 
-### 2.2 Claude = Execution Engine (not UI)
+## Folder Structure
 
-Claude is used for:
-
-* interpreting “skills”
-* generating structured outputs
-* transforming data
-* executing workflows via MCP tools
-* updating GitHub + data sources
-
----
-
-### 2.3 MCP = Integration Layer
-
-MCP tools provide controlled access to:
-
-* GitHub (read/write repo)
-* WordPress (content publishing)
-* Google Sheets (optional Phase 3)
-* External SEO APIs (future)
-
----
-
-### 2.4 No premature abstraction
-
-No portal, backend, or UI layer is introduced until workflows are validated in real usage.
-
----
-
-## 3. System Architecture (Phase 1–3 Model)
-
-```text
-          Claude (Execution Layer)
-                   ↓
-        MCP Tooling / API Layer
-     ┌─────────────┴─────────────┐
-     ↓                           ↓
-   GitHub                    Data Sources
- (source of truth)     (Sheets / CSV / APIs)
-     ↓
-Markdown / JSON / CSV workflow definitions
+```
+metric-gamer-os/
+│
+├── .claude/
+│   ├── commands/          ← slash command entry points (run these in Claude Code)
+│   └── skills/            ← full skill packages: readme + interface.py + connector.json
+│
+├── company/               ← context about Metric Gamer as a business
+│   ├── overview.md        ← what MG is, UVP, how the system works
+│   ├── pillars.md         ← editorial and brand principles
+│   ├── revenue-share.md   ← contributor point and revenue model
+│   ├── persona/
+│   │   └── persona.md     ← reader audience profiles
+│   └── site/
+│       ├── keyword-strategy.md   ← keyword tier system, DA filter, cluster rules
+│       ├── site-structure.md     ← page types and URL conventions
+│       └── faq-templates.md      ← FAQ question pool and format rules
+│
+├── operations/            ← milestone and campaign tracking
+│   └── 2026-Q3/
+│       ├── okrs.md
+│       ├── goals.md
+│       ├── projects.md    ← quarter-wide task list with point allocations
+│       ├── retrospective.md
+│       ├── to-do.md
+│       └── campaigns/     ← one folder per active campaign
+│           └── {campaign}/
+│               ├── keywords/   ← keyword planner exports + keywords.md strategy
+│               └── drafts/     ← game page and ranked list drafts
+│
+├── scoring-system/
+│   ├── overview.md        ← how genres, sub-genres, niches, and rubrics relate
+│   ├── genres/
+│   │   └── {genre}/
+│   │       ├── research.md          ← genre research (Reddit + Google Trends)
+│   │       ├── sub-genres/
+│   │       │   └── {sub-genre}/
+│   │       │       ├── {metric}/rubric.md   ← one folder per metric, rubric inside
+│   │       │       └── niches/
+│   │       │           ├── multiplayer/
+│   │       │           │   └── {metric}/rubric.md
+│   │       │           └── free/
+│   │       │               └── {metric}/rubric.md
+│   │       └── niches/              ← genre-level niches (no sub-genre required)
+│   │           ├── multiplayer/
+│   │           └── free/
+│   └── tags/              ← metadata only, not scoring inputs
+│       ├── platforms/
+│       ├── players/
+│       ├── playtime/
+│       └── developer/
+│
+├── writing/
+│   ├── eeat.md            ← EEAT framework and 7-phase publishing lifecycle
+│   ├── Writing-style.md   ← prose rules: tone, structure, what to avoid
+│   ├── author-personas/   ← voice file per author contributor
+│   └── audits/            ← site and content quality audits
+│
+├── roles.json             ← team access permissions
+└── README.md              ← this file
 ```
 
----
-
-# 4. Phased Execution Roadmap
+**Current genres:** Racing, Fighting, Shooters (sub-genres: fps, battle-royale), Sports (sub-genre: football), RPG (sub-genres: cozy, monster-hunter, horror, action)
 
 ---
 
-## 🟢 Phase 1 — Local GitHub Operating System (Foundation)
+## The Content Workflow
 
-### Goal:
+Every piece of content follows this sequence. Skills handle the AI-heavy steps.
 
-Establish all workflows, structures, and AI execution patterns locally.
+### 1. Set campaign direction
+Start in `operations/{milestone}/`. OKRs and goals set what the quarter is targeting. Create a campaign folder under `campaigns/` for the topic you're working on.
 
-### Scope:
+### 2. Keyword research → campaign strategy
+Run `/keyword-research` to pull data from Google Keyword Planner. Export CSVs into `campaigns/{campaign}/keywords/`. Then run `/keyword-strategy` to produce Tier 2 (game page) and Tier 3 (FAQ/H2) keyword assignments for the campaign.
 
-* Everything stored in GitHub:
+### 3. Build the scoring system
+Run the scoring-system skill (`python .claude/skills/scoring-system/interface.py`) for your genre and sub-genre. This reads the genre's `research.md` file and produces metrics and rubrics. Rubrics land in `scoring-system/genres/{genre}/sub-genres/{sub-genre}/{metric}/rubric.md`.
 
-  * Markdown (skills, templates, processes)
-  * CSV (datasets, keyword exports)
-  * JSON (structured configs)
+Before running: `research.md` must exist for the genre. If it doesn't, the skill will halt and guide you through building it first (Google Trends + Reddit research — no AI substitution).
 
-* Execution via:
+### 4. Write game pages
+Run `/write-game-page` with `game_name | genre | sub_genre | author`. The skill reads writing rules, author persona, genre rubrics, and keyword assignment — then produces a full publish-ready draft. Save to `campaigns/{campaign}/drafts/`.
 
-  * VS Code + Claude Code
-  * MCP GitHub integration
-
-* No backend
-
-* No portal
-
-* No shared orchestration layer
+### 5. Write ranked lists
+Run `/write-ranked-list` once enough game page drafts exist for the campaign. The skill pulls scores and metadata from the drafts and produces a ranked list with intro, entries, and FAQs.
 
 ---
 
-### Deliverables:
+## Skills Reference
 
-* `/skills` framework defined
-* Review generation workflow
-* Keyword research workflow
-* Content templates
-* Metric scoring system (v1)
-* Basic AI execution patterns validated
+Skills live in `.claude/skills/`. Each skill has three files:
+- `readme.md` — full execution instructions Claude follows
+- `interface.py` — collects inputs and prints the structured prompt block
+- `connector.json` — declares which knowledge files the skill must read before starting
 
----
-
-### Constraints:
-
-* No centralized UI
-* Manual execution per user
-* No automation layer yet
+| Skill | Trigger | What it does |
+|---|---|---|
+| keyword-strategy | `/keyword-strategy` | Produces Tier 2 + Tier 3 keyword assignments for a campaign |
+| scoring-system | `python .claude/skills/scoring-system/interface.py` | Generates metrics and rubrics for a genre/sub-genre |
+| write-game-page | `/write-game-page` | Writes a complete game page with scores, FAQs, and meta |
+| write-ranked-list | `/write-ranked-list` | Writes a ranked list from existing game page drafts |
 
 ---
 
-## 🟡 Phase 2 — Skills & Workflow Formalization
+## Scoring System
 
-### Goal:
+Every game is scored on exactly 5 metrics. Metrics are specific to the genre and sub-genre — a racing game is not scored on the same things as an RPG.
 
-Standardize all AI operations into reusable “skills”.
+**Three levels of specificity:**
 
----
+1. **Genre** — top-level category (Racing, Fighting, RPG, Sports, Shooters)
+2. **Sub-genre** — named variant within a genre (e.g. FPS within Shooters, Football within Sports). Not every game requires one.
+3. **Niche** — context modifier: **Multiplayer** or **Free**. Can apply at genre or sub-genre level.
 
-### Definition: Skill
+Metrics live as `rubric.md` files inside their sub-genre or niche folder. A rubric defines what scores 1–5 mean in concrete, measurable terms for that specific context. The same rubric is applied to every game scored against it — that's what makes scores comparable within a ranked list.
 
-A skill is a structured workflow definition containing:
-
-* Inputs
-* Outputs
-* Required datasets
-* Step-by-step reasoning process
-* Validation rules
-* Data update targets
+See `scoring-system/overview.md` for the full structural reference.
 
 ---
 
-### Example Skill Structure:
+## For AI Reading This
 
-```text
-/skills/keyword-research.md
+Before any content task, read:
+- `writing/eeat.md` — the 7-phase publishing lifecycle every page follows
+- `writing/Writing-style.md` — prose rules that override default writing behaviour
+- `company/overview.md` — what Metric Gamer is and who it's for
+- `company/persona/persona.md` — who the reader is
 
-Inputs:
-- topic
-- region
-- intent type
+Before any scoring or research task, read:
+- `scoring-system/overview.md` — structural rules for metrics, rubrics, and genres
 
-Process:
-1. Load keyword dataset
-2. Cluster by intent
-3. Score by relevance model
-4. Filter duplicates
-5. Output structured table
+Connector files (`connector.json`) in each skill declare exactly which files to load and in what priority order. Always read the connector before starting a skill.
 
-Outputs:
-- keyword clusters (CSV/Sheet format)
-- content opportunities
-- priority score list
-```
-
----
-
-### Deliverables:
-
-* Standard skill schema
-* Skill registry
-* Execution conventions for Claude
-* Input/output validation rules
-* Reusable workflow templates
-
----
-
-## 🟠 Phase 3 — Integration Layer (Tools vs Workflows Separation)
-
-### Goal:
-
-Introduce external data systems only when workflow needs exceed GitHub capabilities.
-
----
-
-### Decision principle:
-
-> If structured human interaction is needed → use Google Sheets
-> If structured system logic is needed → use GitHub
-> If automation is needed → use MCP/API layer
-
----
-
-### Options:
-
-#### Option A — Google Sheets Integration
-
-Used for:
-
-* keyword databases
-* content calendars
-* editorial tracking
-
-Via:
-
-* MCP Google Sheets API integration
-
----
-
-#### Option B — Code-based Data Layer
-
-Replace Sheets where needed:
-
-* JSON datasets
-* CSV pipelines
-* GitHub-based structured tables
-
----
-
-### Deliverables:
-
-* Sheet integration decision per workflow
-* MCP-based read/write connectors
-* Hybrid data model validation
-
----
-
-## 🔵 Phase 4 — Portal + Orchestration Layer (Conditional)
-
-### Trigger condition:
-
-Only implemented if:
-
-* multiple non-technical users require access
-* workflow standardization becomes critical
-* cross-tool execution complexity increases
-* operational scaling requires central control
-
----
-
-### Architecture:
-
-```text
-os.metricgamer.com (Frontend UI)
-          ↓
-Backend Orchestrator (Node/Python)
-          ↓
-Claude API + MCP tools
-          ↓
-GitHub + Sheets + WordPress
-```
-
----
-
-### Portal Responsibilities:
-
-* Trigger skills
-* Display outputs
-* Show workflow status
-* Provide single entry point for non-technical users
-* NOT replace Sheets or GitHub UI
-
----
-
-### Deliverables:
-
-* Skill execution API (`runSkill`)
-* Authentication layer
-* Workflow dashboard
-* Integration routing layer
-
----
-
-## 🔴 Phase 5 — Automation Layer (Scheduled Intelligence)
-
-### Goal:
-
-Move from manual execution → autonomous execution.
-
----
-
-### Features:
-
-* Scheduled keyword research updates
-* Weekly content generation
-* Automated SEO audits
-* Content performance updates
-* Community ranking recalculations
-
----
-
-### Architecture:
-
-```text
-Scheduler (cron / queue system)
-          ↓
-Orchestrator
-          ↓
-Claude execution
-          ↓
-GitHub + Sheets updates
-```
-
----
-
-# 5. Metric Gamer Use Cases (AI Workflows)
-
----
-
-## 5.1 Game Review Generation Workflow
-
-### Objective:
-
-Generate structured, metric-based game reviews.
-
----
-
-### Input:
-
-* Game title
-* Platform
-* Genre
-* Community data sources
-
----
-
-### Process:
-
-1. Load review template from GitHub
-
-2. Fetch community sentiment (Reddit, forums, etc.)
-
-3. Break game into metric categories:
-
-   * Gameplay mechanics
-   * Story depth
-   * Replayability
-   * Performance
-   * Innovation
-   * Value for money
-
-4. Score each category (0–10)
-
-5. Generate weighted final score
-
-6. Produce structured review output
-
----
-
-### Output:
-
-```text
-- Structured review (Markdown)
-- Score breakdown table
-- Pros / cons summary
-- SEO-optimized article version
-- Rank placement eligibility
-```
-
----
-
-## 5.2 Ranked List Generation Workflow
-
-### Objective:
-
-Generate ranked game lists using metric aggregation.
-
----
-
-### Process:
-
-1. Pull multiple game reviews
-2. Normalize scoring weights
-3. Apply ranking algorithm
-4. Integrate community sentiment weighting
-5. Produce ranked list with explanations
-
----
-
-### Output:
-
-* Top 10 lists
-* Weighted ranking table
-* Justification per rank
-* SEO-ready article format
-
----
-
-## 5.3 Keyword Research Workflow
-
-### Objective:
-
-Generate SEO-optimized keyword clusters for gaming content.
-
----
-
-### Process:
-
-1. Input topic (e.g. “best RPG games”)
-2. Fetch keyword dataset (Sheets or CSV)
-3. Cluster by intent:
-
-   * informational
-   * transactional
-   * comparison
-4. Score by:
-
-   * volume
-   * competition
-   * relevance
-5. Output structured clusters
-
----
-
-### Output:
-
-* Keyword clusters
-* Priority list
-* Content ideas mapped to clusters
-
----
-
-## 5.4 Community Sentiment Aggregation
-
-### Objective:
-
-Incorporate external community opinions into scoring system.
-
----
-
-### Sources:
-
-* Reddit discussions
-* Steam reviews
-* Gaming forums
-* YouTube sentiment summaries
-
----
-
-### Process:
-
-1. Scrape or API ingest sentiment data
-2. Normalize sentiment scoring
-3. Map sentiment to review metrics
-4. Adjust final ranking weights
-
----
-
-# 6. Key Architectural Decision Rule
-
-At every stage:
-
-> Prefer workflow clarity over tool complexity
-
----
-
-# 7. Success Criteria
-
-* All core workflows executable via Claude + GitHub (Phase 1–2)
-* Skills are reusable and deterministic
-* No dependency on UI for execution
-* Clear separation between:
-
-  * knowledge (GitHub)
-  * data (Sheets/CSV)
-  * execution (Claude)
-
----
-
-If you want next, I can convert this into:
-
-* a **real GitHub repo structure (folders + example files)**
-* a **skill schema template you can immediately implement**
-* or a **minimal MCP + Claude execution spec (actual API flow + pseudocode)**
+Research for genre metrics comes from `scoring-system/genres/{genre}/research.md` — built from real Reddit threads and Google Trends data, not AI inference. Do not substitute your own web search for a missing research file.
