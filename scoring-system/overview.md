@@ -18,8 +18,8 @@ Each genre has its own set of **metrics** that reflect what players in that genr
 
 Every genre has three layers of specificity:
 
-1. **Genre** — the top-level category (Racing, Fighting, RPG, Sports, Shooters). Genre-level metrics apply to all games in that genre by default. A game can sit at this level with no sub-genre assigned.
-2. **Sub-genre** — a named variant within a genre (e.g., JRPG, Cozy, Monster Hunter within RPG). Not every game needs a sub-genre. Sub-genres have their own metrics that reflect what makes that variant distinct.
+1. **Genre** — the top-level category (Racing, Fighting, RPG, Sports, Shooters). Genre-level metrics apply to all games in that genre by default. A game can sit at this level with no sub-genre assigned — unless the genre's `metrics.md` states that a sub-genre is always required (see Fighting).
+2. **Sub-genre** — a named variant within a genre (e.g., platform-fighter, traditional, party within Fighting; JRPG, Cozy, Monster Hunter within RPG). Not every game needs a sub-genre unless the genre mandates it. Sub-genres have their own metrics that reflect what makes that variant distinct. When a genre mandates sub-genres, every game in that genre must be assigned one — there is no genre-level default scoring.
 3. **Niche** — context modifiers that apply at either genre or sub-genre level: **Multiplayer** and **Free**. A niche can exist without a sub-genre.
 
 A niche does not add extra metrics on top — it **swaps** one or more metrics for niche-specific ones. The total is always 5.
@@ -104,10 +104,38 @@ scoring-system/
 │   │       └── free/
 │   │           ├── monetisation/rubric.md
 │   │           └── car-access/rubric.md
-│   ├── fighting/
+│   ├── fighting/                                 ← sub-genre always required
 │   │   ├── metrics.md
-│   │   ├── [genre rubrics]/
-│   │   └── niches/
+│   │   ├── research.md
+│   │   ├── sub-genres/
+│   │   │   ├── platform-fighter/               ← all 7 base metrics (tailored) + unique
+│   │   │   │   ├── roster-depth/rubric.md
+│   │   │   │   ├── combat-feel/rubric.md
+│   │   │   │   ├── gameplay-depth/rubric.md
+│   │   │   │   ├── competitive-balance/rubric.md
+│   │   │   │   ├── accessibility/rubric.md
+│   │   │   │   ├── content-modes/rubric.md
+│   │   │   │   ├── presentation-artstyle/rubric.md
+│   │   │   │   └── stage-design/rubric.md      ← unique to platform-fighter
+│   │   │   ├── traditional/                    ← all 7 base metrics (tailored) + unique
+│   │   │   │   ├── roster-depth/rubric.md
+│   │   │   │   ├── combat-feel/rubric.md
+│   │   │   │   ├── gameplay-depth/rubric.md
+│   │   │   │   ├── competitive-balance/rubric.md
+│   │   │   │   ├── accessibility/rubric.md
+│   │   │   │   ├── content-modes/rubric.md
+│   │   │   │   ├── presentation-artstyle/rubric.md
+│   │   │   │   └── combo-system/rubric.md      ← unique to traditional
+│   │   │   └── party/                          ← all 7 base metrics (tailored) + unique
+│   │   │       ├── roster-depth/rubric.md
+│   │   │       ├── combat-feel/rubric.md
+│   │   │       ├── gameplay-depth/rubric.md
+│   │   │       ├── competitive-balance/rubric.md
+│   │   │       ├── accessibility/rubric.md
+│   │   │       ├── content-modes/rubric.md
+│   │   │       ├── presentation-artstyle/rubric.md
+│   │   │       └── party-entertainment/rubric.md ← unique to party
+│   │   └── niches/                             ← genre-level; apply on top of any sub-genre
 │   │       ├── multiplayer/
 │   │       │   ├── competitive-balance/rubric.md
 │   │       │   ├── netcode/rubric.md

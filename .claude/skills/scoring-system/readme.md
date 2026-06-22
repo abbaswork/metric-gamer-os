@@ -22,8 +22,63 @@ Research is weighted highest (5) — the manually curated `research/{genre}/read
 - **[Hard]** Every page is still scored on exactly 5 metrics. By default a genre defines one fixed set of 5 (the simple model). A genre may instead define a **metric pool of up to 10** when the research shows contexts too different to share one 5 (e.g. a campaign mode and a large-scale multiplayer mode) — see "Choosing simple vs. pool model" in the Research Strategy section. Whichever model is used, never propose more than 10 in a pool or more than 5 in a fixed set.
 - **[Hard]** `research/{genre}/readme.md` must exist before metric generation proceeds. If it's missing, Claude does not substitute its own web search as the primary source — it halts and guides the user through building the file (Google Trends + Reddit research on genre-defining games), per "No research file found" in the Research Strategy section below.
 - **[Hard]** Every metric has a stated direction (Delight or Complaint) with a rubric that can be applied consistently across every game — a theme with no rubric-able threshold cannot become a metric.
+- **[Hard]** Every rubric — including base genre metrics, sub-genre-specific unique metrics, and niche metrics — must cite at least one external source (web article, game design analysis, or community discussion) beyond research.md in its Sources section. A rubric backed solely by research.md entries is incomplete and must not be submitted.
 - **[Soft]** A sub-genre reuses a parent-genre metric wherever the theme still applies, rather than introducing an unrelated new one — relaxable only if Discovery Q&A confirms the parent metric genuinely doesn't transfer to the sub-genre context.
 - **[Hard]** Sub-genre rubrics are written to the genre they belong to — they live inside `scoring-system/genres/{genre}/niches/{multiplayer|free}/` and are not shared across genres. Multiplayer for shooters is not the same rubric as multiplayer for racing.
+
+---
+
+## Output File Structure
+
+All output files live inside `scoring-system/genres/{genre}/`. The exact structure depends on whether the genre uses sub-genres or not.
+
+### Genre with sub-genres (e.g. Fighting)
+
+When a genre mandates sub-genres (check `metrics.md` — it will state this explicitly), there are **no metric folders at the genre level**. Every rubric lives inside a sub-genre folder:
+
+```
+scoring-system/genres/{genre}/
+├── research.md
+├── metrics.md
+├── sub-genres/
+│   ├── {sub-genre}/
+│   │   ├── {base-metric-1}/rubric.md     ← all base metrics, tailored to this sub-genre
+│   │   ├── {base-metric-2}/rubric.md
+│   │   ├── ...
+│   │   └── {unique-metric}/rubric.md     ← sub-genre-specific metric(s)
+│   └── {sub-genre-2}/
+│       └── ...                           ← same structure: all base metrics + unique
+└── niches/
+    ├── multiplayer/
+    │   └── {metric}/rubric.md
+    └── free/
+        └── {metric}/rubric.md
+```
+
+**Rules for sub-genre organisation:**
+- Every sub-genre folder must contain **all base genre metrics** — rewritten and tailored to that sub-genre's context, not copied verbatim
+- Plus any **sub-genre-specific unique metrics** that have no equivalent in the other sub-genres
+- Niches live at the **genre level** (`{genre}/niches/`) and apply on top of whichever sub-genre the game belongs to
+- No rubric file lives directly inside the genre folder — all rubrics go inside sub-genre folders
+
+### Genre without sub-genres (e.g. Racing)
+
+Metric folders live directly inside the genre folder:
+
+```
+scoring-system/genres/{genre}/
+├── research.md
+├── metrics.md
+├── {metric-1}/rubric.md
+├── {metric-2}/rubric.md
+└── niches/
+    ├── multiplayer/
+    │   └── {metric}/rubric.md
+    └── free/
+        └── {metric}/rubric.md
+```
+
+When in doubt, check `scoring-system/overview.md` — the folder structure diagram there shows the canonical layout for every genre.
 
 ---
 
@@ -48,8 +103,11 @@ Phase 2 — Claude          Check for research/{genre}/readme.md.
                           → Present: read it in full. This is the primary
                             research source.
      ↓
-Phase 3 — Claude          Run supplementary web searches only to fill gaps the
-                          research file leaves uncovered → extract raw player quotes.
+Phase 3 — Claude          Run supplementary web searches to fill gaps the research
+                          file leaves uncovered → extract raw player quotes. This
+                          applies to ALL rubric types: base genre metrics, sub-genre
+                          unique metrics, and niche metrics each require at least one
+                          external source. Do not skip this phase for any rubric.
      ↓
 Phase 4 — Claude          Discovery Q&A — group every factor and quote by theme,
                           surface the close calls (simple 5 vs. pool-of-up-to-10,
@@ -194,6 +252,7 @@ These apply at the **start** (to guide research) and at the **end** (to validate
 - [ ] If present, the research file was read in full before any web search
 - [ ] Every Reddit Important Factor from the research file is accounted for — selected into the final metric set (or pool) or listed under "Other Themes Considered" with a reason
 - [ ] Web search was used only to close a gap in an existing research file, and that gap is stated
+- [ ] Every rubric (including niche and sub-genre-unique metrics) cites at least one external web source beyond research.md — rubrics with only research.md citations were not submitted
 - [ ] Metric names and rubric wording reflect the Keywords Findings phrasing signal (e.g. preferred terms, numerals vs. spelled-out numbers), where a research file provided one
 - [ ] Discovery Q&A phase run — metric-slot competition, rubric thresholds, and sub-genre swap choices surfaced as questions and answered or explicitly waived before generation
 
