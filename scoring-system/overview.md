@@ -143,18 +143,23 @@ scoring-system/
 │   │       └── free/
 │   │           ├── monetisation/rubric.md
 │   │           └── roster-monetisation/rubric.md
-│   ├── shooters/
-│   │   ├── metrics.md                        ← pool model: up to 10 metrics + profiles
-│   │   ├── research.md
-│   │   ├── [genre rubrics]/
-│   │   └── niches/
+│   ├── shooters/                                 ← pool model: up to 10 metrics + profiles, sub-genre optional
+│   │   ├── metrics.md
+│   │   ├── sub-genres/
+│   │   │   ├── fps/                            ← only sub-genre built out so far; holds the pool rubrics
+│   │   │   │   ├── research.md
+│   │   │   │   ├── gunplay/rubric.md           ← includes weapon variety & customization
+│   │   │   │   ├── level-design/rubric.md
+│   │   │   │   ├── campaign-structure/rubric.md
+│   │   │   │   ├── enemy-variety/rubric.md
+│   │   │   │   └── movement/rubric.md          ← includes vehicle-as-traversal where applicable
+│   │   │   └── battle-royale/                  ← placeholder, not yet built out
+│   │   └── niches/                             ← genre-level; apply on top of any sub-genre
 │   │       ├── multiplayer/
-│   │       │   ├── map-design/rubric.md
-│   │       │   ├── netcode/rubric.md
-│   │       │   └── squad-play/rubric.md
+│   │       │   ├── maps/rubric.md              ← only definition of this metric; no fps pool equivalent
+│   │       │   └── squad-play/rubric.md        ← only definition of this metric; no fps pool equivalent
 │   │       └── free/
-│   │           ├── monetisation/rubric.md
-│   │           └── weapon-access/rubric.md
+│   │           └── monetisation/rubric.md      ← includes weapon access / pay-to-win weapons
 │   ├── sports/
 │   │   ├── metrics.md
 │   │   ├── [genre rubrics]/
