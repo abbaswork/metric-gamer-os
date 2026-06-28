@@ -68,29 +68,38 @@ Palia:
 
 
 ### Top Games in the category
+Genre Defining:
 - Stardew Valley
 - Animal Crossing: New Horizons
 - Disney Dreamlight Valley
-- Palia
-- Coral Island
-- Fields of Mistria
-- My Time at Sandrock
 - Spiritfarer
+- Coral Island
+- My Time at Sandrock
+- Harvest Moon: Friends of Mineral Town
+Most Controversial:
+- Disney Dreamlight Valley
+- Fae Farm
+- Palia
+- Graveyard Keeper
+Free Games:
+- Palia
+- Sky: Children of the Light
+- Infinity Nikki
+Other:
+- Fields of Mistria
 - Sun Haven
 - Wylde Flowers
 - Unpacking
 - Cozy Grove
 - A Short Hike
 - Dinkum
-- Roots of Pacha
-- Fae Farm
 - Tiny Glade
 - Little Kitty, Big City
 - Moonstone Island
 - Coffee Talk
 - Roots of Pacha
-- Graveyard Keeper
 - Everafter Falls
 ### Notes
 - Most search queries are to do with in-game items or tasks e.g. fishing
 - Popular search queries for Stardew Valley include queries about mods
+- There aren't many high-profile free cozy RPGs, it's a surprisingly small niche. 
