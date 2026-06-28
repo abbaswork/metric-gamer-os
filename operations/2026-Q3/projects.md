@@ -98,6 +98,20 @@ Week 1 is a setup and first-actions test. All three team members complete the sa
 
 ---
 
+### Week 3 — June 29 to July 5
+*Game page rewrites and continued Reddit participation. Deadline: July 5.*
+*All three team members complete every task below. Equal points per person.*
+*Note: Reddit points are reduced from 100 to 50 this week and next — only 150 points remain across weeks 3 and 4 to stay within the 1,000 point campaign cap.*
+
+| # | Task | Points | Deadline |
+|---|---|---|---|
+| 2.11 | Post a minimum of 3 genuine comments in each of your 3 subscribed communities (9 total) — gaming opinions or answers to questions, nothing promotional | 50 | July 5 |
+| 2.12 | Rewrite 10 game pages using the /write-game-page skill — start with games in your assigned genre, then pick up any games in a genre with a completed rubric (shooters, racing, fighting, MOBA). Each completed game page is worth 5 points, up to 50 points for 10 pages. | 5 pts per page (max 50) | July 5 |
+
+**Week 3 total per person: 100 points** | Running total: 950 / 1,000
+
+---
+
 ## Campaign 3 — Content & AdSense
 *Goals 2 + 3 | 5 weeks | Start: June 28 | Go-live: July 19, 2026 | Submission deadline: July 17*
 
