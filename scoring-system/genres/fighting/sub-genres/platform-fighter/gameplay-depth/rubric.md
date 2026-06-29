@@ -12,9 +12,9 @@ The dimensions that define depth in this sub-genre:
 
 **Edge-guarding:** Once an opponent is off stage, both players enter an entirely separate game. The edge-guarder chooses between going off-stage (high risk, high reward), covering options from the ledge, or waiting on stage. The recovering player chooses their recovery angle, timing, and whether to challenge the edge-guarder directly. This is a distinct tactical conversation that requires reading your opponent — not just executing.
 
-**DI (Directional Influence):** The ability to influence knockback trajectory while being hit is a survival skill. Good DI extends combos for the attacker and survival windows for the defender. Bad DI is the difference between a kill confirm and a punishable miss. Learning what good DI feels like is a long-term process — and recognising it in opponents is a high-skill read.
+**DI (Directional Influence):** The ability to influence knockback trajectory while being hit is a survival skill. Defenders use DI to escape combos at low percent and extend survival windows at high percent. Attackers must read and account for opponent DI to maintain follow-up opportunities — the same exchange plays out on both sides of every hit. Learning what good DI feels like is a long-term process — and recognising it in opponents is a high-skill read.
 
-**Stock management:** Platform fighters create distinct game states around stock counts. Playing with a 2-stock lead feels different from playing from a 1-stock deficit — or should. A game that doesn't pressure players to adapt their risk tolerance based on stock count misses this dimension.
+**Stock management:** Platform fighters create substantial opportunities to shift strategy based on distinct game states. Playing with a lead requires different risk calibration than playing from a deficit — a game that rewards this adaptation gives players a meaningful strategic dimension beyond landing the next hit.
 
 **Platform tech:** Using platforms to extend combos, escape pressure, or change aerial approach angles creates variety within established matchups. Platform layout and a player's ability to use it separates intermediate from advanced play.
 

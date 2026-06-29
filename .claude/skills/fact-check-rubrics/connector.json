@@ -1,0 +1,29 @@
+{
+  "skill": "fact-check-rubrics",
+  "connectors": [
+    {
+      "id": "genre-research",
+      "file": "scoring-system/genres/{genre}/research.md",
+      "importance": 5,
+      "purpose": "Primary source of truth — rubric claims should trace back to the Reddit quotes and Google Trends data here. A claim not in this file and without an external citation is a candidate for scrutiny."
+    },
+    {
+      "id": "genre-metrics",
+      "file": "scoring-system/genres/{genre}/metrics.md",
+      "importance": 3,
+      "purpose": "Provides the scope and intent of each sub-genre's metrics — used to identify when a claim falls outside the intended scoring context or belongs in a different metric."
+    },
+    {
+      "id": "scoring-system-overview",
+      "file": "scoring-system/overview.md",
+      "importance": 3,
+      "purpose": "Defines the structural contract rubrics must conform to — used to identify structural issues alongside factual ones."
+    },
+    {
+      "id": "company-overview",
+      "file": "company/overview.md",
+      "importance": 2,
+      "purpose": "Keeps the audit aligned with the gamer-first methodology — helps identify when claims are editorial or assumption-driven rather than player-grounded."
+    }
+  ]
+}

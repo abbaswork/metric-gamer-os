@@ -12,7 +12,7 @@ More specifically, players call out visual clarity as a direct gameplay concern,
 
 Audio design is called out independently as a structural element of how fights feel: "satisfying gameplay (hard to describe. good animation and audio cues help)" — and from the combat feel research, this extends further. The gamedeveloper.com combat impact analysis confirms that sound "transforms" how hits feel: "Turn the volume up and the animation may suddenly seem more painful." But in the presentation rubric, the concern is about consistent identity and scale — does the overall audio design communicate the tone and weight of the game, not just whether individual hits confirm?
 
-Games like Dragon Ball FighterZ (Arc System Works' cel-shaded animation), Granblue Fantasy Versus: Rising (faithfully adapted from the Granblue art direction), and Street Fighter 6 (bold, high-contrast character art) are frequently cited in community discussions as examples of strong identity. Brawlhalla's skins register 43 search interest — players actively search for cosmetics, which only happens when the visual identity is strong enough to be worth customising.
+Dragon Ball FighterZ's cel-shaded animation, Granblue Fantasy Versus: Rising's faithfully adapted art direction, and Street Fighter 6's bold, high-contrast character art are each immediately recognisable outside their competitive context — a mark of identity that extends beyond the game itself. Brawlhalla's skins register 43 search interest — players actively searching for cosmetics reflects the identity expression, status signalling, FoMO around limited offerings, and the endowment effect that makes owned cosmetic items feel genuinely personal.
 
 ## Sources
 

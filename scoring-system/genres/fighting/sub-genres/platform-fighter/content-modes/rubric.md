@@ -6,7 +6,7 @@
 
 ## Why This Matters
 
-Platform fighters share the same core content challenge as any fighting game — "players are more likely to stick with a game that has satisfying single-player content" — but with specific mode types that matter most in this sub-genre. Local party modes (free-for-all, teams, special rule variants) are as important as ranked 1v1, because platform fighters attract groups of local players in a way traditional fighters don't. Brawlhalla's content volume is a direct cited reason for its ongoing appeal: "constant updates", "the grind is rewarding", "It has a HUGE esports scene that the devs lean into", "tons of battlepasses and cosmetics."
+Platform fighters share the same core content challenge as any fighting game — "players are more likely to stick with a game that has satisfying single-player content" — but with specific mode types that matter most in this sub-genre. Platform fighters attract groups of local players in a way traditional fighters don't, making local party modes (free-for-all, teams, special rule variants) a meaningful part of the genre's content offering. Brawlhalla's content volume is a direct cited reason for its ongoing appeal: "constant updates", "the grind is rewarding", "It has a HUGE esports scene that the devs lean into", "tons of battlepasses and cosmetics."
 
 Training tools in platform fighters need to cover aerial mechanics specifically — not just combo notation but DI practice, off-stage scenarios, recovery options. A training mode that only covers ground-level basics misses the most important skill dimensions of the sub-genre.
 
