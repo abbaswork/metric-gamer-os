@@ -22,11 +22,11 @@
 
 | # | Task | Pts | AK | KK | SB |
 |---|---|---|---|---|---|
-| 2.7 | Genre research → `[genre]-research.md` | 150 | | | |
-| 2.8 | Run scoring system skill → generate rubric | 75 | | | |
+| 2.7 | Genre research → `[genre]-research.md` | 150 | ✓ | ✓ | ✓ |
+| 2.8 | Run scoring system skill → generate rubric | 75 | ✓ | ✓ | ✓ |
 | 2.9 | Rewrite min 5 genre games via write-game-page | 200 | | | |
-| 2.10 | 9 Reddit comments (3 per community) | 100 | | | |
-| | **Week 2 total** | **525** | **0** | **0** | **0** |
+| 2.10 | 9 Reddit comments (3 per community) | 100 | ✓ | | |
+| | **Week 2 total** | **525** | **325** | **225** | **225** |
 
 ---
 
@@ -35,6 +35,6 @@
 | | AK | KK | SB |
 |---|---|---|---|
 | Week 1 | 225 | 125 | 150 |
-| Week 2 | 0 | 0 | 0 |
-| **Total** | **225** | **125** | **150** |
-| **% of 1,000** | 22.5% | 12.5% | 15% |
+| Week 2 | 325 | 225 | 225 |
+| **Total** | **550** | **350** | **375** |
+| **% of 1,000** | 55% | 35% | 37.5% |
