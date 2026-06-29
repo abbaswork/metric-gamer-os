@@ -9,14 +9,14 @@ Fighting uses the metric pool model: the genre defines a pool of validated metri
 | # | Metric | Type | Direction | Best fit for |
 |---|---|---|---|---|
 | 1 | Roster Depth | Qualitative | Delight | Every fighting game — universal |
-| 2 | Combat Feel | Qualitative | Delight | Every fighting game — universal |
+| 2 | Combat Feedback | Qualitative | Delight | Every fighting game — universal |
 | 3 | Gameplay Depth | Qualitative | Delight | Competitive and skill-focused titles |
 | 4 | Competitive Balance | Qualitative | Complaint | Titles with a ranked or competitive mode |
 | 5 | Accessibility | Qualitative | Delight | Every fighting game — universal |
 | 6 | Content & Modes | Qualitative | Delight | Every fighting game — universal |
 | 7 | Presentation & Artstyle | Qualitative | Delight | Every fighting game — universal |
 
-Roster Depth, Combat Feel, Accessibility, and Content & Modes apply to virtually every fighting game. Gameplay Depth and Competitive Balance are essential for competitive-focused titles but less central for party fighters where depth is intentionally sacrificed for chaos. Presentation & Artstyle adds strong value for campaigns where visual identity is a key differentiator.
+Roster Depth, Combat Feedback, Accessibility, and Content & Modes apply to virtually every fighting game. Gameplay Depth and Competitive Balance are essential for competitive-focused titles but less central for party fighters where depth is intentionally sacrificed for chaos. Presentation & Artstyle adds strong value for campaigns where visual identity is a key differentiator.
 
 ---
 
@@ -24,11 +24,11 @@ Roster Depth, Combat Feel, Accessibility, and Content & Modes apply to virtually
 
 These are starting points, not enforced selections. Pick the 5 most relevant to what the campaign is actually evaluating.
 
-**Competitive Fighters** (Street Fighter 6, MK11, Granblue Fantasy Versus, 2XKO): Combat Feel, Gameplay Depth, Competitive Balance, Roster Depth, Accessibility
+**Competitive Fighters** (Street Fighter 6, MK11, Granblue Fantasy Versus, 2XKO): Combat Feedback, Gameplay Depth, Competitive Balance, Roster Depth, Accessibility
 
-**Platform Fighters** (Brawlhalla, Rivals of Aether): Combat Feel, Gameplay Depth, Roster Depth, Accessibility, Content & Modes
+**Platform Fighters** (Brawlhalla, Rivals of Aether): Combat Feedback, Gameplay Depth, Roster Depth, Skill Ceiling, Presentation
 
-**Party Fighters** (Gang Beasts, Stick Fight, ROUNDS): Roster Depth, Combat Feel, Accessibility, Content & Modes, Presentation & Artstyle
+**Party Fighters** (Gang Beasts, Stick Fight, ROUNDS): Roster Depth, Combat Feedback, Accessibility, Content & Modes, Gameplay, Presentation & Artstyle
 
 ---
 

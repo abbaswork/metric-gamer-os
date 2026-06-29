@@ -1,22 +1,33 @@
 # Metric: Competitive Balance
 **Genre:** Fighting
 **Sub-genre:** Party Fighter
-**Type:** Qualitative (community consensus)
-**Direction:** Complaint — 5 = chaos feels fair across all players, 1 = systematic advantages make the game feel rigged rather than chaotic
+**Type:** Qualitative (observable signals)
+**Direction:** Delight — 5 = identical base character mechanics and physics-driven unpredictability prevent systematic dominance; 1 = built-in advantages allow consistent dominance regardless of physics chaos
 
 ## Why This Matters
 
-Competitive balance in party fighters is not about tier lists or meta viability. It's about whether the chaos feels fair — whether every player in the room feels like they have a genuine chance regardless of prior gaming experience, and whether the game's environmental elements create shared unpredictability rather than systematic advantages for anyone who knows how to exploit them.
+Party fighters achieve fairness through two specific design decisions rather than through matchmaking or meta management. The first is identical base character mechanics. In Gang Beasts, "every character starts with the same abilities, so no one has an inherent advantage" and "customisation is purely cosmetic — outfits don't change movement speed, attack strength, or defence, which keeps the game fair for all players" (heypoorplayer.com). When every player begins with the same toolkit, character selection cannot be a source of systematic advantage before the first input is made.
 
-The distinction from randomness is important here too: a party fighter can have wild physics and still feel fair if those physics apply equally to all players. When experienced players discover that certain spawn positions, starting areas, or environmental patterns consistently favour them, the chaos stops feeling chaotic and starts feeling like a competitive edge — which undermines the whole point of the genre. Gang Beasts' notes specifically in the research about how players search for "how to drop kick, punch, throw" — these are physics systems that reward learning, but shouldn't reward it so heavily that they create a systematic gap between experienced and new players.
+The second mechanism is physics-driven unpredictability. In Gang Beasts, "the game's unpredictable physics ensure that skill alone doesn't determine the winner" (heypoorplayer.com). This is the design mechanism by which party fighters level the playing field across groups of mixed experience — the physics system introduces enough variability that practiced players cannot simply out-execute newcomers every time. Research on multiplayer games confirms that skill disparity is a primary driver of player frustration and churn (ScienceDirect, 2024). Party fighters address this not through matchmaking but through design: equal starting conditions and physics chaos that applies to every player equally.
 
-Games between players of widely different skill levels are a specific fairness dimension for party fighters — the best sessions involve everyone competing, not one person dominating while others watch.
+The research note that players actively search for how to perform specific Gang Beasts interactions — drop kick, punch, throw — confirms these interactions are learnable. This makes the equal base mechanics decision load-bearing: if characters had unequal stats, learnable skill would compound on top of built-in advantage.
 
 ## Sources
 
+- **heypoorplayer.com — Gang Beasts Review (Switch):** "Every character starts with the same abilities, so no one has an inherent advantage"; "customisation is purely cosmetic — outfits don't change movement speed, attack strength, or defence, which keeps the game fair for all players"; "the game's unpredictable physics ensure that skill alone doesn't determine the winner"
+- **research.md — Notes:** "specifically for Gang Beasts there is lots of queries asking how to drop kick, punch, throw etc" — physics interactions are learnable, making equal base mechanics load-bearing for fairness
 - **research.md — Top Games:** Gang Beasts, Stick Fight, ROUNDS as genre representatives
-- **research.md — Notes:** "specifically for Gang Beasts there is lots of queries asking how to drop kick, punch, throw etc" — physics interactions are learnable and thus can create skill gaps
-- **research.md — Reddit (What makes a good fighting game):** "Neutral must feel interactive" — applied here as the chaos feeling responsive to all players, not just the most experienced
+- **ScienceDirect — Match experiences affect interest (2024):** Skill disparity is a primary driver of player frustration and churn in multiplayer games — party fighters address this through design rather than matchmaking
+
+---
+
+## Observable Signals
+
+| Signal | What to check |
+|---|---|
+| Identical base character mechanics | All playable characters share the same base movement speed, attack strength, and defence — no character has a stat advantage by design |
+| Cosmetic-only differentiation | Character customisation options do not affect any gameplay mechanic |
+| Physics applies equally | The physics system applies the same rules to all players — no character is exempt from knockback, collision, or environmental physics that affects others |
 
 ---
 
@@ -24,8 +35,8 @@ Games between players of widely different skill levels are a specific fairness d
 
 | Score | Description | What This Means for You |
 |---|---|---|
-| 5 | Physics, environmental hazards, and map elements give no player a systematic advantage outside of moment-to-moment decision-making. Random elements create shared unpredictability — when you lose to a physics interaction it feels funny, not rigged. Spawn positions and starting conditions are broadly equivalent. Games between players of widely different skill levels still produce moments where less experienced players feel genuinely competitive. The chaos is the equaliser. | Everyone in the room feels like they can win. The chaos belongs to the group, not to whoever knows the tricks. |
-| 4 | Mostly fair chaos with a few situations where experienced players can exploit specific spawn positions, patterns, or physics interactions — but not consistently enough to define outcomes. Games across different skill levels are still enjoyable for all players most of the time. | The fairness is real. A few exploitable edges exist but don't undermine the group dynamic. |
-| 3 | Some spawn positions or map elements provide a subtle but consistent advantage that experienced players begin to route for after enough sessions. Games between very different skill levels start feeling one-sided. The chaos still creates fun moments but they stop feeling equally distributed. | Experienced players start winning more than the game's chaos should allow. New players notice. |
-| 2 | Specific positions, characters, or strategies provide enough advantage that skilled players reliably exploit them, and less experienced players can't compensate. The game stops feeling like shared chaos and starts feeling like one player using the chaos better than everyone else. | The group dynamic suffers. It stops feeling like everyone's playing the same game. |
-| 1 | The "chaos" has clearly dominant strategies or positions that experienced players exploit consistently. Sessions are predictable in who wins even if the specific moments vary. Less skilled players are largely spectating within a few sessions of play. | The chaos is a performance for the one person who figured out the dominant approach. |
+| 5 | All three signals present. All characters share identical base mechanics. Customisation is cosmetic only — no option affects movement, attack strength, or defence. The physics system applies equally to every player with no exemptions. | No one in the room is at a disadvantage before the match starts. The chaos belongs to everyone equally. |
+| 4 | All three signals largely present with negligible mechanical differences between characters that do not produce consistent advantages. Cosmetics do not affect gameplay. Physics applies equally. | Effectively fair. Any minor difference is too small to affect outcomes in practice. |
+| 3 | Minor mechanical differences between characters that experienced players can identify, but physics unpredictability prevents consistent dominance. Cosmetics remain non-functional. | Mostly fair. The edge cases exist but the chaos covers for them most of the time. |
+| 2 | Notable character mechanical differences that experienced players exploit consistently enough for newcomers to notice. The physics system may also apply unequally in specific situations. | The starting condition is not equal. Some players have a better toolkit before they make a single input. |
+| 1 | Significant mechanical imbalances allow systematic dominance. Physics chaos is insufficient to offset the built-in advantages of specific characters or options. | Character selection is the most important decision in the game. The chaos is a performance for whoever picked correctly. |
