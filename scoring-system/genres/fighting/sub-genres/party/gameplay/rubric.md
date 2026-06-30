@@ -1,24 +1,25 @@
 # Metric: Gameplay
 **Genre:** Fighting
 **Sub-genre:** Party Fighter
-**Type:** Qualitative (observable signals)
-**Direction:** Delight — 5 = all design conditions for emergent, unpredictable sessions present; 1 = sessions are predictable and interchangeable
+**Type:** Qualitative (community consensus)
+**Direction:** Delight — 5 = sessions reliably produce retellable moments through physics that respond to what players actually did, 1 = inputs feel disconnected from outcomes and sessions are interchangeable
 
 ## Why This Matters
 
 Party fighters are judged by a single standard no other fighting sub-genre applies: whether they generate moments worth retelling. "Did you see what just happened?" is the metric. The genre's most successful examples — Gang Beasts, Stick Fight — have reputations built entirely on the moments they produce: the player hanging off a moving object who gets rescued by accident, the four-person melee on a collapsing stage where everyone falls simultaneously. These are not competitive achievements. They are stories.
 
-Those moments do not come from randomness. Pure randomness generates forgettable chaos — events that happen to passive players regardless of their input. The moments that become retellable arise when physics systems respond to player decisions in unexpected but logically consistent ways. Gang Beasts demonstrates the specific formula: "The game's simple mechanics make it easy to jump into, while its chaotic nature guarantees endless laughs and memorable moments" (thenvm.org). The controls are deliberately unwieldy, but the outputs are specific — "a dynamic alliance between conflict and chaos" where every match produces something that could not have been scripted because it required the exact inputs all four players happened to make.
+Those moments don't come from randomness. Pure randomness generates forgettable chaos — events that happen to passive players regardless of their input. The moments that become retellable arise when physics systems respond to player decisions in unexpected but logically consistent ways. This starts at the level of individual inputs: landing a punch, grab, or throw needs to feel noticeably different from missing — players need to feel like the authors of what just happened, not spectators to it. "Control. Or at least the illusion of it" is how players describe this. When that authorship is present at the input level and the physics chain it across multiple players simultaneously, the conditions for a retellable moment are in place.
 
-This rubric scores the design conditions that produce those moments, not the moments themselves. A game with all five conditions in place will reliably generate retellable sessions across many stages and many play groups. A game missing most of them may be enjoyable without ever being memorable.
+Gang Beasts demonstrates both sides of this: players actively search for how to land specific interactions — drop kick, punch, throw — because the payoff of executing them correctly is distinct enough to be worth finding. And when those inputs collide across four players on a collapsing stage, the outcome couldn't have been scripted. That's the formula: authored inputs producing emergent multi-player outcomes.
 
 ## Sources
 
-- **research.md — Top Games:** Gang Beasts, Stick Fight: The Game, ROUNDS — cited as genre leaders, all known primarily for the moments they generate
-- **research.md — Notes:** "specifically for Gang Beasts there is lots of queries asking how to drop kick, punch, throw etc" — players engage with the physics because those interactions create the moments
+- **research.md — Reddit (What makes a good fighting game):** "Control. Or at least the illusion of it. [...] what matters is: I, the user, must 'feel' that I have proper control of my character", "satisfying gameplay (hard to describe. good animation and audio cues help)"
+- **research.md — Top Games:** Gang Beasts, Stick Fight: The Game, ROUNDS — known primarily for the moments they generate
+- **research.md — Notes:** "specifically for Gang Beasts there is lots of queries asking how to drop kick, punch, throw etc" — players seek out specific interactions because landing them correctly produces something noticeably better than missing
 - **research.md — Google Trends:** gang beasts local multiplayer (1, +70%) — local multiplayer context is where party gameplay matters most
-- **alexiamandeville.medium.com — Game Design Breakdown: Party Games:** humor as intrinsic motivation ("the points don't matter"); memorable moments emerge from player interaction not designer systems; "it's different each time based on the group of players you have, the inside jokes or knowledge of the group"
 - **thenvm.org — Gang Beasts:** "The game's simple mechanics make it easy to jump into, while its chaotic nature guarantees endless laughs and memorable moments"; physics create "a dynamic alliance between conflict and chaos"
+- **Game Developer — "Improving the Combat Impact of Action Games":** Audio and animation working together to make hits feel real
 - **wokewaves.com — Best Party Video Games:** party games function as "friendship tests, inside-joke factories" — sessions generate material that outlasts the session itself
 
 ---
@@ -27,8 +28,8 @@ This rubric scores the design conditions that produce those moments, not the mom
 
 | Score | Description | What This Means for You |
 |---|---|---|
-| 5 | All five design conditions present. Physics interactions are emergent and specific — outcomes are surprising but feel logical given what all players did. At least one stage actively generates its own chaos through collapsing geometry, hazards, or environmental kill zones. Three or more stages each create genuinely different situations across sessions, not just visual variety. Single player actions can chain across multiple players simultaneously. A non-playing observer can follow and react without narration. | Every condition for a retellable session is in place. The game generates its own stories without relying on players to manufacture them. |
-| 4 | Four of five conditions present. Core physics, stage interactivity, and multi-player collision deliver. One condition — typically stage variety or spectator legibility — is underdeveloped but does not collapse the experience. | The right foundations are there. One gap limits how often sessions peak. |
-| 3 | Three of five conditions present. Physics produce some emergent moments but stage design is flat, or stages are interesting but interactions become predictable after a few sessions. Multi-player collision is possible but depends on player setup rather than game design. | Moments happen but are not consistent. The game relies on the players to generate what the design should be producing. |
-| 2 | One or two conditions present. Physics produce some variation across sessions but outcomes are mostly predictable. Nothing in the stage or collision design is actively generating memorable moments. | The game is playable. The design is not working to produce stories. |
-| 1 | No conditions present. Physics produce consistent, predictable outcomes. Stages are neutral backdrops. Every session plays the same as the last. | Nothing in the design is set up to produce a retellable moment. |
+| 5 | The physics respond to what players did in ways that are surprising but feel specific to those inputs — landing a punch, grab, or throw produces a noticeably different response than missing, and when interactions chain across multiple players the outcomes feel earned rather than arbitrary. The chaos is something players cause, not something that happens to them. | Every session produces something worth talking about after. You feel like you caused the chaos, not just witnessed it. |
+| 4 | The core formula mostly works — interactions feel authored and sessions regularly peak. Occasional moments where feedback gets muddied or the physics produce outcomes that feel arbitrary rather than emergent, but the party fighter experience is consistently delivered. | Most sessions have a moment. The authorship is there even when the outcome surprises you. |
+| 3 | Moments happen but aren't consistent. Interactions sometimes feel authored and sometimes feel arbitrary — the physics don't reliably distinguish a clean input from a miss, or the emergent situations don't arise often enough without the group generating the energy themselves. | Moments happen, just not reliably. You can't always tell if you caused what just happened. |
+| 2 | The physics produce variation but not authorship. Players can't reliably tell whether their inputs landed, and sessions don't produce retellable moments — the chaos happens without players feeling like they caused it. | The game is playable. The chaos doesn't feel like yours. |
+| 1 | Inputs feel disconnected from outcomes and sessions are interchangeable. The physics don't confirm what players did and nothing in the design produces a moment worth remembering. | You're a spectator to your own inputs. Nothing is set up to surprise you. |

@@ -2,29 +2,10 @@
 **Genre:** Fighting
 **Sub-genre:** Party Fighter
 
-Find the highest score where every criterion is met. That is the game's score for this metric.
-
 ---
 
-### Score 5
-- [ ] Physics engine produces surprising but logic-consistent outcomes from normal player inputs — results follow physically from what all players did, not from scripted events or pure randomness
-- [ ] At least one stage has active elements that generate chaos independently of player choice: collapsing geometry, moving hazards, or environmental kill zones
-- [ ] Three or more stages with mechanically distinct dynamics — each stage creates genuinely different situations, not just different visuals
-- [ ] A single player action can simultaneously affect multiple other players: chain KOs, throws into ongoing fights, or accidental assists are possible
-- [ ] A non-playing observer can follow the action and react to it without explanation
-
-### Score 4
-- [ ] Physics engine produces surprising but logic-consistent outcomes from normal player inputs
-- [ ] At least one stage has active chaos elements independent of player choice
-- [ ] A single player action can simultaneously affect multiple other players
-- [ ] A non-playing observer can follow without explanation
-
-### Score 3
-- [ ] Physics engine produces emergent outcomes — interactions are not fully predictable, even if patterns emerge after extended play
-- [ ] A single player action can affect at least one unintended player beyond the direct target
-
-### Score 2
-- [ ] Physics produce some variation in outcomes across sessions
-
-### Score 1
-No criteria from Score 2 apply. Physics produce consistent, predictable outcomes. Every session plays the same.
+5 = You feel like you caused the chaos, landing a specific interaction feels noticeably different from missing it, and when your inputs set off a chain across other players the outcome feels earned rather than arbitrary
+4 = Sessions regularly produce a moment worth talking about, though occasionally the physics produce something that feels arbitrary rather than caused by you
+3 = Moments happen but you can't always tell if you caused them or if the physics just produced them independently
+2 = Chaos happens but you can't reliably tell whether your inputs have landed or not, sessions don't produce anything memorable
+1 = Your inputs feel disconnected from what's happening, sessions are interchangeable and nothing is set up to surprise you

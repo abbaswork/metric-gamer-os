@@ -1,4 +1,4 @@
-# Metric: Presentation & Artstyle
+# Metric: Presentation
 **Genre:** Fighting
 **Sub-genre:** Traditional
 **Type:** Qualitative (community consensus)
