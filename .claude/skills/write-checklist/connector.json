@@ -1,0 +1,17 @@
+{
+  "skill": "write-checklist",
+  "connectors": [
+    {
+      "id": "checklist-writing-guide",
+      "file": "scoring-system/checklist-writing-guide.md",
+      "importance": 5,
+      "purpose": "Primary output standard — defines all rules, dos/don'ts, and examples for checklist writing. Every band must pass the tests in this guide before the checklist is written to file."
+    },
+    {
+      "id": "scoring-system-overview",
+      "file": "scoring-system/overview.md",
+      "importance": 2,
+      "purpose": "Background reference for how metrics, rubrics, and score bands relate. Informs the relationship between rubric band descriptions and what the checklist sentence should capture."
+    }
+  ]
+}
