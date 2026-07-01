@@ -8,13 +8,14 @@
 
 "Developing Their Teams and Players" is a direct Reddit factor in research.md — and it shows up in both contexts this pool covers, just through different systems. In action sims, this is Career Mode player growth or Ultimate Team squad building; in management sims, it's youth academy development, training regimes, and long-term squad rebuilding across multiple seasons.
 
-Football Manager's youth academy and training system is one of the most consistently cited long-term-engagement hooks in the management sim space — discovering and developing a wonderkid over several in-game seasons is widely documented as a core part of the series' appeal and longevity. On the action-sim side, Career Mode's player growth (attribute development tied to training and minutes played) and Ultimate Team's squad-building loop serve the same underlying need: seeing a player or squad become something better than what you started with, through effort you put in rather than just license-defined stats.
+Football Manager's youth academy system is one of the most consistently cited long-term engagement hooks in the management sim space, with a dedicated community around finding and growing young talent. The draw is specific and well-articulated in the FM community: "scouting for wonderkids is one of the favourite things in Football Manager, and there's no better feeling when spotting the 'next big thing before everyone else.'" "Developing young players from your own academy into the first team is one of the most gratifying things in-game." The system is deep enough that it has its own optimisation meta — the "golden formula" for producing elite youth intakes (Youth Recruitment 20, Youth Facilities 18+, Junior Coaching 17+) is discussed extensively in guides, and clubs known for strong youth systems (Ajax, Sporting, Benfica, Barcelona) are evaluated specifically as FM club choices on that basis. On the action-sim side, Career Mode's player growth and Ultimate Team's squad-building loop serve the same underlying need: seeing a player or squad become something better than what you started with.
 
 ## Sources
 
 - **research.md — Reddit (What makes a good football game):** "Developing Their Teams and Players"
 - **research.md — Top Games:** Football Manager, Championship Manager season 01/02 — youth academy and squad-building are core loops
-- **General industry knowledge (no live web search performed this session — declined):** Football Manager's youth academy/wonderkid discovery loop is widely documented as a primary long-term engagement driver for the series
+- **[FMNatics — Finding and Evaluating Wonderkids in Football Manager](https://fmnatics.com/finding-wonderkids-fm/1764390008913x870439155255892100):** "no better feeling when spotting the next big thing before everyone else"; "developing young players from your own academy into the first team is one of the most gratifying things in-game"
+- **[Passion4FM — Best Youth Academies in Football Manager 26](https://www.passion4fm.com/football-manager-best-youth-academies/):** youth facility formula (YR 20 + YF 18+ + JC 17+) and club rankings by academy quality
 
 ---
 

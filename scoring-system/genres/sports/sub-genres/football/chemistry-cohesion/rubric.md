@@ -8,12 +8,16 @@
 
 "Having Teams and Players with a lot of Chemistry" is a direct Reddit factor in research.md, and it maps onto two well-documented but distinct systems depending on context. In Ultimate-Team-style action sims, this is literally a named mechanic: EA's chemistry system ties player performance boosts to shared league, nation, and club links between squad members, and min-maxing chemistry while still fielding your favourite players is one of the most discussed squad-building puzzles in the entire FIFA/FC Ultimate Team community. In management sims, the equivalent is team dynamics — dressing room unity, player personalities, and morale systems that model how a happy, cohesive squad outperforms a talented-but-fractured one.
 
-Both systems answer the same underlying question players care about: does *who you put next to whom* matter, or is a team just the sum of 11 individual stat-lines? A game that can't answer "yes" to that question is missing one of the things that makes squad-building feel like a real decision rather than just picking the highest-rated names available.
+EA's system is mechanically specific enough to be studied and optimised as a puzzle in its own right: each player earns a chemistry score of 0–3 via connections based on shared nationality (8 cards from the same nation = maximum), club (7 cards = 3 chemistry points), or league (8 cards = 3 points). Players must be in their preferred position to contribute to squad chemistry thresholds at all. Hero and Icon cards bypass the usual requirements, giving instant full chemistry and amplifying connections for others around them. The chemistry level a player achieves then determines how fully they benefit from a Chemistry Style (e.g. Hunter, Finisher) — a player at chem 0 receives no boost at all, while chem 3 delivers the full attribute increase. Building a competitive squad that also achieves high chemistry across 11 starting positions — especially when using players from different leagues and nations — is one of Ultimate Team's core intellectual challenges and a persistent source of community discussion.
+
+Both systems answer the same underlying question players care about: does *who you put next to whom* matter, or is a team just the sum of 11 individual stat-lines?
 
 ## Sources
 
 - **research.md — Reddit (What makes a good football game):** "Having Teams and Players with alot of Chemistry"
-- **General industry knowledge (no live web search performed this session — declined):** EA's Ultimate Team chemistry system (league/nation/club-linked performance boosts) is one of the most discussed squad-building mechanics in the mode's community; Football Manager's team dynamics/morale system is a long-documented management-sim equivalent
+- **[FUTBIN — FIFA 23 New FUT Chemistry System Explained](https://www.futbin.com/news/articles/644/fifa-23-new-fut-chemistry-system-explained):** nation/club/league link thresholds, 0–3 scoring per player
+- **[fifauteam.com — FC 25 Chemistry Explained](https://fifauteam.com/fc-25-chemistry/):** positional requirements and Chemistry Style boost interaction
+- **[Operation Sports — Ultimate Team Chemistry Guide: New Rules & Tips for EA FC 26](https://www.operationsports.com/ultimate-team-chemistry-guide-new-rules-tips-for-ea-fc-26/):** Hero/Icon full-chemistry behaviour and manager bonus rules
 
 ---
 

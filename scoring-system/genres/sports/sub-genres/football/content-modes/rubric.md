@@ -8,12 +8,13 @@
 
 research.md's Trends data shows players searching for specific modes by name, not just the base game — "ea fc 26 world cup mode" and "ea fc 26 career mode" both register real, distinct search activity, and "world cup video games" spikes +700% on top of the +450% rise in "fifa video games" generally. That's a different shape of demand than just genre interest: players are choosing a football game based on which specific mode it offers, and a tie-in mode (like EA Sports FC 26's World Cup Mode) can drive a purchase on its own merits independent of the base game's on-pitch feel.
 
-This metric exists because the genre has converged on offering several structurally different ways to play within one purchase — Career Mode (single-player narrative progression), Ultimate Team (collection/squad-building meta-game), Pro Clubs (cooperative online), and now licensed tournament tie-ins — and a game's mode roster is frequently the deciding factor between two otherwise similar releases.
+The genre has converged on several structurally different ways to play within one purchase, each serving a distinct player need: **Career Mode** is a single-player manager journey where you guide a club through seasons, buying and selling players and developing your squad over years; **Ultimate Team** is a card-collection meta-game where you build squads from player cards earned through matches or bought via packs; **Pro Clubs** is a cooperative online mode where a group of friends each control one player in the same XI, playing as a coordinated team against others; and **licensed tournament tie-ins** (such as EA Sports FC 26's dedicated World Cup Mode) provide a stand-alone tournament experience with official branding. A game's mode roster is frequently the deciding factor between two otherwise similar releases, because players often commit to one mode primarily and want to know it's fully supported — not an afterthought.
 
 ## Sources
 
 - **research.md — Google Trends:** ea fc 26 world cup mode (2, +50%), ea fc 26 career mode (3, -6%), world cup video games (61, +700%), fifa video games (45, +450%)
-- **General industry knowledge (no live web search performed this session — declined):** the genre's convergence on Career Mode, Ultimate-Team-style collection modes, and cooperative club modes as distinct, independently-marketed pillars is well documented across the action-sim football space
+- **[Operation Sports — Ultimate Team Chemistry Guide, EA FC 26](https://www.operationsports.com/ultimate-team-chemistry-guide-new-rules-tips-for-ea-fc-26/):** Ultimate Team mode structure context
+- **General industry knowledge:** Career Mode, Ultimate Team, Pro Clubs, and tournament tie-in modes as distinct, independently-marketed pillars of the action-sim football genre
 
 ---
 

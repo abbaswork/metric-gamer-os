@@ -8,13 +8,15 @@
 
 "Clubs and Players they support or enjoy watching" is a direct Reddit factor in research.md, and the Keywords Findings note that a large share of football-game search volume is built around real-world branding ("Fifa", specific clubs, "World Cup") rather than generic genre terms — players search for the leagues and stars they follow, not "football game" in the abstract.
 
-This metric is also the single most direct line to two of the five games in the current PC roster: Football Life 25 and Smokepatch exist *specifically* because Konami's eFootball (the 2021 rebrand of Pro Evolution Soccer) operates with partial licensing — some leagues and clubs are fully licensed, others ship with placeholder names, badges, and kits. Both patches' entire purpose is restoring the real-world identity the base game is missing. That's not a niche modding curiosity — it's direct, well-documented evidence of how much this metric matters to the audience: enough that a dedicated community maintains unofficial patches purely to fix it, on a yearly cycle, for free.
+This metric is also the single most direct line to two of the five games in the current PC roster: Football Life 25 and Smokepatch exist *specifically* because Konami's eFootball operates with partial licensing — some leagues and clubs are fully licensed, others ship with placeholder names, badges, and kits. Both patches' entire purpose is restoring the real-world identity the base game is missing. The scale of community investment in this fix is well-documented: Smoke Patch (pessmokepatch.com) and ePatch (pesmodding.com) are independently maintained projects updated on a regular release cycle, with ePatch 2026 reaching version 41+ by mid-2026 — each version delivering "updated squads and real licenses" and progressively adding content like unlicensed Division 2 leagues and partially completed regional leagues. SP Football Life 2026 (a Smoke Patch-based fork) follows the same model. That level of sustained, unpaid community labour is not a niche modding curiosity — it's direct, measurable evidence of how much this metric matters to the audience.
 
 ## Sources
 
 - **research.md — Reddit (What makes a good football game):** "Clubs and Players they support or enjoy watching"
 - **research.md — Keywords Findings:** "A lot of queries asking about 'Fifa', Football or 'World Cup Games'"
-- **General industry knowledge (no live web search performed this session — declined):** Konami's eFootball ships with partial real-world licensing; community patches Football Life and Smoke Patch exist specifically to restore missing club/league/kit authenticity — well-documented in the PES/eFootball modding community
+- **[Smoke Patch — pessmokepatch.com](https://www.pessmokepatch.com/):** active PES/eFootball license patch project
+- **[PES Modding — SP Football Life 2026](https://www.pesmodding.com/2025/10/sp-football-life-2026.html):** Football Life 2026 release documentation
+- **[PES Modding — ePatch 2026 v41.2](https://www.pesmodding.com/2026/05/efootball-2026-patch-epatch-2026.html):** patch update notes referencing "updated squads and real licenses," unlicensed league additions
 
 ---
 

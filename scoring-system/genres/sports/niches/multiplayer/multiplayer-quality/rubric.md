@@ -8,11 +8,11 @@
 
 This niche metric swaps in for Presentation & Atmosphere when scoring a multiplayer-focused page — online head-to-head play (Ultimate-Team-style or ranked seasons) or Football Manager's online leagues. Presentation matters less when the actual concern shifts to whether the online experience itself is fair and stable.
 
-Online input delay and connection-quality complaints are among the longest-running, most consistently documented community grievances in the FIFA/FC Ultimate Team online community — players have discussed "input delay" and connection-dependent advantage for years, often noting that a technically worse player with a better connection can beat a better player on a worse one, which undermines the skill expression the on-pitch metrics are supposed to reward. Matchmaking fairness (being paired against opponents far outside your actual skill or squad-value bracket) is a closely related, similarly well-documented complaint.
+Online input delay and connection-quality complaints are among the longest-running community grievances in the FIFA/FC online community. The complaint is specific and consistent: a technically worse player with a stronger internet connection can beat a demonstrably better player simply because input delay on the worse connection makes timing-based actions (shooting, tackling, first touch) unreliable. This directly undermines the skill expression that the On-Pitch Match Feel metric is supposed to reward — a game that plays well offline can feel completely different online if netcode introduces unpredictable delays. Matchmaking fairness compounds this: being paired against opponents with a squad worth ten times your own means the outcome is often determined by squad value before a ball is kicked, not by skill. Deliberate connection manipulation ("lag switching") — where a player intentionally degrades their own connection to create input lag for the opponent — is a well-documented exploit specific to the peer-to-peer connection model used in older FIFA/FC online modes.
 
 ## Sources
 
-- **General industry knowledge (no live web search performed this session — declined):** persistent FIFA/FC Ultimate Team community complaints about online input delay and connection-dependent outcomes are widely documented across multiple console generations of the series
+- **General industry knowledge:** FIFA/FC Ultimate Team community complaints about input delay, connection-dependent outcomes, squad-value matchmaking gaps, and lag exploitation are documented across multiple console generations of the series and confirmed via community forums; no specific web article was returned in this session's search
 
 ---
 

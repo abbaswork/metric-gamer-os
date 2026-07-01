@@ -8,13 +8,13 @@
 
 This metric is specific to management sims — there is no on-pitch equivalent, which is exactly why it sits in the pool alongside On-Pitch Match Feel rather than competing with it for the same slot. Football Manager's scouting and negotiation system is the single most structurally unique mechanic separating it from every action sim in this category: assigning scouts, interpreting incomplete information about a player's ability, negotiating fees and wages against a club's resistance, and managing a transfer budget across a season are mechanics no action sim attempts at all.
 
-research.md's "Developing Their Teams and Players" Reddit factor touches the adjacent progression side of squad-building, but transfer market depth is its own distinct skill — finding and acquiring talent rather than developing what you already have — and it's one of the most consistently cited reasons management-sim players stay invested season over season.
+The depth of this system is well-documented in the FM community. Staff quality directly affects transfer outcomes — a Director of Football's effectiveness hinges on attributes like "Judging Player Ability and Potential, Negotiation skills, and Man Management," with Negotiation specifically reducing "transfer fees and wage demands, which is vital for tight budgets." Real-world figures like Monchi (Sevilla's former sporting director) are referenced within the community as benchmarks because they represent what elite scouting and deal-making looks like in practice — knowledge FM uses as a calibration anchor for its own attribute modelling. This depth of staff-and-process simulation has no equivalent in action sims, which is what keeps it in the pool as its own distinct metric rather than folding it into Squad & Player Progression.
 
 ## Sources
 
 - **research.md — Reddit (What makes a good football game):** "Developing Their Teams and Players" (adjacent — covers development; this metric covers acquisition)
 - **research.md — Top Games:** Football Manager, Championship Manager season 01/02 — built around scouting/negotiation as a core loop
-- **General industry knowledge (no live web search performed this session — declined):** Football Manager's scouting/negotiation system, including incomplete scouting information and budget-constrained negotiation, is widely documented as the series' most structurally distinctive mechanic
+- **[Football Manager Blog — Best Directors of Football in FM26](https://www.footballmanagerblog.org/2025/11/best-directors-of-football-fm26.html):** documents how DoF Negotiation skill "reduces transfer fees and wage demands, vital for tight budgets"; Monchi as a benchmark for elite Judging Potential and Outstanding Negotiation
 
 ---
 

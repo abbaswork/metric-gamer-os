@@ -8,12 +8,12 @@
 
 research.md's Reddit factor "Allowing underperforming team to Win championships they normally wouldnt" cuts two ways, and this rubric scores the failure modes on either side of it. Players value genuine upset potential — a weaker squad should be able to win on the day through good tactics or a great individual performance. What they don't want is the game *manufacturing* that outcome through visible interference rather than letting it emerge from play.
 
-The latter is one of the longest-running, most documented complaints in the action-sim side of this genre: EA Sports FC/FIFA's community has discussed "EA momentum" or "scripting" for years — the perception that the CPU opponent's performance noticeably and suddenly improves late in a match specifically to manufacture a dramatic comeback, regardless of how the match has actually been played. This is a genuinely different failure mode from AI difficulty or skill expression (covered by On-Pitch Match Feel and Tactical Depth) — it's specifically about whether outcomes feel earned or imposed.
+The latter is one of the longest-running, most documented complaints in the action-sim side of this genre. In FIFA 17, players investigating the game's code uncovered evidence that the rubber-banding script — "which EA Sports refers to as 'Momentum'" — directly modifies player attributes mid-match, including Penalty Saving, Heel Passer, and a specific attribute named "Super Sub," apparently designed to simulate a player "who comes in off the bench and completely changes the game." The community response was large enough to produce a Twitter campaign under #ExplainFIFAMomentum; EA Sports has never publicly addressed the findings. This is a genuinely different failure mode from AI difficulty or skill expression (covered by On-Pitch Match Feel and Tactical Depth) — it's specifically about whether outcomes feel earned or imposed, and the complaint here isn't vague player frustration but documented code.
 
 ## Sources
 
 - **research.md — Reddit (What makes a good football game):** "Allowing underperforming team to Win chamionships they normally wouldnt"
-- **General industry knowledge (no live web search performed this session — declined):** the long-running FIFA/FC community complaint about late-match CPU "momentum"/scripting manufacturing comebacks regardless of match performance is widely documented across the series' community discussion history
+- **[Game Rant — "FIFA 17 Players Uncover Evidence of 'Rubber Banding'"](https://gamerant.com/fifa-17-momentum-rubber-banding/):** documents community discovery of FIFA 17 momentum code changing player attributes; #ExplainFIFAMomentum campaign; EA's non-response
 
 ---
 
