@@ -65,13 +65,16 @@ These sites are blocked as sources for review opinions, scores, verdicts, and pl
 1. `is {game_name} worth playing` — transactional intent query players actually search
 2. `{game_name} {genre}` — secondary keyword signal and long-tail opportunities
 
+**Batch 2.5 — Sub-genre research FAQ extraction (optional, skip if not available):**
+Check for `scoring-system/genres/{genre}/sub-genres/{sub_genre}/research.md` (or `scoring-system/genres/{genre}/research.md` if no sub-genre file exists). If found, scan its Google Trends Queries and Reddit Important Factors sections for anything question-shaped or that implies a question a player would ask — player count, crossplay, tier list, patch notes, mods, meta, multiplayer, length, and similar. Add matches to the FAQ seeds list below alongside the universal templates in `faq-templates.md`. If no `research.md` exists for this genre/sub-genre, or nothing in it is FAQ-relevant, skip this step and move on — it never blocks the draft.
+
 **Record before continuing (context only — not published):**
 ```
 Primary keyword: [game name or "{game_name} review"]
 Secondary keywords: [phrases from top results — platform, features, comparisons]
 Search intent: [informational / transactional / hybrid — one sentence]
 Competitor gaps: [what top pages miss that the metric breakdown uniquely covers]
-FAQ seeds: [People Also Ask and community questions for the FAQ section]
+FAQ seeds: [People Also Ask and community questions, plus any Batch 2.5 research.md candidates]
 ```
 
 ---
