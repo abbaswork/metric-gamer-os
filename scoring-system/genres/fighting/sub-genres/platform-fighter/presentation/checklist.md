@@ -1,11 +1,5 @@
-# Checklist: Presentation
-**Genre:** Fighting
-**Sub-genre:** Platform Fighter
-
----
-
-5 = The music gives the game a distinct atmosphere, your character has a personality you enjoy engaging with, the cosmetic system gives you a reason to invest in your main aside from winning
-4 = Music and animation deliver character and atmosphere, though the cosmetic system limits how far that investment can go, or the cosmetics are deep but music and animation personality aren't there to match
-3 = Music exists without being distinct, cosmetics offer limited variety, characters have functional animations without personality, the game has a presentation layer but nothing that makes you feel attached
-2 = The game makes no impression outside its mechanics, music is generic or absent, cosmetics are minimal or entirely paywalled, characters feel interchangeable outside their movesets
-1 = Generic or absent music, no meaningful cosmetic system, no animation personality, the presentation communicates nothing about why this game is worth returning to
+5 = The game has a clear personality in motion and sound, with characters that feel distinct enough to make you want to play them.
+4 = The atmosphere and character personality are mostly there, though either the cosmetics don't go deep enough to feel worth investing in or the music and character style don't do much to set the game apart.
+3 = The game has a visual style but no real personality. Nothing really sets it apart from other games.
+2 = Nothing really sticks beyond the gameplay itself, with forgettable music, barebones cosmetics, and characters that blur together outside of their movesets.
+1 = The music, characters, and visual style communicates nothing about why this game is worth returning to.

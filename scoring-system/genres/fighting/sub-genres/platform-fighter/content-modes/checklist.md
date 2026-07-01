@@ -1,11 +1,5 @@
-# Checklist: Content & Modes
-**Genre:** Fighting
-**Sub-genre:** Platform Fighter
-
----
-
-5 = The game gives you a reason to play regardless of who you're with, training tools cover what actually matters in the sub-genre, post-launch support keeps the content growing
-4 = Strong mode variety with one or two gaps, the content holds you for months, post-launch support has added meaningfully since launch
-3 = Adequate at launch but the game doesn't give you many reasons to return after the first few weeks, training tools cover basics without the aerial-specific depth the sub-genre needs
-2 = The game shows its edges fast, it works as a 1v1 mode and not much more, post-launch support hasn't added anything meaningful
-1 = You've seen everything the game offers within the first few sessions, no training tools, no local modes, nothing added after release
+5 = There's something worth doing whether you're playing alone, locally, or online, the training room actually prepares you for the aerial game rather than just letting you hit a dummy, and updates keep giving you new reasons to come back.
+4 = The content holds for months across most ways you'd want to play, even if a couple of areas run thin once you've worked through what's there.
+3 = There's enough here to keep you busy for the first few weeks, but the game doesn't give you many reasons to stick around once you've exhausted the basics.
+2 = There's essentially just the 1v1 mode and not much behind it. The training tools are too limited to actually help and there's little to do with friends locally.
+1 = You've seen everything the game has to offer within a few sessions and nothing gets added to change that.

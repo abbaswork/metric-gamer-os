@@ -1,11 +1,5 @@
-# Checklist: Roster Depth
-**Genre:** Fighting
-**Sub-genre:** Traditional
-
----
-
-5 = Picking a main is a real identity decision, the cast spans enough archetypes to produce genuinely different experiences, off-meta picks are competitive choices
-4 = Strong variety across archetypes, a few characters feel redundant but most players will find someone to invest in, post-launch additions have brought something genuinely new
-3 = The expected archetypes are covered, picking a character is a practical decision
-2 = Shallow roster with limited variety, multiple characters just feel like reskins, there's so few options you feel constrained
-1 = Too few distinct characters to form an attachment to any, the roster feels more like an afterthought than a core part of the game
+5 = The roster is large enough and varied enough that deciding on a main takes real time, and new additions feel like they actually bring something different.
+4 = Most players will find someone they genuinely want to invest in, even if a few characters feel like lesser versions of stronger ones.
+3 = The expected character types are all there, but picking one is more of a practical decision than an expressive one.
+2 = The variety is too thin for the roster to feel like a real selling point, and too many characters share too much in common to make exploring them worthwhile.
+1 = The roster is basically an afterthought; there are too few distinct characters to form any real attachment.

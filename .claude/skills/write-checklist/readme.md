@@ -94,6 +94,7 @@ Not applicable. Checklists are derived entirely from the existing rubric — no 
 - [ ] No em-dashes anywhere in the checklist
 - [ ] All five bands measure the same core dimension at decreasing intensity
 - [ ] The defining characteristic of each rubric band is faithfully captured in the checklist sentence
+- [ ] Each band summarises the Description column of the rubric, not the "What This Means for You" column
 - [ ] The checklist reads like a human game reviewer wrote it, not a rubric paraphrase
 - [ ] In review mode: user explicitly approved the draft before it was written to file
 - [ ] Checklist written to the correct path relative to the rubric

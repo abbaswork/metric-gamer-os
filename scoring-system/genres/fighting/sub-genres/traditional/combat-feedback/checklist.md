@@ -1,11 +1,5 @@
-# Checklist: Combat Feedback
-**Genre:** Fighting
-**Sub-genre:** Traditional
-
----
-
-5 = Every attack feels different when it lands, you can tell by sound alone whether you hit, were blocked, or missed, your inputs register 100% of the time, you can read from the animation when a move is starting and when it's done
-4 = Hits feel physically distinct, though one attack weight doesn't produce a clearly different pause than the others, or audio doesn't fully distinguish hit from block in all situations, inputs and hitboxes are reliable
-3 = Hitstop is uniform across attack weights so jabs and launchers don't feel distinct, audio doesn't clearly distinguish between hit, block, and whiff, inputs are reliable
-2 = At least one thing is absent or broken, no hitstop, indistinguishable hit and block audio, input lag, or phantom hits in matches
-1 = Multiple things absent or broken, input drops, missing hitstop, audio that doesn't confirm contact, hitboxes that don't match animations
+5 = Hits feel physical and distinct, you always know whether you landed it or got blocked, and you stop having to think about the controls within hours.
+4 = The game mostly tells you what's happening when you hit, though occasionally a moment lands in a way that doesn't quite feel like it confirmed properly.
+3 = The controls are reliable and you won't be stopped by them, but they won't really pull you in any deeper either.
+2 = At least one thing is missing or clearly broken so that you're often second-guessing what actually happened in a fight.
+1 = The game struggles to communicate what's happening, with dropped inputs and unreliable hit and audio feedback.

@@ -1,15 +1,5 @@
-# Checklist: Accessibility
-**Genre:** Fighting
-**Sub-genre:** Party Fighter
-
----
-
-5 = Anyone can pick up a controller and be having fun before the first match ends, the controls are discoverable through trying them, losing is part of the entertainment not a barrier to it
-
-4 = Most people click with it immediately, one or two mechanics might need a quick explanation, but no one is sitting out while they figure it out
-
-3 = The game gets fun once players are in it, but getting there takes more setup time than a party fighter should need
-
-2 = Works for people who already play games, doesn't hold up for mixed-experience groups without someone explaining it first
-
-1 = Not a pick-up-and-play game, the controls don't come together before casual players lose interest
+5 = Anyone can pick up a controller, figure out what the buttons do by trying them, and be laughing before the first match is over, even when they're losing.
+4 = Most players click with it straight away, though there might be one mechanic that takes a moment before the whole group is in on the fun.
+3 = The game gets fun once people find their footing, but you'll spend more time than you'd want explaining instead of playing.
+2 = It works for people who already play games regularly, but casual players spend their first session figuring out the controls rather than enjoying what's happening.
+1 = The controls create enough initial confusion that casual players check out before the game has a chance to be fun.

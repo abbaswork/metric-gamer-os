@@ -8,6 +8,8 @@ This guide must be read before writing any metric score checklist.
 
 One sentence per score band (5 through 1), written the way a knowledgeable human game reviewer would actually write — not a rubric paraphrase, not AI imitating a reviewer. It lives on the game page and gives readers an immediate, plain-language read of what each score means.
 
+Each sentence summarises the **Description** column of the rubric band — the substantive criteria that define the score. Do not summarise the "What This Means for You" column. That column is a one-liner consequence or takeaway; the checklist needs to tell the reader what the score actually requires, not just what it feels like to receive it.
+
 ---
 
 ## Before you write
@@ -37,6 +39,7 @@ One sentence per score band (5 through 1), written the way a knowledgeable human
 - No em-dashes
 - No clever-sounding phrases that read as AI rather than human
 - Don't paraphrase the rubric mechanically — synthesise the felt experience
+- Don't summarise the "What This Means for You" column — summarise the Description; the checklist must capture the substance of the rubric band, not just the consequence
 
 ---
 

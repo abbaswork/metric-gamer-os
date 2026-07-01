@@ -1,11 +1,5 @@
-# Checklist: Gameplay Depth
-**Genre:** Fighting
-**Sub-genre:** Traditional
-
----
-
-5 = The neutral game rewards positioning, the defensive toolkit gives you real answers to aggression not just delays, knowing frame advantage shapes your decisions, reads and anticipation are what separate players at high level
-4 = Clear tactical depth with multiple viable approaches, defensive tools function, the skill ceiling is real and worth pursuing even if a few rough edges exist
-3 = Mechanics are there but the system doesn't consistently reward reads over aggression, going deeper is possible but the game doesn't push you toward it
-2 = One dominant approach solves most situations, aggression is simply correct most of the time, knowing the game deeply doesn't reliably outperform knowing it shallowly
-1 = No meaningful tactical depth, the gap between a new player and an experienced one is reaction time not game knowledge
+5 = There's real decision-making in neutral and advantage states, and you're rewarded for understanding the player in front of you.
+4 = High-level play is genuinely engaging. A few rough edges don't undermine the fact that reads and execution matter.
+3 = You can find depth if you look for it, but in regular play aggression tends to overpower defensive or reactive options.
+2 = One strategy dominates and there's little incentive to learn anything else.
+1 = Investment just isn't rewarded. You plateau almost immediately after learning the basics.
