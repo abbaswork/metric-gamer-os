@@ -110,6 +110,10 @@ The goal here is to identify the primary keyword, secondary keywords, search int
 - `is {game_name} worth playing` — captures the transactional intent query players actually search
 - `{game_name} {genre}` — secondary keyword signal and niche long-tail opportunities
 
+**Batch 2.5 — Sub-genre research FAQ extraction (optional, skip if not available)**
+
+Check for `scoring-system/genres/{genre}/sub-genres/{sub_genre}/research.md` (or `scoring-system/genres/{genre}/research.md` if no sub-genre file exists). If found, scan its Google Trends Queries and Reddit Important Factors sections for anything question-shaped or that implies a question a player would ask — player count, crossplay, tier list, patch notes, mods, meta, multiplayer, length, and similar. Add matches to the FAQ seeds list below alongside the universal templates in `faq-templates.md`. If no `research.md` exists for this genre/sub-genre, or nothing in it is FAQ-relevant, skip this step and move on — it never blocks the draft.
+
 **Extract and record before continuing:**
 
 ```
@@ -117,7 +121,7 @@ Primary keyword: [usually the game name, sometimes "{game_name} review"]
 Secondary keywords: [phrases appearing across top results — platform names, notable features, comparisons]
 Search intent: [informational / transactional / hybrid — one sentence on what the player is looking for]
 Competitor gaps: [what top-ranking pages don't cover that our metric breakdown uniquely addresses]
-FAQ seeds: [People Also Ask questions and community questions to pull into the FAQ section]
+FAQ seeds: [People Also Ask questions and community questions, plus any Batch 2.5 research.md candidates]
 ```
 
 This output stays in context only. It is not a published section of the page. Use it to guide where secondary keywords are placed naturally in the intro, metric descriptions, and FAQs.

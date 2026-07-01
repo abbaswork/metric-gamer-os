@@ -8,41 +8,10 @@
 
 ## Case Studies Used
 
-### Retro Dodo
-Niche retro gaming magazine. Founded June 2019 as a side project. Reached 1 million organic clicks and $50K monthly revenue within 3 years with no deliberate link-building campaign.
-
-**What they do:**
-- Topic clusters built around game systems and retro platforms — every article links to and from a cluster, so the whole cluster ranks, not individual pages in isolation
-- Consistent brand voice and recognisable identity that earned organic community mentions
-- Content depth over breadth within each cluster — comprehensive coverage of a narrow niche rather than thin coverage of a wide one
-- No link outreach — all backlinks are earned through content quality and community trust
-
-**Relevance to Metric Gamer:** Same scale, content-first model, niche authority over generalist coverage. Validates the genre cluster approach.
-
----
-
-### Hub-and-Spoke Gaming Platform (documented case study)
-A gaming platform that reorganised all content into per-game hubs — pillar pages linking to guides, tier lists, patch notes, and builds — and outranked sites 10x its size.
-
-**What they did:**
-- Restructured content so each game had a hub page with 15+ supporting articles
-- Converted 200-word thin guides into 2,000+ word resources with embedded video, interactive elements, and community data
-- Built a rapid-response editorial workflow for patch notes and meta changes — published within 4 hours of game updates
-- Reduced LCP from 4.2s to 1.1s through image lazy-loading, video facade patterns, and CDN optimisation
-
-**Results:** 2,300% increase in sales, 100% increase in organic clicks.
-
-**Relevance to Metric Gamer:** Demonstrates that content architecture and page speed, not domain authority, are the primary levers for small sites competing against established publications.
-
----
-
-### GEO Research Sources
-- [GEO White Paper v3.0, August 2025](https://medium.com/@shaneht/the-geo-white-paper-optimizing-brand-discoverability-in-models-like-chatgpt-perplexity-and-ee741613dfb3) — Tepper
-- [Google AI Optimisation Guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — Google Search Central, 2026
-- [Frase.io GEO Guide 2026](https://www.frase.io/blog/what-is-generative-engine-optimization-geo)
-- Previsible 2025 AI Traffic Report — AI-referred sessions up 527% YoY in first 5 months of 2025
-- Content featuring quotes, expert opinions, or proprietary data shows 30–40% higher visibility in AI-generated answers (GEO White Paper)
-- Median CTR lift of +34% across 17 gaming sites after implementing Organisation, BreadcrumbList, FAQPage, and Article schemas (redclawey.com iGaming schema study, 2025–2026)
+See [case-studies/](../case-studies/) for the full writeups:
+- [Retro Dodo](../case-studies/retro-dodo.md)
+- [Hub-and-Spoke Gaming Platform](../case-studies/hub-and-spoke-gaming-platform.md)
+- [GEO Research Sources](../case-studies/geo-research-sources.md)
 
 ---
 
