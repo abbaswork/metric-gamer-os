@@ -1,4 +1,4 @@
-# Metric: Driving Feel & Accessibility
+# Metric: Controls & Playability
 **Genre:** Racing
 **Sub-genre:** Kart Racing
 **Type:** Qualitative (community consensus)
