@@ -113,6 +113,21 @@ Week 1 is a setup and first-actions test. All three team members complete the sa
 
 ---
 
+### Week 4 — July 6 to 12
+*Ranking page audit, content rewrites, and final Reddit participation. Deadline: July 12.*
+*All three team members complete every task below. Equal points per person.*
+
+| # | Task | Points | Deadline |
+|---|---|---|---|
+| 2.14 | Continue posting and commenting on Reddit — genuine comments, answers, or discussion (not promotional) | 10 | July 12 |
+| 2.15 | Review feedback received on Reddit posts and use it to finalise the metric lists for your assigned genres | 10 | July 12 |
+| 2.16 | Review current ranking pages for your assigned genres — if the listed games are not the actual best in category, compile a fresh ranked list | 15 | July 12 |
+| 2.17 | Use the write-game-page skill to rewrite existing game pages and add any new games identified in your updated list | 15 | July 12 |
+
+**Week 4 total per person: 50 points** | Running total: 1,000 / 1,000
+
+---
+
 ## Campaign 3 — Content & AdSense
 *Goals 2 + 3 | 5 weeks | Start: June 28 | Go-live: July 19, 2026 | Submission deadline: July 17*
 
