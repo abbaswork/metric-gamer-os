@@ -30,11 +30,23 @@
 
 ---
 
+## Week 3 — June 29–July 5
+
+| # | Task | Pts | AK | KK | SB |
+|---|---|---|---|---|---|
+| 2.11 | Address rubric feedback / begin new rubric | 50 | ✓ | ✓ | ✓ |
+| 2.12 | Join additional Reddit communities and engage | 25 | ✓ | ✓ | ✓ |
+| 2.13 | Edit and publish template Reddit post | 25 | ✓ | ✓ | ✓ |
+| | **Week 3 total** | **100** | **100** | **100** | **100** |
+
+---
+
 ## Running Totals
 
 | | AK | KK | SB |
 |---|---|---|---|
 | Week 1 | 225 | 125 | 150 |
 | Week 2 | 325 | 225 | 225 |
-| **Total** | **550** | **350** | **375** |
-| **% of 1,000** | 55% | 35% | 37.5% |
+| Week 3 | 100 | 100 | 100 |
+| **Total** | **650** | **450** | **475** |
+| **% of 1,000** | 65% | 45% | 47.5% |
