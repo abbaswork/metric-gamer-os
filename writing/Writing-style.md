@@ -77,6 +77,23 @@ Two to three sentences maximum. Summarise the overall experience and give a clea
 
 ---
 
+## Reference Example — What Human Sounds Like vs. AI
+
+**EA Sports FC 25 / On-Pitch Feel / Score: 4** *(constructed example)*
+
+> FC 25 has real weight behind its ball physics this year. You can feel it most in how differently a cushioned first touch feels as opposed to a heavy one, and the game rewards players who've put the time in to know the difference. A well-timed through ball feels distinct from a rushed one so finishing a chance feels genuinely satisfying. Unfortunately, aerial duels haven't kept up with the rest of it. Header outcomes feel closer to a coin flip than a contest of timing, and once you notice it you can't un-notice it. If you build your play around crosses or set pieces, the gap is going to cost you.
+
+**Why this works:**
+
+- **"So" as a connector instead of comma-and.** "A well-timed through ball feels distinct from a rushed one so finishing a chance feels genuinely satisfying" — "so" carries causality and reads like someone explaining a consequence. Comma-and just stacks clauses, which is what makes copy feel mechanical.
+- **Sentences move forward.** "You can feel it most in how differently a cushioned first touch feels as opposed to a heavy one" describes an experience in motion. A static construction like "felt most in how different a cushioned first touch is from a heavy one" hangs in the air with nothing driving it — that reads AI.
+- **No over-engineering.** "Finishing a chance feels genuinely satisfying" is direct and human. Adding "in a way that holds up" or similar hedging makes simple things sound considered — a classic AI pattern.
+- **"Genuinely" is fine here.** The guide bans it as a corporate qualifier in abstract contexts ("genuinely meaningful", "genuinely innovative") but "genuinely satisfying" in a casual sentence reads human because it's the word a real person would use to emphasise a feeling.
+- **No "it's not X, it's Y" contrasting structures.** "Scoring a goal feels like something you did rather than something that happened" is a tell — reframe the idea directly instead.
+- **"Unfortunately" earns its place.** It lands on something concrete and specific (aerial duels) not on a vague qualifier, and the practical close ties the consequence to a real playstyle (crosses and set pieces) rather than a generic warning.
+
+---
+
 ## Keyword Integration
 
 When a keyword assignment is in place (from the keyword strategy output), the following placement rules apply:

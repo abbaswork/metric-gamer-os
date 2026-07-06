@@ -107,16 +107,42 @@ State the assumption you would otherwise make alongside each question. Do not be
 
 ---
 
-## Step 5 — Draft the Full Game Page (Phase 5)
+## Step 5 — Score Each Metric (Phase 5)
 
-During drafting, run Phase 5 searches for player voice:
+Run before drafting. Every metric must have a confirmed score before any copy is written.
 
-**Batch 3 — Community reaction:**
+For each metric in the game's rubric set, run the following player voice searches:
+
 1. `reddit "{game_name}" {metric_name} what do you think`
 2. `reddit "{game_name}" best part worst part`
 3. `steam "{game_name}" reviews {metric_name}`
 
-Pull verbatim player quotes where possible. Each metric description must reference something specific — a named track, mechanic, car, update — not generic genre description.
+Pull verbatim player quotes where possible.
+
+**Scoring process:**
+Read the rubric Description column for the metric. Work top-down from band 5:
+- Does the community's experience match this description?
+- If yes — assign that score with the supporting evidence
+- If no — move to band 4 and repeat
+- Continue until you find the highest band the game fully satisfies
+
+**Tiebreaker rule:** if the game sits between two bands, assign the upper band only if the gap is minor and does not affect the core of what that band describes. Otherwise assign the lower band.
+
+Once all metrics are scored, present a scored summary to the user before proceeding:
+
+```
+{Metric}: {Score} — {one line of key evidence}
+{Metric}: {Score} — {one line of key evidence}
+Overall: {average rounded to one decimal}
+```
+
+Wait for the user to confirm or push back on any score. Do not begin drafting until all scores are confirmed.
+
+---
+
+## Step 6 — Draft the Full Game Page (Phase 6)
+
+Draft from the confirmed scores. Each metric description explains how the game earned its score — it does not arrive at the score mid-paragraph or re-evaluate during writing. Each metric description must reference something specific — a named track, mechanic, car, update — not generic genre description.
 
 Produce all sections in this order. Every section is required.
 
@@ -204,9 +230,15 @@ Rules: 500 character limit total. No em dashes. The Good and The Bad must be gam
 
 ---
 
-## Step 6 — Validate (Phase 6)
+## Step 7 — Validate (Phase 7)
 
 Before submitting, verify every item below is met.
+
+### Scoring
+- [ ] All metrics scored against the rubric Description column before drafting began
+- [ ] Each score supported by verbatim player quotes or named game-specific evidence
+- [ ] Tiebreaker rule applied where a game sat between two bands
+- [ ] Scored summary presented to user and confirmed before drafting began
 
 ### Fact-checking
 - [ ] Release date(s) verified per platform against a live source

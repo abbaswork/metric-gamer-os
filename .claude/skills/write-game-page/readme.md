@@ -61,11 +61,15 @@ Phase 4 — Claude          Discovery Q&A — surface conflicting or thin facts 
                           metric descriptions) as direct questions. Halt until
                           answered or explicitly waived.
      ↓
-Phase 5 — Claude          Draft full game page with keywords integrated naturally
+Phase 5 — Claude          Score each metric against its rubric using player voice
+                          research. Present scored summary to user and confirm
+                          before drafting begins.
      ↓
-Phase 6 — Claude          Validate against acceptance criteria; update tags indexes if needed
+Phase 6 — Claude          Draft full game page from confirmed scores
      ↓
-Phase 7 — Claude          If game is on Steam: write Steam curator review (conditional)
+Phase 7 — Claude          Validate against acceptance criteria; update tags indexes if needed
+     ↓
+Phase 8 — Claude          If game is on Steam: write Steam curator review (conditional)
 ```
 
 Do not begin drafting until Phases 2 through 4 are complete. Keywords must be identified before writing begins — they cannot be integrated naturally if they are retrofitted after the draft is done.
@@ -147,17 +151,31 @@ Only run these if the metric descriptions will reference named content (levels, 
 
 ---
 
-### Phase 4 — Player voice for metric descriptions (run during drafting)
+### Phase 5 — Score each metric (run before drafting)
 
-The goal here is raw player reaction to specific metrics — what they praised and what they complained about. Use community sources.
+The goal here is raw player reaction to specific metrics — what they praised and what they complained about. Use community sources. Scores are confirmed before any copy is written.
 
-**Batch 5 — Community reaction (3 searches)**
+**Batch 5 — Community reaction (3 searches per metric)**
 
 - `reddit "{game_name}" {metric_name} what do you think`
 - `reddit "{game_name}" best part worst part`
 - `steam "{game_name}" reviews {metric_name}`
 
-Pull **verbatim player quotes** where possible. Do not paraphrase. Each metric description must reference something specific to this game — a named level, mechanic, weapon, enemy, or update — not a generic description that could apply to the whole genre.
+Pull **verbatim player quotes** where possible. Do not paraphrase.
+
+**Scoring process:** Read the rubric Description column for the metric. Work top-down from band 5 — does the community's experience match this description? Drop to band 4, then 3, until you find the highest band the game fully satisfies. Assign the score with the key evidence that placed it there.
+
+**Tiebreaker rule:** if the game sits between two bands, assign the upper band only if the gap is minor and does not affect the core of what that band describes. Otherwise assign the lower band.
+
+Once all metrics are scored, present a scored summary and wait for the user to confirm before drafting begins:
+
+```
+{Metric}: {Score} — {one line of key evidence}
+{Metric}: {Score} — {one line of key evidence}
+Overall: {average rounded to one decimal}
+```
+
+Do not begin drafting until all scores are confirmed. Each metric description must reference something specific to this game — a named level, mechanic, weapon, enemy, or update — not a generic description that could apply to the whole genre.
 
 ### What to skip
 
@@ -283,6 +301,12 @@ The Bad: [Specific negative tied to a low-scoring metric]
 ## Acceptance Criteria
 
 These apply at the **start** (to guide execution) and at the **end** (to validate before submitting).
+
+### Scoring
+- [ ] All metrics scored against the rubric Description column before drafting began
+- [ ] Each score supported by verbatim player quotes or named game-specific evidence
+- [ ] Tiebreaker rule applied where a game sat between two bands
+- [ ] Scored summary presented to user and confirmed before drafting began
 
 ### Fact-checking
 - [ ] Release date(s) verified against a live source — per platform if staggered
