@@ -155,6 +155,9 @@ Fact check again at the end.
 - **Corporate qualifiers** — "consistently", "genuinely", "meaningfully", "substantially"
 - **Explaining the metric** — the description is about the game, not about what the metric means in general
 - **Methodology references in game content** — do not link to or explain the scoring system inside a game page
+- **Second clauses that restate the opener** — if the second clause says the same thing as the first with different words, cut it. "Movement is the best in any battle royale, and the gap is clear from the first match" — the second half adds nothing the first didn't already say. The opener does the job on its own.
+- **Meta-commentary on discourse** — don't describe the existence of a conversation or complaint ("tuned strongly enough to draw regular community discussion", "has been a persistent complaint"). Say the thing directly: "is a genuine sticking point", not "has become a point of ongoing discussion."
+- **Attribution and reporting voice** — "players describe it as", "the community considers", "players report that" — state things directly as your own assessment. "It's essentially a walking simulator" not "players describe it as a walking simulator."
 
 ---
 
