@@ -1,0 +1,52 @@
+Activity Sprint,,,,,,Approval Success Criteria,,,
+Phase,Task,Target,Priority,Est. Time,,Check,Target,Current State,Status
+Foundation,Expand homepage,"1,000–1,500 words",🔥 Critical,1–2 hrs,,Homepage content,"1,000+ words",Homepage appears closer to 300–500 words,❌
+Foundation,About Us page,Founder + site mission,🔥 Critical,20 min,,Total articles,20–30,Looks significantly above 20 game reviews/pages already,✅
+Foundation,Contact page,Form + email,🔥 Critical,15 min,,Average article length,"800–1,500 words","Sample reviews appear 1,000–2,000+ words",✅
+Foundation,Disclaimer page,Gaming reviews/content disclaimer,🔥 Critical,15 min,,About page,✅,About link exists in footer,✅
+Foundation,Privacy Policy review,Ensure complete,High,15 min,,Contact page,✅,"Email visible, but dedicated Contact page not visible from footer",⚠️
+Foundation,Footer navigation,Link all trust pages,High,15 min,,Privacy Policy,✅,Present,✅
+Content,Publish gaming articles,20–25 articles,🔥 Critical,Day 1–2,,Disclaimer,✅,Not visible from footer,❌
+Content,Add author bios,Every article,🔥 Critical,30 min,,Author bios,✅,Authors shown on review pages,⚠️
+Content,Add featured images,Every article,High,1 hr,,Internal links,3–5/article,Strong related rankings and game links visible,✅
+Content,Internal linking,3–5 links/article,🔥 Critical,1 hr,,Schema,✅,Audit reported missing structured data,❌
+SEO,Article Schema,Every article,🔥 Critical,1 hr,,Sitemap submitted,✅,Sitemap exists,⚠️ Unknown
+SEO,Breadcrumb Schema,Sitewide,High,30 min,,Search Console connected,✅,Cannot verify externally,⚠️ Unknown
+SEO,Open Graph tags,Sitewide,Medium,20 min,,Analytics installed,✅,Cannot verify externally,⚠️ Unknown
+SEO,Submit sitemap,Search Console,High,10 min,,Mobile friendly,✅,Audit passed mobile readiness,✅
+SEO,Request indexing,All URLs,🔥 Critical,30 min,,SSL active,✅,HTTPS active,✅
+Trust,Google Analytics,Installed,Medium,10 min,,,,,
+Trust,Social profiles,Footer links,Medium,15 min,,,,,
+,,,,,,,,,
+Content Publishing,,,,,,,,,
+Time,Articles Published,Total Live,,,,,,,
+Start,Existing content,Existing,,,,,,,
+6 Hours,10 articles,10+,,,,,,,
+12 Hours,15 articles,15+,,,,,,,
+24 Hours,20 articles,20+,,,,,,,
+48 Hours,25–30 articles,25–30+,,,,,,,
+,,,,,,,,,
+Fastedt Approval Route,,,,,,,,,
+Day,Activity,Goal,,,,,,,
+Day 1 Morning,Trust pages + homepage,Foundation complete,,,,,,,
+Day 1 Afternoon,Publish first 10 articles,Build site substance,,,,,,,
+Day 1 Evening,Internal linking + schema,Strengthen crawlability,,,,,,,
+Day 2 Morning,Publish 10–15 more articles,Reach 20–25 articles,,,,,,,
+Day 2 Afternoon,Indexing requests,Get Google crawling,,,,,,,
+Day 2 Evening,Final audit,Apply if everything looks clean,,,,,,,
+,,,,,,,,,
+Conservative Apprival Route,,,,,,,,,
+Day,Activity,Goal,,,,,,,
+Day 1–2,Complete sprint,20–30 articles live,,,,,,,
+Day 3,Submit sitemap,Full discovery,,,,,,,
+Day 3–5,Request indexing,Fast crawl,,,,,,,
+Day 5–7,Check indexing status,10–15 URLs indexed,,,,,,,
+Day 7,Apply for AdSense,Maximum approval probability,,,,,,,
+,,,,,,,,,
+Approval probability,,,,,,,,,
+Site State,Articles,Indexed URLs,Estimated Approval Odds,,,,,,
+Current State,Existing,Unknown,50–70%,,,,,,
+Sprint Complete,15+,Few,75–85%,,,,,,
+Sprint Complete,25+,Some indexed,85–95%,,,,,,
+Sprint + 1 Week Wait,25–30+,10–20 indexed,90–98%,,,,,,
+Sprint + 2 Weeks Wait,30+,Strong indexing,95%+,,,,,,

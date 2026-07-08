@@ -1,0 +1,111 @@
+Snapshot,,,,,,Competitor Analysis ,,
+Category,Current State,Strategic Interpretation,Severity,,,Competitor,Why Important,
+Organic Visibility,Recovering,Google is re-testing the domain,High,,,whattoplay.com,,
+Indexed Pages,Growing rapidly,Crawl confidence increasing,Positive,,,altarofgaming.com,5-10k pages for google in a week,
+Traffic,Low,Rankings not mature yet,Medium,,,https://anilist.co/,category parallel,
+CTR,Extremely low (0.6%),SERP packaging problem,Critical,,,https://game8.co/,,
+Authority,Weak,Backlink deficit vs gaming publishers,Critical,,,,,
+Content Strategy,Unstructured,No topical cluster dominance,Critical,,,,,
+Technical SEO,Mixed,Crawl/indexation inefficiencies,High,,,,,
+Keyword Footprint,Emerging,Strong long-tail opportunity,Positive,,,Competitor Ranking Benchmarks,,
+Internal Linking,Weak,Authority flow fragmented,High,,,Benchmark Area,What To Measure,
+Commercial SEO Potential,Strong,Gaming rankings + affiliate potential,Very High,,,Referring Domains,Authority gap,
+,,,,,,DR/DA,Domain strength,
+Google Search Console Performance Analysis,,,,,,Top Pages,Traffic magnets,
+Metric,Value,Analysis,,,,Anchor Text,Link acquisition patterns,
+Clicks,31,Early-stage discovery traffic,,,,Content Length,SERP standards,
+Impressions,4.86K,Google actively testing pages,,,,Internal Linking,Authority flow,
+CTR,0.60%,Titles/meta not competitive,,,,Publishing Frequency,Content velocity,
+Avg Position,52,Most keywords on page 4–7,,,,SERP Optimization,CTR engineering,
+,,,,,,Schema Usage,Rich result optimization,
+Historical SEO Trend Analysis,,,,,,,,
+Period,Observation,Strategic Meaning,,,,Revisted SEO Strategy Snapshot,,
+Early 2025,Stronger impressions and clicks,Site previously had momentum,,,,Current State,New Strategy,
+Mid-Late 2025,Visibility instability,Possible inconsistent publishing,,,,Random publishing,Cluster publishing,
+Current Recovery Phase,Indexation rising again,Google trust not fully lost,,,,Isolated pages,Interlinked silos,
+Current Opportunity,Fast recovery possible,Technical + cluster strategy can revive growth,,,,Generic titles,CTR-focused metadata,
+,,,,,,Weak authority,Aggressive backlinking,
+Indexaction Analysis,,,,,,Broad content,Search-intent precision,
+Status,Count,Analysis,,,,Weak topical depth,Pillar architecture,
+Indexed Pages,114,Positive growth trajectory,,,,,,
+Not Indexed,82,Crawl prioritization issues remain,,,,Proposed SEO Architecture,,
+Sitemap URLs,130 discovered,Sitemap structure functional,,,,Layer,Purpose,Example
+,,,,,,Pillar Page,Main authority hub,Best Racing Games for PS4
+Non-indexed Issues,,,,,,Supporting Article,Long-tail expansion,Best 2 Player Racing Games PS4
+Issue,Pages,SEO Impact,Fix Priority,,,Supporting Article,Intent expansion,Free Racing Games on PS4
+Discovered – currently not indexed,32,Crawl budget inefficiency,Critical,,,Comparison Page,Commercial clicks,GT7 vs Need for Speed
+Page with redirect,22,Crawl dilution,High,,,Review Page,EEAT authority,Gran Turismo 7 Review
+Excluded by noindex,8,Potentially intentional,Medium,,,FAQ Layer,Snippet capture,Is GT7 beginner friendly?
+404 errors,6,UX + authority leakage,High,,,,,
+5xx server errors,5,Severe crawl trust issue,Critical,,,Content Team Checklist,,
+Redirect errors,4,Link equity loss,High,,,Task,Department,Priority
+Crawled – not indexed,2,Weak content quality signals,High,,,Create keyword clusters,SEO,Critical
+Canonical conflicts,2,Duplicate confusion,Medium,,,Rewrite title tags,SEO,Critical
+403 blocked pages,1,Crawl blockage,Medium,,,Optimize meta descriptions,SEO,Critical
+,,,,,,Build topic maps,SEO,High
+Technical SEO Audit,,,,,,Create backlink roadmap,SEO,Critical
+Area,Current Condition,Risk Level,Recommendation,,,Build guest post list,SEO,High
+XML Sitemap,Good,Low,Maintain segmented sitemaps,,,Build niche edit list,SEO,High
+HTTPS,Healthy,Low,No major action needed,,,Improve CTR strategy,SEO,High
+Crawlability,Moderate,Medium,Improve crawl pathways,,,Stop random publishing,Critical,Improve topical authority
+Internal Linking,Weak,High,Build contextual link network,,,Build pillar pages,Critical,Authority consolidation
+Structured Data,Limited,High,Add Review + FAQ schema,,,Create long-tail articles,Critical,Keyword expansion
+Redirects,Poor,High,Remove redirect chains,,,Add FAQs to articles,High,Rich snippets
+Server Stability,Unstable,Critical,Fix 5xx issues immediately,,,Add comparison tables,High,Engagement + CTR
+Canonicals,Mixed,Medium,Standardize canonical logic,,,Improve article depth,High,Better rankings
+,,,,,,Add author bios,Medium,EEAT
+Technical Team Action Checklist,,,,,,Improve update frequency,Medium,Freshness signals
+Task,How To Execute,Impact,Difficulty,Priority,,Re-index older articles from October & November,,
+Fix 5xx server errors,"Identify affected URLs in GSC → inspect server logs → check hosting limitations, PHP memory limits, timeout issues, broken plugins, database overloads, or CDN conflicts → ensure all important pages return proper 200 status codes",Very High,Medium,Critical,,CTR Optimisation,,
+Resolve redirect chains,Crawl website using Screaming Frog or Ahrefs → identify URLs with multiple redirects → replace chains with direct 301 redirects to final destination → update internal links to final URLs directly,High,Medium,Critical,,Optimization,Expected Impact,
+Clean 404 URLs,"Export 404 pages from GSC → either restore deleted content, redirect to relevant live pages, or remove internal references entirely → ensure important backlinks pointing to 404s are redirected",High,Low,High,,Emotional titles,Higher clicks,
+Improve crawl depth,Reduce unnecessary page layers → ensure key pages are reachable within 2–3 clicks from homepage → improve category structures → add contextual internal links across articles and pillar pages,High,Medium,High,,Numbers in titles,Better SERP visibility,
+Add FAQ schema,Add FAQ sections near bottom of articles → implement FAQPage structured data JSON-LD → include real searchable questions based on People Also Ask and gaming search intent,Medium,Low,High,,Power words,CTR improvement,
+Add Review schema,"Add rating/review structured data to game review pages → include review author, rating value, game name, review body, pros/cons where possible",High,Low,High,,FAQ schema,Rich results,
+Add Article schema,"Implement Article or NewsArticle schema across blog pages → include headline, author, publish date, modified date, featured image, publisher details",Medium,Low,Medium,,Comparison tables,Better engagement,
+Improve CWV/Page Speed,"Optimize Largest Contentful Paint (LCP), Interaction to Next Paint (INP), and CLS → reduce render-blocking scripts → lazy load media → optimize JS/CSS delivery → use CDN caching",Medium,Medium,Medium,,Updated meta descriptions,Higher clickability,
+Compress media assets,Convert images to WebP/AVIF → compress images before upload → reduce oversized featured images → lazy load below-the-fold media,Medium,Low,Medium,,Pillar pages= tool pages + expandable content,,
+Validate canonicals,Ensure every page has self-referencing canonical tags unless intentionally duplicated → avoid conflicting canonicals → ensure paginated/category pages use proper canonical logic,Medium,Low,Medium,,,,
+Optimize robots.txt,Ensure important content paths are crawlable → block unnecessary parameter URLs/admin sections → validate robots rules using GSC testing tools,High,Low,High,,,,
+Strengthen XML sitemap structure,Separate posts/pages/categories into segmented sitemaps → remove redirected/noindex/404 URLs → auto-update sitemap dynamically,Medium,Low,Medium,,,,
+Improve internal anchor strategy,Use keyword-relevant anchor text naturally across articles → point supporting articles toward pillar pages → avoid generic “click here” anchors,High,Medium,High,,,,
+Reduce orphan pages,Identify pages with zero internal links → connect them contextually within relevant clusters → ensure every page belongs to a content silo,High,Medium,High,,,,
+Optimize mobile UX,"Improve mobile readability, spacing, tap targets, and loading performance → ensure gaming comparison tables work properly on mobile",Medium,Medium,Medium,,,,
+Add breadcrumb schema,Implement breadcrumb navigation + schema markup to improve crawl pathways and SERP hierarchy visibility,Medium,Low,Medium,,,,
+Improve indexing velocity,Push newly published URLs through sitemap updates + internal links + external mentions/backlinks to encourage faster crawl prioritization,High,Medium,High,,,,
+Audit thin content,"Identify pages with weak word count/value → merge, expand, or deindex low-quality articles",High,Medium,High,,,,
+Improve EEAT signals,"Add author bios, update dates, editorial standards, references, review methodology, and gaming expertise indicators",Medium,Low,Medium,,,,
+Optimize title tags,"Rewrite titles using emotional triggers, numbers, years, platform names, and search intent keywords while keeping within 50–60 characters",Very High,Low,Critical,,,,
+Optimize meta descriptions,Write compelling summaries with action-oriented language and keyword relevance to improve CTR,High,Low,High,,,,
+,,,,,,,,
+Current Content Direction,,,,,,,,
+Topic Area,Current Presence,Opportunity,,,,,,
+Racing Games,Strong,Expand aggressively,,,,,,
+Fighting Games,Moderate,Good cluster potential,,,,,,
+Multiplayer Games,Strong,Excellent evergreen niche,,,,,,
+Free Games,Strong,Massive traffic opportunity,,,,,,
+Rankings/Listicles,Moderate,High CTR potential,,,,,,
+Reviews,Weak,Huge authority opportunity,,,,,,
+Comparisons,Missing,Excellent monetization potential,,,,,,
+Beginner Guides,Missing,Low competition opportunity,,,,,,
+,,,,,,,,
+High Potential SEO Clusters,,,,,,,,
+Cluster,Search Intent,Growth Potential,,,,,,
+Best Racing Games PS4,Informational,Very High,,,,,,
+Best Free PS4 Games,Informational/Commercial,Very High,,,,,,
+Multiplayer Racing Games,Informational,High,,,,,,
+Co-op Games,Evergreen,Very High,,,,,,
+Open World Games,Informational,Massive,,,,,,
+Fighting Games Rankings,Informational,High,,,,,,
+Game Reviews,Authority Building,Very High,,,,,,
+Game Comparisons,Commercial,Extremely High,,,,,,
+,,,,,,,,
+Missing Content Opportunities,,,,,,,,
+Missing Area,Why It Matters,,,,,,,
+Pillar Pages,No authority consolidation,,,,,,,
+Comparison Articles,Strong affiliate potential,,,,,,,
+FAQ-Rich Content,Featured snippet opportunity,,,,,,,
+Platform-Based Clusters,Better topical authority,,,,,,,
+Review Ecosystem,Strong EEAT signal,,,,,,,
+Genre Hubs,Strong crawl structure,,,,,,,
+Interlinked Topic Silos,Better rankings scalability,,,,,,,

@@ -4,8 +4,8 @@
 
 ---
 
-5 = A rich movement kit with options like sliding, mantling, and vaulting that reward skill and turn terrain into a genuine tactical resource.
-4 = A solid movement kit that rewards skill in most encounters, with the occasional mechanic or terrain type that feels underused or clunky.
-3 = Movement covers the basics without going beyond them, leaving terrain as something to cross rather than something to use.
-2 = Limited movement options that occasionally fight the player, with no mechanics that reward creative use of terrain.
-1 = Movement is restricted to walk, sprint, and crouch, with no additional options and nothing to get skilled at beyond aiming.
+5 = Movement matches the Titanfall 2 standard, with multiple maneuvers that chain together and carry momentum from one into the next, turning traversal into a constant, high-skill layer nothing else has matched.
+4 = Every movement option feels satisfying to pull off and reinforces everything else about the game, even without chaining together at that same depth.
+3 = Movement covers the basics competently but feels like its own system rather than something that enhances anything else, leaving terrain as something to cross rather than use.
+2 = Limited movement options that occasionally fight the player and feel disconnected from the rest of the game, with nothing that rewards creative use of terrain.
+1 = Movement is restricted to walk, sprint, and crouch, with nothing satisfying about it and nothing to get skilled at beyond aiming.
