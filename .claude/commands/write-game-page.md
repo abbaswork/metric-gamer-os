@@ -230,11 +230,27 @@ Rules: 500 character limit total. No em dashes. The Good and The Bad must be gam
 
 ---
 
-## Post-Draft Check — Complete Before Presenting Anything
+## Drafting in Sections
 
-Finish the full draft before checking anything. Do not present copy to the user until this pass is done. When the check catches something, fix it silently — do not tell the user what was caught or changed. The check is an internal quality gate, not a transparency exercise.
+Do not write the full page in one pass. Draft and check each section independently before presenting it. This keeps the post-draft check genuine — a full-page draft produces too much content to check properly in a single pass.
 
-Once the draft is complete, go back through every sentence against the Writing Style Guide's Things to Avoid list. This is a separate pass — not something done while writing. Checking and writing at the same time produces neither. Specifically look for:
+**Section split:**
+- **Section 1** — SEO Meta + Game Details Card + Introduction
+- **Section 2** — Campaign metric descriptions
+- **Section 3** — Multiplayer metric descriptions
+- **Section 4** — Overall Score + Pros/Cons + Who Is This Game For + Verdict + FAQs + Tags + Steam Curator Review
+
+**Presentation order:** 1, 4, 2, 3. Present Section 1 first, then Section 4, then Section 2, then Section 3.
+
+Each section must pass its own post-draft check before being presented. Wait for user confirmation on each section before moving to the next.
+
+---
+
+## Post-Draft Check — Run Per Section, Not Per Full Draft
+
+Draft one section, check it, present it. Do not draft the next section until the current one is confirmed. When the check catches something, fix it silently — do not tell the user what was caught or changed. The check is an internal quality gate, not a transparency exercise.
+
+Go through every sentence in the section against the Writing Style Guide's Things to Avoid list. This is a separate pass — not something done while writing. Checking and writing at the same time produces neither. Specifically look for:
 
 1. **Em dashes (—)** — replace every one with a comma, full stop, or "however"
 2. **Second clauses that restate the opener** — if the second clause says the same thing as the first with different words, cut it
