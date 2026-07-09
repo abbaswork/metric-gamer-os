@@ -146,6 +146,8 @@ Fact check again at the end.
 
 ## Things to Avoid
 
+**Enforcement rule:** Do not check while writing. Finish the draft first, then run a sentence-by-sentence pass against this list before presenting anything to the user. Checking and writing at the same time produces neither.
+
 - **Em dashes (—)** — use commas, full stops, or "however" instead
 - **Lists of three** — "X, Y, and Z" patterns feel formulaic; use two items or restructure
 - **Comma-and chain connectors** — the "[clause], and [clause]" pattern repeated across paragraphs feels mechanical; break into separate sentences

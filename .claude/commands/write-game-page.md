@@ -230,6 +230,24 @@ Rules: 500 character limit total. No em dashes. The Good and The Bad must be gam
 
 ---
 
+## Post-Draft Check — Complete Before Presenting Anything
+
+Finish the full draft before checking anything. Do not present copy to the user until this pass is done.
+
+Once the draft is complete, go back through every sentence against the Writing Style Guide's Things to Avoid list. This is a separate pass — not something done while writing. Checking and writing at the same time produces neither. Specifically look for:
+
+1. **Em dashes (—)** — replace every one with a comma, full stop, or "however"
+2. **Second clauses that restate the opener** — if the second clause says the same thing as the first with different words, cut it
+3. **Unnecessary qualifiers** — "riskier than it should be" should be "risky"; cut any hedge that weakens a direct statement
+4. **Grammatically incomplete sentences** — every sentence must be complete and stand on its own
+5. **AI-pattern openers** — flag and rewrite any opener built on the structure "X is what Y is actually about" or "X is a Y in a way most Z aren't"
+6. **Attribution and reporting voice** — "players describe", "the community considers" — rewrite as direct statements
+7. **Meta-commentary on discourse** — "has been a persistent complaint", "draws regular community discussion" — say the thing directly
+
+Only present the draft once this pass is complete.
+
+---
+
 ## Step 7 — Validate (Phase 7)
 
 Before submitting, verify every item below is met.
