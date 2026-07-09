@@ -46,7 +46,7 @@ Never explain the score. The score speaks for itself.
 
 ### Pros and Cons
 
-Bullet point lists. Pros and cons should capture things not already covered by the metric descriptions. They surface the broader player experience — things worth knowing that don't fit neatly into a scored metric. Keep each bullet to one sentence.
+Bullet point lists. Pros and cons must surface things not already covered by the metric descriptions — the metrics handle scored dimensions. Pros and cons cover things like seasonal resets, launcher requirements, social mechanics, performance differences, account requirements, or anything else worth knowing that doesn't fit into a scored metric. After writing, check each bullet against the metric descriptions. If it restates a metric judgment in different words, replace it with something the metrics didn't cover. Keep each bullet to one sentence. Two to three bullets per side maximum.
 
 ---
 
@@ -160,6 +160,7 @@ Fact check again at the end.
 - **Second clauses that restate the opener** — if the second clause says the same thing as the first with different words, cut it. "Movement is the best in any battle royale, and the gap is clear from the first match" — the second half adds nothing the first didn't already say. The opener does the job on its own.
 - **Meta-commentary on discourse** — don't describe the existence of a conversation or complaint ("tuned strongly enough to draw regular community discussion", "has been a persistent complaint"). Say the thing directly: "is a genuine sticking point", not "has become a point of ongoing discussion."
 - **Attribution and reporting voice** — "players describe it as", "the community considers", "players report that" — state things directly as your own assessment. "It's essentially a walking simulator" not "players describe it as a walking simulator."
+- **Cross-game comparisons in metric descriptions** — never reference another game inside a metric description. Each game page is discrete; comparisons belong in ranking pages only. If you want to establish a quality ceiling, describe it directly ("the movement doesn't develop into a skill-expression system") without naming what does.
 
 ---
 

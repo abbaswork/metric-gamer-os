@@ -188,7 +188,7 @@ Never explain the score.
 Average of metric scores, rounded to one decimal place.
 
 ### 7. Pros and Cons
-Bullet lists. Must surface things not already covered by the metric descriptions. One sentence per bullet.
+Bullet lists. Must surface things not already covered by the metric descriptions — the metrics handle scored dimensions. Cover things like launcher requirements, social mechanics, seasonal structure, performance differences, or anything worth knowing that doesn't fit a scored metric. After writing, check each bullet against the metric descriptions. If it restates a metric judgment in different words, replace it. One sentence per bullet. Two to three bullets per side maximum.
 
 ### 8. Who Is This Game For?
 Two parts. Who should play it and who should skip it. 2–3 specific reasons each, tied directly to the game's scored metrics and verified features — not genre generalisations. Do not repeat content already in the Pros/Cons or Verdict. Second person throughout.
@@ -232,7 +232,7 @@ Rules: 500 character limit total. No em dashes. The Good and The Bad must be gam
 
 ## Post-Draft Check — Complete Before Presenting Anything
 
-Finish the full draft before checking anything. Do not present copy to the user until this pass is done.
+Finish the full draft before checking anything. Do not present copy to the user until this pass is done. When the check catches something, fix it silently — do not tell the user what was caught or changed. The check is an internal quality gate, not a transparency exercise.
 
 Once the draft is complete, go back through every sentence against the Writing Style Guide's Things to Avoid list. This is a separate pass — not something done while writing. Checking and writing at the same time produces neither. Specifically look for:
 
@@ -243,6 +243,7 @@ Once the draft is complete, go back through every sentence against the Writing S
 5. **AI-pattern openers** — flag and rewrite any opener built on the structure "X is what Y is actually about" or "X is a Y in a way most Z aren't"
 6. **Attribution and reporting voice** — "players describe", "the community considers" — rewrite as direct statements
 7. **Meta-commentary on discourse** — "has been a persistent complaint", "draws regular community discussion" — say the thing directly
+8. **Cross-game comparisons in metric descriptions** — remove any reference to another game by name; describe the quality directly without naming what does it better or worse
 
 Only present the draft once this pass is complete.
 
