@@ -104,6 +104,19 @@
       "discontinued": null
     },
     {
+      "id": "switch2",
+      "name": "Nintendo Switch 2",
+      "shortName": "Switch 2",
+      "publisher": "Nintendo",
+      "releaseDate": "2025-06-05",
+      "releaseRegions": {
+        "WW": "2025-06-05"
+      },
+      "generation": 10,
+      "type": "hybrid_console",
+      "discontinued": null
+    },
+    {
       "id": "gameboy",
       "name": "Game Boy",
       "shortName": "GB",

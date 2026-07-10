@@ -1,6 +1,15 @@
 {
   "developers": [
     {
+      "id": "11-bit-studios",
+      "name": "11 bit studios",
+      "country": "PL",
+      "founded": "2010",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
       "id": "343-industries",
       "name": "343 Industries",
       "country": "US",
@@ -100,6 +109,15 @@
       "type": "indie"
     },
     {
+      "id": "chucklefish",
+      "name": "Chucklefish",
+      "country": "GB",
+      "founded": "2011",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
       "id": "codemasters",
       "name": "Codemasters",
       "country": "GB",
@@ -107,6 +125,15 @@
       "parent": "Electronic Arts",
       "active": true,
       "type": "third_party"
+    },
+    {
+      "id": "concernedape",
+      "name": "ConcernedApe",
+      "country": "US",
+      "founded": "2012",
+      "parent": null,
+      "active": true,
+      "type": "indie"
     },
     {
       "id": "criterion-games",
@@ -125,6 +152,15 @@
       "parent": "Electronic Arts",
       "active": true,
       "type": "third_party"
+    },
+    {
+      "id": "digital-sun",
+      "name": "Digital Sun",
+      "country": "ES",
+      "founded": "2014",
+      "parent": null,
+      "active": true,
+      "type": "indie"
     },
     {
       "id": "double-fine-productions",
@@ -161,6 +197,24 @@
       "parent": "Sony Interactive Entertainment",
       "active": true,
       "type": "first_party"
+    },
+    {
+      "id": "gust",
+      "name": "Gust Co. Ltd.",
+      "country": "JP",
+      "founded": "1993",
+      "parent": "Koei Tecmo",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "hakama-inc",
+      "name": "HAKAMA Inc.",
+      "country": "JP",
+      "founded": "2015",
+      "parent": null,
+      "active": true,
+      "type": "indie"
     },
     {
       "id": "hazelight-studios",
@@ -325,6 +379,15 @@
       "type": "third_party"
     },
     {
+      "id": "pixpil",
+      "name": "Pixpil",
+      "country": "CN",
+      "founded": "2013",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
       "id": "playground-games",
       "name": "Playground Games",
       "country": "GB",
@@ -359,6 +422,15 @@
       "parent": "Take-Two Interactive",
       "active": true,
       "type": "third_party"
+    },
+    {
+      "id": "sabotage-studio",
+      "name": "Sabotage Studio",
+      "country": "CA",
+      "founded": "2016",
+      "parent": null,
+      "active": true,
+      "type": "indie"
     },
     {
       "id": "santa-monica-studio",
