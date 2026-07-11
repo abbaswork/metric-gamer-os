@@ -82,6 +82,15 @@
       "type": "third_party"
     },
     {
+      "id": "bugbear-entertainment",
+      "name": "Bugbear Entertainment",
+      "country": "FI",
+      "founded": "2000",
+      "parent": "THQ Nordic",
+      "active": true,
+      "type": "third_party"
+    },
+    {
       "id": "bungie",
       "name": "Bungie",
       "country": "US",
@@ -458,6 +467,24 @@
       "parent": "Sega Sammy Holdings",
       "active": true,
       "type": "third_party"
+    },
+    {
+      "id": "sega-am2",
+      "name": "Sega AM2",
+      "country": "JP",
+      "founded": "1983",
+      "parent": "Sega",
+      "active": false,
+      "type": "first_party"
+    },
+    {
+      "id": "sega-am3",
+      "name": "Sega AM3",
+      "country": "JP",
+      "founded": "1990",
+      "parent": "Sega",
+      "active": false,
+      "type": "first_party"
     },
     {
       "id": "slightly-mad-studios",
