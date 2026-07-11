@@ -199,6 +199,24 @@
       "type": "third_party"
     },
     {
+      "id": "gameloft",
+      "name": "Gameloft",
+      "country": "FR",
+      "founded": "1999",
+      "parent": "Vivendi",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "gameloft-montreal",
+      "name": "Gameloft Montreal",
+      "country": "CA",
+      "founded": "2000",
+      "parent": "Gameloft",
+      "active": true,
+      "type": "third_party"
+    },
+    {
       "id": "guerrilla-games",
       "name": "Guerrilla Games",
       "country": "NL",
@@ -348,6 +366,15 @@
       "country": "US",
       "founded": "1984",
       "parent": "Sony Interactive Entertainment",
+      "active": true,
+      "type": "first_party"
+    },
+    {
+      "id": "nintendo",
+      "name": "Nintendo",
+      "country": "JP",
+      "founded": "1889",
+      "parent": null,
       "active": true,
       "type": "first_party"
     },
