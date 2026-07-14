@@ -104,6 +104,19 @@
       "discontinued": null
     },
     {
+      "id": "switch2",
+      "name": "Nintendo Switch 2",
+      "shortName": "Switch 2",
+      "publisher": "Nintendo",
+      "releaseDate": "2025-06-05",
+      "releaseRegions": {
+        "WW": "2025-06-05"
+      },
+      "generation": 10,
+      "type": "hybrid_console",
+      "discontinued": null
+    },
+    {
       "id": "gameboy",
       "name": "Game Boy",
       "shortName": "GB",
@@ -351,6 +364,45 @@
       "discontinued": null
     },
     {
+      "id": "saturn",
+      "name": "Sega Saturn",
+      "shortName": "Saturn",
+      "publisher": "Sega",
+      "releaseDate": "1994-11-22",
+      "releaseRegions": {
+        "JP": "1994-11-22",
+        "NA": "1995-05-11",
+        "EU": "1995-07-08"
+      },
+      "generation": 5,
+      "type": "home_console",
+      "discontinued": "2000-01-01"
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "shortName": "Arcade",
+      "publisher": null,
+      "releaseDate": null,
+      "releaseRegions": {},
+      "generation": null,
+      "type": "arcade",
+      "discontinued": null
+    },
+    {
+      "id": "ngage",
+      "name": "Nokia N-Gage",
+      "shortName": "N-Gage",
+      "publisher": "Nokia",
+      "releaseDate": "2003-10-07",
+      "releaseRegions": {
+        "WW": "2003-10-07"
+      },
+      "generation": 6,
+      "type": "handheld",
+      "discontinued": "2005-01-01"
+    },
+    {
       "id": "genesis",
       "name": "Sega Genesis",
       "shortName": "Genesis",
@@ -419,6 +471,17 @@
       },
       "generation": null,
       "type": "mobile",
+      "discontinued": null
+    },
+    {
+      "id": "mac",
+      "name": "macOS",
+      "shortName": "Mac",
+      "publisher": "Apple",
+      "releaseDate": null,
+      "releaseRegions": {},
+      "generation": null,
+      "type": "pc",
       "discontinued": null
     }
   ]

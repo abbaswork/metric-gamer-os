@@ -1,6 +1,15 @@
 {
   "developers": [
     {
+      "id": "11-bit-studios",
+      "name": "11 bit studios",
+      "country": "PL",
+      "founded": "2010",
+      "parent": null,
+      "active": true,
+      "type": "third_party"
+    },
+    {
       "id": "343-industries",
       "name": "343 Industries",
       "country": "US",
@@ -73,6 +82,15 @@
       "type": "third_party"
     },
     {
+      "id": "bugbear-entertainment",
+      "name": "Bugbear Entertainment",
+      "country": "FI",
+      "founded": "2000",
+      "parent": "THQ Nordic",
+      "active": true,
+      "type": "third_party"
+    },
+    {
       "id": "bungie",
       "name": "Bungie",
       "country": "US",
@@ -100,6 +118,15 @@
       "type": "indie"
     },
     {
+      "id": "chucklefish",
+      "name": "Chucklefish",
+      "country": "GB",
+      "founded": "2011",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
       "id": "codemasters",
       "name": "Codemasters",
       "country": "GB",
@@ -107,6 +134,15 @@
       "parent": "Electronic Arts",
       "active": true,
       "type": "third_party"
+    },
+    {
+      "id": "concernedape",
+      "name": "ConcernedApe",
+      "country": "US",
+      "founded": "2012",
+      "parent": null,
+      "active": true,
+      "type": "indie"
     },
     {
       "id": "criterion-games",
@@ -125,6 +161,15 @@
       "parent": "Electronic Arts",
       "active": true,
       "type": "third_party"
+    },
+    {
+      "id": "digital-sun",
+      "name": "Digital Sun",
+      "country": "ES",
+      "founded": "2014",
+      "parent": null,
+      "active": true,
+      "type": "indie"
     },
     {
       "id": "double-fine-productions",
@@ -154,6 +199,24 @@
       "type": "third_party"
     },
     {
+      "id": "gameloft",
+      "name": "Gameloft",
+      "country": "FR",
+      "founded": "1999",
+      "parent": "Vivendi",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "gameloft-montreal",
+      "name": "Gameloft Montreal",
+      "country": "CA",
+      "founded": "2000",
+      "parent": "Gameloft",
+      "active": true,
+      "type": "third_party"
+    },
+    {
       "id": "guerrilla-games",
       "name": "Guerrilla Games",
       "country": "NL",
@@ -161,6 +224,24 @@
       "parent": "Sony Interactive Entertainment",
       "active": true,
       "type": "first_party"
+    },
+    {
+      "id": "gust",
+      "name": "Gust Co. Ltd.",
+      "country": "JP",
+      "founded": "1993",
+      "parent": "Koei Tecmo",
+      "active": true,
+      "type": "third_party"
+    },
+    {
+      "id": "hakama-inc",
+      "name": "HAKAMA Inc.",
+      "country": "JP",
+      "founded": "2015",
+      "parent": null,
+      "active": true,
+      "type": "indie"
     },
     {
       "id": "hazelight-studios",
@@ -289,6 +370,15 @@
       "type": "first_party"
     },
     {
+      "id": "nintendo",
+      "name": "Nintendo",
+      "country": "JP",
+      "founded": "1889",
+      "parent": null,
+      "active": true,
+      "type": "first_party"
+    },
+    {
       "id": "nintendo-epd",
       "name": "Nintendo EPD",
       "country": "JP",
@@ -323,6 +413,15 @@
       "parent": null,
       "active": true,
       "type": "third_party"
+    },
+    {
+      "id": "pixpil",
+      "name": "Pixpil",
+      "country": "CN",
+      "founded": "2013",
+      "parent": null,
+      "active": true,
+      "type": "indie"
     },
     {
       "id": "playground-games",
@@ -361,6 +460,15 @@
       "type": "third_party"
     },
     {
+      "id": "sabotage-studio",
+      "name": "Sabotage Studio",
+      "country": "CA",
+      "founded": "2016",
+      "parent": null,
+      "active": true,
+      "type": "indie"
+    },
+    {
       "id": "santa-monica-studio",
       "name": "Santa Monica Studio",
       "country": "US",
@@ -386,6 +494,24 @@
       "parent": "Sega Sammy Holdings",
       "active": true,
       "type": "third_party"
+    },
+    {
+      "id": "sega-am2",
+      "name": "Sega AM2",
+      "country": "JP",
+      "founded": "1983",
+      "parent": "Sega",
+      "active": false,
+      "type": "first_party"
+    },
+    {
+      "id": "sega-am3",
+      "name": "Sega AM3",
+      "country": "JP",
+      "founded": "1990",
+      "parent": "Sega",
+      "active": false,
+      "type": "first_party"
     },
     {
       "id": "slightly-mad-studios",
